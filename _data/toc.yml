@@ -27,6 +27,6 @@
   not_numbered: true
   sections:
   - title: Points and vectors
-    url: /Vectors/points_and_vectors.ipynb
+    url: /Vectors/points_and_vectors
     not_numbered: false
 
