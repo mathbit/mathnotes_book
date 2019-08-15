@@ -22,8 +22,8 @@ email: tom.binzegger@lerbermatt.ch
 description: >-
   Some notes about Maths on high-school level.
 
-baseurl: /               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: YOUR URL              # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /mathnotes               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+url: https://mathbit.github.io              # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
