@@ -45,7 +45,7 @@ Note:
 
 
 
-## Vectors vvv
+## Vectors sss
 ---
 
 A __vector__ $\vec v$ with __components__ $x, y$, and $z$, written \begin{equation*} \vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)\end{equation*} represents an *arrow* in space. An arrow has a tail, a head, and a specific length and direction.
