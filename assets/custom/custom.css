@@ -68,7 +68,7 @@
         }
   
     .MathJax {
-        font-size: 1.05em;
+        font-size: 1em;
     }
 
     div.important {    
@@ -105,7 +105,7 @@
                 },
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 4}}
+                    styles: {'.MathJax_Display': {"margin": 0}}
                 },
         });
 </script>

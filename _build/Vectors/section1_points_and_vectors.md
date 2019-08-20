@@ -27,7 +27,7 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 
 
-## Points tt
+## Points
 ---
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \lvert y \lvert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \lvert 4 \lvert 5)$ can be found as follows: Starting at the origin, 
@@ -82,25 +82,25 @@ Notes:
 
 
 
-<div class="exc">Exercise</div>
+## Exercise
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 
 <img src="./pics/exc_specPts.png" width="75%" align="center">
 
 2. Indicate the following points in a 3d-coordinate system:
- - $P(0|-2|5)$
- - $Q(2|5|5)$
- - $R(2|2|2)$
- - $S(-2|-2|2)$
- - $T(0|0|0)$
- - $U(0|0|-5)$
+ - $P(0 \lvert -2 \lvert 5)$
+ - $Q(2 \lvert 5 \lvert 5)$
+ - $R(2 \lvert 2 \lvert 2)$
+ - $S(-2 \lvert -2 \lvert 2)$
+ - $T(0 \lvert 0 \lvert 0)$
+ - $U(0 \lvert 0 \lvert -5)$
 
 
 3. On which plane and/or axis are the following points: 
- - $U(0|1|2)$
- - $S(-1.3|1.2|0)$
- - $V(-13|0|0)$ 
+ - $U(0 \lvert 1 \lvert 2)$
+ - $S(-1.3 \lvert 1.2 \lvert 0)$
+ - $V(-13 \lvert 0 \lvert 0)$ 
 
 
 4. Find the coordinates of all the corners of the cube of side length $5$, and of the pyramid of height $h=4$ and base side length $s=4$.
@@ -111,19 +111,21 @@ Notes:
 
 
 6. Determine the vector $\overrightarrow{UV}$:
- - $U(1|2|-1)\,\,$ and $V(2|10|-3)$
- - $U(0|0|0)\,\,$ and $V(3|1|10)$
- - $U(-1.2|-3.1|5)\,\,$ and $V(2|2|1)$
+ - $U(1 \lvert 2 \lvert -1)$ and $V(2 \lvert 10 \lvert -3)$
+ - $U(0 \lvert 0 \lvert 0)$ and $V(3 \lvert 1 \lvert 10)$
+ - $U(-1.2 \lvert -3.1 \lvert 5)$ and $V(2 \lvert 2 \lvert 1)$
 
 
-7. If I start at point $A(0|1|0)\,\,$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)\,$ , where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
+7. If I start at point $A(0 \lvert 1 \lvert 0)\,\,$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)\,$ , where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
 
 
-8. Consider the parallelogram with the vertices $A(1|4|1)$ , $B(0|3|2)$ , $C$ , and $D(2|3|0)$ , what are the coordinates of point $C$?
+8. Consider the parallelogram with the vertices $A(1 \lvert 4 \lvert 1)$ , $B(0 \lvert 3 \lvert 2)$ , $C$ , and $D(2 \lvert 3 \lvert 0)$ , what are the coordinates of point $C$?
+
 <img src="./pics/parallelogram.png" width="35%" align="center">
 
 
 9. Determine the components of the arrows shown in the figure below. Vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ are on the $x$-axis, $y$-axis, and $z$-axis, and vectors $\vec{d}$ and $\vec{e}$ are in the $yz$-plane.
+
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
 
@@ -139,21 +141,16 @@ Notes:
 
 <div class="sol">Solutions</div>
 
-1. a) $a) A_z=0, b) A_y=0, c) A_x=0, d) A_y=A_z=0, e) A_x=A_z=0, f) A_x=A_y=0$
-
+1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
 2. <img src="./pics/sol_pts.png" width="50%" align="left">
 
-
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
 
-
-4. Cube: $A(5|0|0), B(5|5|0), C(0|5|0), D(0|0|0), E(5|0|5), F(5|5|5), G(0|5|5), H(0|0|5)$ <br> 
-Pyramid: $A(2|-2|0), B(2|2|0), C(-2|2|0), D(-2|-2|0), E(0|0|4)$
-
+4. Cube: $A(5 \lvert 0 \lvert 0), B(5 \lvert 5 \lvert 0), C(0 \lvert 5 \lvert 0), D(0 \lvert 0 \lvert 0), E(5 \lvert 0 \lvert 5), F(5 \lvert 5 \lvert 5), G(0 \lvert 5 \lvert 5), H(0 \lvert 0 \lvert 5)$ <br> 
+Pyramid: $A(2 \lvert -2 \lvert 0), B(2 \lvert 2 \lvert 0), C(-2 \lvert 2 \lvert 0), D(-2 \lvert -2 \lvert 0), E(0 \lvert 0 \lvert 4)$
 
 5. <img src="./pics/solVec1.png" width="45%" align="left">
-
 
 6. 
 
