@@ -28,6 +28,12 @@
   not_numbered: true
   sections:
   - title: Points and vectors
-    url: /Vectors/points_and_vectors
+    url: /Vectors/section1_points_and_vectors
+    not_numbered: false
+  - title: The magnitude of a vector
+    url: /Vectors/section2_magnitude
+    not_numbered: false
+  - title: Three special vectors
+    url: /Vectors/section3_special_vectors
     not_numbered: false
 
