@@ -23,6 +23,7 @@
 
 # Top-level page
 - title: Vectors
+  url: /msg.md
   external: false
   not_numbered: true
   sections:
