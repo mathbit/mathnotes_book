@@ -96,7 +96,7 @@ Notes:
 
 
 
-## Exercise
+## Exercise q
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
@@ -130,7 +130,7 @@ Notes:
  - $U(-1.2 \vert -3.1 \vert 5)$ and $V(2 \vert 2 \vert 1)$
 
 
-7. If I start at point $A(0 \vert 1 \vert 0)\,\,$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)\,$ , where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
+7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
 
 
 8. Consider the parallelogram with the vertices $A(1 \vert 4 \vert 1)$, $B(0 \vert 3 \vert 2)$, $C$, and $D(2 \vert 3 \vert 0)$, what are the coordinates of point $C$?
@@ -162,8 +162,8 @@ Notes:
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
 
 
-4. Cube: $A(5 \lvert 0 \lvert 0)$, $B(5 \lvert 5 \lvert 0)$, $C(0 \lvert 5 \lvert 0)$, $D(0 \lvert 0 \lvert 0)$, $E(5 \lvert 0 \lvert 5)$, $F(5 \lvert 5 \lvert 5)$, $G(0 \lvert 5 \lvert 5)$, $H(0 \lvert 0 \lvert 5)$ <br> 
-Pyramid: $A(2 \lvert -2 \lvert 0)$, $B(2 \lvert 2 \lvert 0)$, $C(-2 \lvert 2 \lvert 0)$, $D(-2 \lvert -2 \lvert 0)$, $E(0 \lvert 0 \lvert 4)$
+4. Cube: $A(5 \vert 0 \vert 0)$, $B(5 \vert 5 \vert 0)$, $C(0 \vert 5 \vert 0)$, $D(0 \vert 0 \vert 0)$, $E(5 \vert 0 \vert 5)$, $F(5 \vert 5 \vert 5)$, $G(0 \vert 5 \vert 5)$, $H(0 \vert 0 \vert 5)$ <br> 
+Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)$, $D(-2 \vert -2 \vert 0)$, $E(0 \vert 0 \vert 4)$
 
 
 5. <img src="./pics/solVec1.png" width="45%" align="center">
