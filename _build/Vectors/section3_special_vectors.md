@@ -19,9 +19,17 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 1. The __zero vector__ is the vector with the components $$\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$$. Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
 
-2. A __unit vector__ is a vector with magnitude $1$. 
+2. A __unit vector__ is a vector of magnitude $1$. 
 
-3. Consider a vector $$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ The __opposite vector__ of $\vec{u}$, written $-\vec{u}$, has the components $$-\vec{u}=\left(\begin{array}{r} -x\\-y\\-z \end{array}\right)$$ Clearly, the components of the opposite vector of $\vec u$ describe how to get from the head to the tail of the arrow represented by $\vec u$.
+3. Consider a vector 
+
+$$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ 
+
+The __opposite vector__ of $\vec{u}$, written $-\vec{u}$, has the components 
+
+$$-\vec{u}=\left(\begin{array}{r} -x\\-y\\-z \end{array}\right)$$ 
+
+Clearly, the components of the opposite vector of $\vec u$ describe how to get from the head to the tail of the arrow represented by $\vec u$.
 <img src="./pics/opposite.png" width="35%" align="center">
 
 

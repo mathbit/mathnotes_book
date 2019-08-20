@@ -47,7 +47,7 @@ In this case, the magnitude is $$\vert \vec{u}\vert = \sqrt{3²+4²+5²}=\sqrt{5
 
 2. Vector $\vec{u}$ has the $x$-component $2$ and the $y$-component $-3$. Determine the $z$-component such that the magnitude of the vector is $32$ .
 
-3. Determine the distance between the points $A(2|1|0)$  and $B(-7|2|5 )$. 
+3. Determine the distance between the points $A(2 \vert 1\vert 0)$  and $B(-7 \vert 2 \vert 5 )$. 
 
 
 
