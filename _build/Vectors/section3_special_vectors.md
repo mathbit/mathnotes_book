@@ -17,7 +17,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## Three special vectors
 ---
-1. The __zero vector__ is the vector with the components $\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$. Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
+1. The __zero vector__ is the vector with the components $$\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$$. Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
 
 2. A __unit vector__ is a vector with magnitude $1$. 
 
@@ -26,7 +26,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 
 
-<div class="exc">Exercise</div>
+## Exercise
+---
 
 1. Determine the opposite vector of $\vec{v}=\left(\begin{array}{r} -2\\2\\-3 \end{array}\right)\,$ .
 		
@@ -43,7 +44,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 
 
-<div class="sol">Solutions</div>
+## Solutions
+---
 
 <img src="./pics/sol_opposite.png" width="85%" align="left">
 

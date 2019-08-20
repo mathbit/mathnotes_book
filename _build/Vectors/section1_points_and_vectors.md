@@ -97,6 +97,7 @@ Notes:
 
 
 ## Exercise
+---
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
@@ -152,6 +153,7 @@ Notes:
 
 
 ## Solutions
+---
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
@@ -309,9 +311,17 @@ css_styling()
                         TeX: {
                            extensions: ["AMSmath.js"]
                            },
+
+		tex2jax: {
+            		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            		displayMath: [ ["$$",'$$'], ["\\[","\\]"] ],
+            		processEscapes: true,
+            		processEnvironments: true
+        	},	
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 0}}
+                    styles: {'.MathJax_Display': {"margin": 0}},
+	            linebreaks: { automatic: true }
                 },
         });
 </script>
