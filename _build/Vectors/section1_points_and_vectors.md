@@ -149,7 +149,7 @@ Notes:
 11. Consider the vector $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
  - points into the same direction, and has twice the length.
  - points in the opposite direction and has half the length.
- - More generally, given a vector $\left(\begin{array}{r} x\\y\\z \end{array}\right)$ , what are the components of the vector pointing in the same direction and is $s$ times longer?
+ - More generally, given a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$, what are the components of the vector pointing in the same direction and is $s$ times longer?
 
 
 
