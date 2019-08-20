@@ -56,7 +56,18 @@ Clearly, the components of the opposite vector of $\vec u$ describe how to get f
 ---
 
 <img src="./pics/sol_opposite.png" width="85%" align="left">
-<br>
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+.
+
+```
+</div>
+
+</div>
 
 
 
