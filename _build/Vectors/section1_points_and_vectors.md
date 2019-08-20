@@ -96,7 +96,7 @@ Notes:
 
 
 
-## Exercise qq
+## Exercise qqq
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
