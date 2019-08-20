@@ -39,13 +39,13 @@ Clearly, the components of the opposite vector of $\vec u$ describe how to get f
 
 1. Determine the opposite vector of $$\vec{v}=\left(\begin{array}{r} -2\\2\\-3 \end{array}\right)$$.
 		
-2. Determine the magnitude of the zero vector. How many other vectors of magnitude $0$ exist?
+2. Determine the magnitude of the zero vector. How many other vectors of magnitude $0$ do exist?
 
 3. Determine a unit vector with at least $2$ non-zero components. How many unit vectors exist? If you attach the arrow of all these vectors to the origin, what geometrical object is formed by the arrow heads?
 
-4. Consider the points $A(0 \vert 5 \vert 3)\,\,$ and $B(0 \vert 2 \vert 5)\,$. Reflect $B$ about $A$. What are the coordinates of the reflected point $B$ ? Hint: draw a figure.
+4. Consider the points $A(0 \vert 5 \vert 3)$ and $B(0 \vert 2 \vert 5)$. Reflect $B$ about $A$. What are the coordinates of the reflected point $B$ ? Hint: draw a figure.
 
-5. Consider the points $A(2 \vert 5 \vert 3)\,\,$ and $B(-4 \vert 2 \vert 10)\,$ . Reflect $B$ about $A$. What are the coordinates of the reflected point $B$ ?
+5. Consider the points $A(2 \vert 5 \vert 3)$ and $B(-4 \vert 2 \vert 10)$. Reflect $B$ about $A$. What are the coordinates of the reflected point $B$ ?
 
 6. Which of these arrows in the yz-plane are described by the opposite vector of $\vec{a}$ Also, determine the components of $\vec{a}$ and $-\vec{a}$. 
 <img src="./pics/whichAreOpposite.png" width="50%" align="center">
