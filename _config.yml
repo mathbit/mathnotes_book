@@ -19,11 +19,9 @@
 title: Math notes
 author: BiT
 email: tom.binzegger@lerbermatt.ch
-description: >-
-  Some notes about Maths on high-school level.
-
-baseurl: "/mathnotes_book"               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: "https://mathbit.github.io"              # the base hostname & protocol for your site, e.g. http://example.com
+description: notes
+baseurl: /mathnotes_book               # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
+url: https://mathbit.github.io              # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
