@@ -30,7 +30,7 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ## Points
 ---
 
-A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x|y|z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3|4|5)$ can be found as follows: Starting at the origin, 
+A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \lvert y \lvert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \lvert 4 \lvert 5)$ can be found as follows: Starting at the origin, 
 - walk $3$ units along the $x$-direction (towards me), and from there
 - walk $4$ units along the $y$-direction (to the right), and from there
 - walk $5$ units along the $z$-direction (upwards)
@@ -40,7 +40,7 @@ Negative coordinates are also allowed and indicate to move into the opposite axi
 <img src="./pics/3d_point.png" width="65%" align="center">
 
 Note:
- - The point with the coordinates $O(0|0|0)$ is called the __origin__ of the coordinate system.
+ - The point with the coordinates $O(0 \lvert 0 \lvert 0)$ is called the __origin__ of the coordinate system.
  - We typically use capital letters to denote points ($A, B , U, ...$)
 
 
@@ -61,7 +61,7 @@ So how do three components define an arrow in space? We interpret the three numb
 Note: the three components of a vector do not tell you where the arrow is in space.
 </div>
 
-We have seen that a vector represents an arrow. The opposite is also true. For every arrow we draw in space, we can find the three components of a vector that represents this arrow - just find out how to get from the tail of the arrow to the head of the arrow by following along the $x$-axis, $y$-axis and $z$-axis. For example, assume that for the arrow the tail is at $A(0|1|1)$ and the head at $B(0|5|3)$. 
+We have seen that a vector represents an arrow. The opposite is also true. For every arrow we draw in space, we can find the three components of a vector that represents this arrow - just find out how to get from the tail of the arrow to the head of the arrow by following along the $x$-axis, $y$-axis and $z$-axis. For example, assume that for the arrow the tail is at $A(0 \lvert 1 \lvert 1)$ and the head at $B(0 \lvert 5 \lvert 3)$. 
 
 <img src="./pics/AtoB.png" width="60%" align="center">
 
@@ -165,7 +165,7 @@ Pyramid: $A(2|-2|0), B(2|2|0), C(-2|2|0), D(-2|-2|0), E(0|0|4)$
 #needs to be in the last cell for css styling
 from IPython.core.display import HTML
 def css_styling():
-    styles = open("../styles/custom.css", "r").read()
+    styles = open("../assets/custom/custom.css", "r").read()
     return HTML(styles)
 css_styling()
 
@@ -220,7 +220,7 @@ css_styling()
         margin-bottom: 3px;
        }
     div.text_cell_render{
-        font-family: Computer Modern, serif;
+        font-family: Computer Modern, sans-serif;
         line-height: 145%;
         font-size: 130%;
         width:800px;
@@ -248,7 +248,7 @@ css_styling()
         }
   
     .MathJax {
-        font-size: 0.9em;
+        font-size: 1.05em;
     }
 
     div.important {    
@@ -281,10 +281,11 @@ css_styling()
                 tex2jax: {
                     inlineMath: [ ['$','$'], ["\\(","\\)"] ],
                     displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+	            processEscapes: true
                 },
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 8}}
+                    styles: {'.MathJax_Display': {"margin": 4}}
                 },
         });
 </script>
