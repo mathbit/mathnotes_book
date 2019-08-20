@@ -23,7 +23,7 @@
 
 # Top-level page
 - title: Vectors
-  url: /msg
+  url: /index
   external: false
   not_numbered: true
   sections:
