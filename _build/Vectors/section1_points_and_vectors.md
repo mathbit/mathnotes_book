@@ -125,11 +125,9 @@ Notes:
 
 
 6. Determine the vector $\overrightarrow{UV}$:
- - $U(1 \vert 2 \vert -1)$ and $V(2 \vert 10 \vert -3)$
- - $U(0 \vert 0 \vert 0)$ and $V(3 \vert 1 \vert 10)$
- - $U(-1.2 \vert -3.1 \vert 5)$ and $V(2 \vert 2 \vert 1)$
- <br>
-
+ - $$U(1 \vert 2 \vert -1)$$ and $$V(2 \vert 10 \vert -3)$$
+ - $$U(0 \vert 0 \vert 0)$$ and $$V(3 \vert 1 \vert 10)$$
+ - $$U(-1.2 \vert -3.1 \vert 5)$$ and $$V(2 \vert 2 \vert 1)$$
 
 
 7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $$\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)$$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
@@ -153,7 +151,7 @@ Notes:
 
 
 
-## Solutions
+## Solutions q
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
@@ -171,12 +169,12 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 5. <img src="./pics/solVec1.png" width="45%" align="center">
 
 
-6. a) $\overrightarrow{UV}=\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$, 
-   b) $\overrightarrow{UV}=\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$, 
-   c) $\overrightarrow{UV}=\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$
+6. a) $$\overrightarrow{UV}=\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$$, 
+   b) $$\overrightarrow{UV}=\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$$, 
+   c) $$\overrightarrow{UV}=\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
 
 
-7. $$B(1 \vert 0 \vert 1)$$
+7. $B(1 \vert 0 \vert 1)$
 
 
 8. $C(1 \vert 2 \vert 1)$
