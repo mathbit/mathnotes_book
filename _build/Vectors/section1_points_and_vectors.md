@@ -151,7 +151,7 @@ Notes:
 
 
 
-## Solutions q
+## Solutions
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
@@ -191,17 +191,7 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 
 
 <div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-#needs to be in the last cell for css styling
-from IPython.core.display import HTML
-def css_styling():
-    styles = open("../assets/custom/custom.css", "r").read()
-    return HTML(styles)
-css_styling()
 
-```
-</div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
