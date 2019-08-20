@@ -96,7 +96,7 @@ Notes:
 
 
 
-## Exercise iiii
+## Exercise
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
@@ -128,10 +128,11 @@ Notes:
  - $U(1 \vert 2 \vert -1)$ and $V(2 \vert 10 \vert -3)$
  - $U(0 \vert 0 \vert 0)$ and $V(3 \vert 1 \vert 10)$
  - $U(-1.2 \vert -3.1 \vert 5)$ and $V(2 \vert 2 \vert 1)$
+ <br>
 
 
 
-7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
+7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $$\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)$$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
 
 
 8. Consider the parallelogram with the vertices $A(1 \vert 4 \vert 1)$, $B(0 \vert 3 \vert 2)$, $C$, and $D(2 \vert 3 \vert 0)$, what are the coordinates of point $C$?
@@ -142,10 +143,10 @@ Notes:
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
 
-10. Consider the vectors $\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$ and $\left(\begin{array}{r} 1\\4\\6 \end{array}\right)$. Determine their lengths. Can you find a general formula for determining the length of a vector $\left(\begin{array}{r} x\\y\\z \end{array}\right)$?
+10. Consider the vectors $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$ and $$\left(\begin{array}{r} 1\\4\\6 \end{array}\right)$$. Determine their lengths. Can you find a general formula for determining the length of a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$?
 
 
-11. Consider the vector $\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$. Find another vector that 
+11. Consider the vector $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
  - points into the same direction, and has twice the length.
  - points in the opposite direction and has half the length.
  - More generally, given a vector $\left(\begin{array}{r} x\\y\\z \end{array}\right)$ , what are the components of the vector pointing in the same direction and is $s$ times longer?
@@ -157,7 +158,7 @@ Notes:
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
 
-2. <img src="./pics/sol_pts.png" width="50%" align="center">
+2. <img src="./pics/sol_pts.png" width="60%" align="center">
 
 
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
