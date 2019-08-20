@@ -96,7 +96,7 @@ Notes:
 
 
 
-## Exercise qqq
+## Exercise iii
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
@@ -121,7 +121,7 @@ Notes:
 <img src="./pics/cube_pyr.png" width="70%" align="center">
 
 
-5. Draw the vectors $\left(\begin{array}{r} 1\\0\\3 \end{array}\right)$ and $\left(\begin{array}{r} 1\\2\\3 \end{array}\right)$ as arrows. Start anywhere in space.
+5. Draw the vectors $$\left(\begin{array}{r} 1\\0\\3 \end{array}\right)$$ and $$\left(\begin{array}{r} 1\\2\\3 \end{array}\right)$$ as arrows. Start anywhere in space.
 
 
 6. Determine the vector $\overrightarrow{UV}$:
