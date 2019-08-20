@@ -30,25 +30,25 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ## Points
 ---
 
-A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \lvert y \lvert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \lvert 4 \lvert 5)$ can be found as follows: Starting at the origin, 
-- walk $3$ units along the $x$-direction (towards me), and from there
-- walk $4$ units along the $y$-direction (to the right), and from there
-- walk $5$ units along the $z$-direction (upwards)
+A __point__ \(A\) with the __coordinates__ \(x, y\) and \(z\), written \(A(x \lvert y \lvert z)\), indicates a *position* in space relative to the coordinate system. For example, point \(A(3 \lvert 4 \lvert 5)\) can be found as follows: Starting at the origin, 
+- walk \(3\) units along the \(x\)-direction (towards me), and from there
+- walk \(4\) units along the \(y\)-direction (to the right), and from there
+- walk \(5\) units along the \(z\)-direction (upwards)
 
-Negative coordinates are also allowed and indicate to move into the opposite axis direction. For example, moving $z=-3$ units along the $z$-direction means moving $3$ units downwards.
+Negative coordinates are also allowed and indicate to move into the opposite axis direction. For example, moving \(z=-3\) units along the \(z\)-direction means moving $3$ units downwards.
 
 <img src="./pics/3d_point.png" width="65%" align="center">
 
 Note:
- - The point with the coordinates $O(0 \lvert 0 \lvert 0)$ is called the __origin__ of the coordinate system.
- - We typically use capital letters to denote points ($A, B , U, ...$)
+ - The point with the coordinates \(O(0 \lvert 0 \lvert 0)\) is called the __origin__ of the coordinate system.
+ - We typically use capital letters to denote points \((A, B , U, ...)\)
 
 
 
 ## Vectors
 ---
 
-A __vector__ $\vec v$ with __components__ $x, y$, and $z$, written $$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ represents an *arrow* in space. An arrow has a tail, a head, and a specific length and direction.
+A __vector__ \(\vec v\) with __components__ \(x, y\), and \(z\), written \[\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)\] represents an *arrow* in space. An arrow has a tail, a head, and a specific length and direction.
 
 <img src="./pics/arrow1.png" width="20%" align="center">
 
