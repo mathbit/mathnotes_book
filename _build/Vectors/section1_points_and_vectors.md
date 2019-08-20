@@ -85,8 +85,8 @@ Notes:
 ## Exercise
 
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
-
 <img src="./pics/exc_specPts.png" width="75%" align="center">
+
 
 2. Indicate the following points in a 3d-coordinate system:
  - $P(0 \lvert -2 \lvert 5)$
@@ -119,7 +119,7 @@ Notes:
 7. If I start at point $A(0 \lvert 1 \lvert 0)\,\,$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)\,$ , where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
 
 
-8. Consider the parallelogram with the vertices $A(1 \lvert 4 \lvert 1)$ , $B(0 \lvert 3 \lvert 2)$ , $C$ , and $D(2 \lvert 3 \lvert 0)$ , what are the coordinates of point $C$?
+8. Consider the parallelogram with the vertices $A(1 \lvert 4 \lvert 1)$, $B(0 \lvert 3 \lvert 2)$, $C$, and $D(2 \lvert 3 \lvert 0)$, what are the coordinates of point $C$?
 <img src="./pics/parallelogram.png" width="35%" align="center">
 
 
@@ -148,14 +148,19 @@ Notes:
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
+
 2. <img src="./pics/sol_pts.png" width="50%" align="center">
 
+
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
+
 
 4. Cube: $A(5 \lvert 0 \lvert 0)$, $B(5 \lvert 5 \lvert 0)$, $C(0 \lvert 5 \lvert 0)$, $D(0 \lvert 0 \lvert 0)$, $E(5 \lvert 0 \lvert 5)$, $F(5 \lvert 5 \lvert 5)$, $G(0 \lvert 5 \lvert 5)$, $H(0 \lvert 0 \lvert 5)$ <br> 
 Pyramid: $A(2 \lvert -2 \lvert 0)$, $B(2 \lvert 2 \lvert 0)$, $C(-2 \lvert 2 \lvert 0)$, $D(-2 \lvert -2 \lvert 0)$, $E(0 \lvert 0 \lvert 4)$
 
+
 5. <img src="./pics/solVec1.png" width="45%" align="center">
+
 
 6. 
 
@@ -164,6 +169,12 @@ Pyramid: $A(2 \lvert -2 \lvert 0)$, $B(2 \lvert 2 \lvert 0)$, $C(-2 \lvert 2 \lv
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
+{
+    "tags": [
+        "remove_input",
+    ]
+}
+
 #needs to be in the last cell for css styling
 from IPython.core.display import HTML
 def css_styling():
