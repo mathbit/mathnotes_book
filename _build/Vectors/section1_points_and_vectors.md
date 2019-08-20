@@ -144,7 +144,7 @@ Notes:
 10. Consider the vectors $$\vec a = \left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$ and $$\vec b = \left(\begin{array}{r} 1\\4\\6 \end{array}\right)$$. Determine their lengths. Can you find a general formula for determining the length of a vector $$\vec c = \left(\begin{array}{r} x\\y\\z \end{array}\right)$$?
 
 
-11. Consider the vector $$\vec a = \left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
+11. Consider the vector $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
  - points into the same direction, and has twice the length.
  - points in the opposite direction and has half the length.
  - More generally, given a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$, what are the components of the vector pointing in the same direction and is $s$ times longer?
@@ -186,7 +186,7 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 
 10. Length of $\vec a$ is (Pythagoras) $\sqrt{3²+4²}=5$, length of $\vec b$ is (applying Pythagoras twice) $\sqrt{1²+4²+6²}=\sqrt{53}$, and the length of vector $\vec c$ is $\sqrt{x²+y²+z²}$  
 
-11.  
+11. The vectors are $$\left(\begin{array}{r} 0\\6\\8 \end{array}\right)$$, $$\left(\begin{array}{r} 0\\-1.5\\-2 \end{array}\right)$$, and $$\left(\begin{array}{r} s\cdot x\\s\cdot y\\s\cdot z \end{array}\right)$$ 
 
 
 
