@@ -51,7 +51,8 @@ In this case, the magnitude is $$\vert \vec{u}\vert = \sqrt{3²+4²+5²}=\sqrt{5
 
 
 
-<div class="sol">Solutions</div>
+## Solutions
+---
 
 1. $\vert \vec{w}\vert =\sqrt{3}, \vert \vec{s}\vert =\sqrt{6.25}=2.5$
 
