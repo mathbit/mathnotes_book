@@ -171,7 +171,24 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 5. <img src="./pics/solVec1.png" width="45%" align="center">
 
 
-6. 
+6. a) $\overrightarrow{UV}=\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$, 
+   b) $\overrightarrow{UV}=\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$, 
+   c) $\overrightarrow{UV}=\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$
+
+
+7. $$B(1 \vert 0 \vert 1)$$
+
+
+8. $C(1 \vert 2 \vert 1)$
+
+9. $$\vec a =\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$$,
+   $$\vec b =\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$$,
+   $$\vec c =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$,
+   $$\vec d =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
+
+10. 
+
+11. 
 
 
 
