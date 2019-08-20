@@ -120,12 +120,10 @@ Notes:
 
 
 8. Consider the parallelogram with the vertices $A(1 \lvert 4 \lvert 1)$ , $B(0 \lvert 3 \lvert 2)$ , $C$ , and $D(2 \lvert 3 \lvert 0)$ , what are the coordinates of point $C$?
-
 <img src="./pics/parallelogram.png" width="35%" align="center">
 
 
 9. Determine the components of the arrows shown in the figure below. Vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ are on the $x$-axis, $y$-axis, and $z$-axis, and vectors $\vec{d}$ and $\vec{e}$ are in the $yz$-plane.
-
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
 
@@ -139,18 +137,25 @@ Notes:
 
 
 
-<div class="sol">Solutions</div>
+{
+    "tags": [
+        "hide_input",
+    ]
+}
+
+
+## Solutions
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
-2. <img src="./pics/sol_pts.png" width="50%" align="left">
+2. <img src="./pics/sol_pts.png" width="50%" align="center">
 
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
 
-4. Cube: $A(5 \lvert 0 \lvert 0), B(5 \lvert 5 \lvert 0), C(0 \lvert 5 \lvert 0), D(0 \lvert 0 \lvert 0), E(5 \lvert 0 \lvert 5), F(5 \lvert 5 \lvert 5), G(0 \lvert 5 \lvert 5), H(0 \lvert 0 \lvert 5)$ <br> 
-Pyramid: $A(2 \lvert -2 \lvert 0), B(2 \lvert 2 \lvert 0), C(-2 \lvert 2 \lvert 0), D(-2 \lvert -2 \lvert 0), E(0 \lvert 0 \lvert 4)$
+4. Cube: $A(5 \lvert 0 \lvert 0)$, $B(5 \lvert 5 \lvert 0)$, $C(0 \lvert 5 \lvert 0)$, $D(0 \lvert 0 \lvert 0)$, $E(5 \lvert 0 \lvert 5)$, $F(5 \lvert 5 \lvert 5)$, $G(0 \lvert 5 \lvert 5)$, $H(0 \lvert 0 \lvert 5)$ <br> 
+Pyramid: $A(2 \lvert -2 \lvert 0)$, $B(2 \lvert 2 \lvert 0)$, $C(-2 \lvert 2 \lvert 0)$, $D(-2 \lvert -2 \lvert 0)$, $E(0 \lvert 0 \lvert 4)$
 
-5. <img src="./pics/solVec1.png" width="45%" align="left">
+5. <img src="./pics/solVec1.png" width="45%" align="center">
 
 6. 
 
@@ -245,7 +250,7 @@ css_styling()
         }
   
     .MathJax {
-        font-size: 1.05em;
+        font-size: 1em;
     }
 
     div.important {    
@@ -282,7 +287,7 @@ css_styling()
                 },
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 4}}
+                    styles: {'.MathJax_Display': {"margin": 0}}
                 },
         });
 </script>
