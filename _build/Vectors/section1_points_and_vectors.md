@@ -184,14 +184,24 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
    $$\vec c =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$,
    $$\vec d =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
 
-10.  
+10. Length of $\vec a$ is (Pythagoras) $\sqrt{3²+4²}=5$, length of $\vec b$ is (applying Pythagoras twice) $\sqrt{1²+4²+6²}=\sqrt{53}$, and the length of vector $\vec c$ is $\sqrt{x²+y²+z²}$  
 
-11. 
+11.  
 
 
 
 <div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+#needs to be in the last cell for css styling
+from IPython.core.display import HTML
+def css_styling():
+    styles = open("../assets/custom/custom.css", "r").read()
+    return HTML(styles)
+css_styling()
 
+```
+</div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
