@@ -59,15 +59,3 @@ Clearly, the components of the opposite vector of $\vec u$ describe how to get f
 
 
 
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-.
-
-```
-</div>
-
-</div>
-
-
-
