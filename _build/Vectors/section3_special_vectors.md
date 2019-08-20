@@ -56,6 +56,7 @@ Clearly, the components of the opposite vector of $\vec u$ describe how to get f
 ---
 
 <img src="./pics/sol_opposite.png" width="85%" align="left">
+<br>
 
 
 
