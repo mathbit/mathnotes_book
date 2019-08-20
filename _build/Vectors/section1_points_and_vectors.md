@@ -48,7 +48,11 @@ Note:
 ## Vectors iii
 ---
 
-A __vector__ $\vec v$ with __components__ $x, y$, and $z$, written $$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ represents an *arrow* in space. An arrow has a tail, a head, and a specific length and direction.
+A __vector__ $\vec v$ with __components__ $x, y$, and $z$, written
+
+$$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ 
+
+represents an *arrow* in space. An arrow has a tail, a head, and a specific length and direction.
 
 <img src="./pics/arrow1.png" width="20%" align="center">
 
