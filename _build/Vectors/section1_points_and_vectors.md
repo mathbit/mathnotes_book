@@ -141,10 +141,10 @@ Notes:
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
 
-10. Consider the vectors $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$ and $$\left(\begin{array}{r} 1\\4\\6 \end{array}\right)$$. Determine their lengths. Can you find a general formula for determining the length of a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$?
+10. Consider the vectors $$\vec a = \left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$ and $$\vec b = \left(\begin{array}{r} 1\\4\\6 \end{array}\right)$$. Determine their lengths. Can you find a general formula for determining the length of a vector $$\vec c = \left(\begin{array}{r} x\\y\\z \end{array}\right)$$?
 
 
-11. Consider the vector $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
+11. Consider the vector $$\vec a = \left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
  - points into the same direction, and has twice the length.
  - points in the opposite direction and has half the length.
  - More generally, given a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$, what are the components of the vector pointing in the same direction and is $s$ times longer?
@@ -184,7 +184,7 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
    $$\vec c =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$,
    $$\vec d =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
 
-10. 
+10.  
 
 11. 
 
