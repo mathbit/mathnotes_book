@@ -1,6 +1,6 @@
 Vectors represent arrows and are important for describing simple geometrical objects in a three dimensional space, such as lines, planes, or spheres. This in turn can be used to calculate shadows and reflections for photo-realistic sceneries in games and the like ("ray tracing").
 
-<img src="raytracing.png" width="40%" align="center">
+<img src="raytracing.png" width="80%" align="center">
 
 (Picture taken from <a href="https://en.wikipedia.org/wiki/User:Gilles_Tran" class="extiw" title="en:User:Gilles Tran">Gilles Tran</a>)
 
