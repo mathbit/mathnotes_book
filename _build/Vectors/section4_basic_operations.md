@@ -114,7 +114,7 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 
 
 
-## Exercise q
+## Exercise qq
 ---
 
 1. Consider the vector $\vec{u}=\left(\begin{array}{r} -2\\\ 2\\\ -1 \end{array}\right)$ <br>Determine the vector $\vec{v} = 3\cdot \vec{u}$ and verify that the magnitude of $\vec u$ is $3$ times bigger than the magnitude of $\vec{v}$.
@@ -133,20 +133,18 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
    7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
 
 5. Construct arrows that represent the following vectors: $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$, where all the arrows are in the yz-plane.
-
 <img src="./pics/exc_lincomb1.png" width="90%" align="center">
         
 6. Construct arrows that represent the following vectors: $1.5\vec{a}+3\vec{b}$, $0.5\vec{a}-2\vec{b}$, where all the arrows are in the yz-plane.
-	
 <img src="./pics/exc_lincomb2.png" width="20%" align="center">
 
 7. Find the point in the middle between the two points $A(1\vert 4\vert -2)$ and $B(10 \vert 2 \vert 4)$.
 
 8. Consider the vectors $\vec{a}=\left(\begin{array}{r} 1\\\ -2\\\ 1 \end{array}\right)$ and $\vec{b}=\left(\begin{array}{r} 2\\\ 3\\\ -1 \end{array}\right)$. 
- 1. Determine $\vert \vec a + \vec b \vert$ and show that this is *not* $\vert \vec a \vert + \vert \vec b \vert$.
- 2. Indeed, use a figure to show that for any two vectors $\vec a$ and $\vec b$ it is always true that $\vert \vec a + \vec b \vert \leq \vert \vec a \vert + \vert \vec b \vert$. For what vectors is $\vert \vec a + \vec b \vert = \vert \vec a \vert + \vert \vec b \vert$?
- 3. $\vert \vec a - \vec b \vert$ . Again, show that $\vert \vec a - \vec b \vert \neq \vert \vec a \vert - \vert \vec b \vert$.
- 4. Determine the unit vector of $\vec a$ (that is, a vector of length one pointing in the same direction as $\vec a$).
+   1. Determine $\vert \vec a + \vec b \vert$ and show that this is *not* $\vert \vec a \vert + \vert \vec b \vert$.
+   2. Indeed, use a figure to show that for any two vectors $\vec a$ and $\vec b$ it is always true that $\vert \vec a + \vec b \vert \leq \vert \vec a \vert + \vert \vec b \vert$. For what vectors is $\vert \vec a + \vec b \vert = \vert \vec a \vert + \vert \vec b \vert$?
+   3. $\vert \vec a - \vec b \vert$ . Again, show that $\vert \vec a - \vec b \vert \neq \vert \vec a \vert - \vert \vec b \vert$.
+   4. Determine the unit vector of $\vec a$ (that is, a vector of length one pointing in the same direction as $\vec a$).
 
 
 
@@ -183,11 +181,11 @@ $\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right
 
 8. 1. $\vec a + \vec b = \left(\begin{array}{r} 3\\\ 1\\\ 0 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{3²+1²+0²}=\sqrt{10}$. But $\vert \vec a \vert + \vert \vec b \vert = \sqrt{6} +\sqrt{14} \neq \sqrt{10}$.
 
-  2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel.
+   2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel.
  
-  3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
+   3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
  
-  4. As $\vert \vec a \vert =\sqrt{6}$, the length of arrow $\vec a$ is $\sqrt{6}$. As multiplying $\vec a$ the scalar $c=\frac{1}{\sqrt{6}}$ makes the arrow $c$ times "longer", the resulting length will be $1$. Thus, the unit vector is $\frac{1}{\sqrt{6}}\cdot \vec a = \left(\begin{array}{r} 1/\sqrt{6}\\\ -2/\sqrt{6}\\\ 1/\sqrt{6} \end{array}\right)$
+   4. As $\vert \vec a \vert =\sqrt{6}$, the length of arrow $\vec a$ is $\sqrt{6}$. As multiplying $\vec a$ the scalar $c=\frac{1}{\sqrt{6}}$ makes the arrow $c$ times "longer", the resulting length will be $1$. Thus, the unit vector is $\frac{1}{\sqrt{6}}\cdot \vec a = \left(\begin{array}{r} 1/\sqrt{6}\\\ -2/\sqrt{6}\\\ 1/\sqrt{6} \end{array}\right)$
 
 
 
