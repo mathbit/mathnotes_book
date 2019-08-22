@@ -17,17 +17,24 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 ## Three special vectors
 ---
-1. The __zero vector__ is the vector with the components $$\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$$. Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
+### The zero vector
+The __zero vector__ is the vector with the components 
 
-2. A __unit vector__ is a vector of magnitude $1$. 
+$$\nonumber\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$$
 
-3. Consider a vector 
+Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
 
-$$\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ 
+### nit vector
+A __unit vector__ is a vector of magnitude $1$. 
+
+### Opposite vector
+Consider a vector 
+
+$$\nonumber\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ 
 
 The __opposite vector__ of $\vec{u}$, written $-\vec{u}$, has the components 
 
-$$-\vec{u}=\left(\begin{array}{r} -x\\-y\\-z \end{array}\right)$$ 
+$$\nonumber -\vec{u}=\left(\begin{array}{r} -x\\-y\\-z \end{array}\right)$$ 
 
 Clearly, the components of the opposite vector of $\vec u$ describe how to get from the head to the tail of the arrow represented by $\vec u$.
 <img src="./pics/opposite.png" width="35%" align="center">
