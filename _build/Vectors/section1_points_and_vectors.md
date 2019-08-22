@@ -31,17 +31,38 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ---
 
 This is inline: $x$ jawoll
+
+
 This is also inline $\begin{equation} \frac{2}{3} \end{equation}$ jawoll
+
+
 This is also inline? $ $$x$$ $ jawoll?
+
+
 This is display: 
 $$x$$
 jawoll
+
+
 This is display
 
 $$x$$
 
 jawoll
 
+
+And this?
+\begin{equation} \frac{2}{3} \end{equation}
+
+jawoll
+
+
+
+And this?
+
+\begin{equation} \frac{2}{3} \end{equation}
+
+jawoll
 
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \vert y \vert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
