@@ -114,7 +114,7 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 
 
 
-## Exercise
+## Exercise q
 ---
 
 1. Consider the vector $\vec{u}=\left(\begin{array}{r} -2\\\ 2\\\ -1 \end{array}\right)$ <br>Determine the vector $\vec{v} = 3\cdot \vec{u}$ and verify that the magnitude of $\vec u$ is $3$ times bigger than the magnitude of $\vec{v}$.
@@ -124,13 +124,13 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 3. Show that $4\cdot (5\cdot \vec{a})=20\cdot \vec{a}$
 
 4. Show the following:
-  1. $\vec{a}+\vec{b}=\vec{b}+\vec{a}$
-  2. $\vec{a}+(\vec{b}+\vec{c})=(\vec{a}+\vec{b})+\vec{c}$
-  3. $\vec{b}-\vec{a}$ is the opposite vector of $\vec{a}-\vec{b}$
-  4. $\vec{a}+\vec{a}=2  \vec{a}$
-  5. $4 \vec{a} + 6   \vec{a} =10  \vec{a}$
-  6. $4 \vec{a} - 6   \vec{a} =-2  \vec{a}$
-  7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
+   1. $\vec{a}+\vec{b}=\vec{b}+\vec{a}$
+   2. $\vec{a}+(\vec{b}+\vec{c})=(\vec{a}+\vec{b})+\vec{c}$
+   3. $\vec{b}-\vec{a}$ is the opposite vector of $\vec{a}-\vec{b}$
+   4. $\vec{a}+\vec{a}=2  \vec{a}$
+   5. $4 \vec{a} + 6   \vec{a} =10  \vec{a}$
+   6. $4 \vec{a} - 6   \vec{a} =-2  \vec{a}$
+   7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
 
 5. Construct arrows that represent the following vectors: $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$, where all the arrows are in the yz-plane.
 
