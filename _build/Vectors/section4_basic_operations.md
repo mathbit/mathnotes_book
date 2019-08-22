@@ -114,7 +114,7 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 
 
 
-## Exercise qq
+## Exercise
 ---
 
 1. Consider the vector $\vec{u}=\left(\begin{array}{r} -2\\\ 2\\\ -1 \end{array}\right)$ <br>Determine the vector $\vec{v} = 3\cdot \vec{u}$ and verify that the magnitude of $\vec u$ is $3$ times bigger than the magnitude of $\vec{v}$.
