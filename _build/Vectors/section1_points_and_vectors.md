@@ -27,12 +27,12 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 
 
-## Points a
+## Points
 ---
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written 
 
-$$A(x \vert y \vert z)$$ 
+\begin{equation*}A(x \vert y \vert z) \end{equation*} 
 
 indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
 - walk $3$ units along the $x$-direction (towards me), and from there
@@ -49,7 +49,7 @@ Note:
 
 
 
-## Vectors qqq
+## Vectors
 ---
 
 A __vector__ $\vec v$ with __components__ $x, y$, and $z$, written 
@@ -62,7 +62,7 @@ represents an *arrow* in space. An arrow has a tail, a head, and a specific leng
 
 So how do three components define an arrow in space? We interpret the three numbers as instructions of how to get from the tail of the arrow its head. For example, take the vector 
 
-$$\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)$$ 
+\begin{equation*}\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)\end{equation*}
 
 We will draw the arrow as follows: Pick any location in space for the tail of the arrow, then find the arrow head by
 - move $2$ units in $x$-direction, from there
@@ -87,13 +87,13 @@ To get from $A$ to $B$, we have to walk along the $x$ axis by $0$ units, along t
  
 So the vector representing this arrow is 
 
-$$\vec{u}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)$$
+\begin{equation*}\vec{u}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)\end{equation*}
 
 Notes:
  - We typically use small letters with an arrow pointing to the right on top of it to denote vectors ($\vec a, \vec u, ...$). 
  - There is one exception: if the components of a vector arise from an arrow from a given point $A$ to a given point $B$, the vector is often denoted by $\overrightarrow{AB}$. In the example above, we could have written 
  
- $$\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)$$
+\begin{equation*}\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right) \end{equation*}
  
  
  - Two vectors are called __equal__ if their corresponding $x$-, $y$-, and $z$-components are equal.
@@ -126,16 +126,16 @@ Notes:
 <img src="./pics/cube_pyr.png" width="70%" align="center">
 
 
-5. Draw the vectors $\left(\begin{array}{r} 1\\\ 0\\\ 3 \end{array}\right)$ and $\left(\begin{array}{r} 1\\\2 \\\3 \end{array}\right)$ as arrows. Start anywhere in space.
+5. Draw the vectors $\left(\begin{array}{r} 1\\\ 0\\\ 3 \end{array}\right)$ and $\left(\begin{array}{r} 1\\\ 2\\\ 3 \end{array}\right)$ as arrows. Start anywhere in space.
 
 
-6. Determine the vector $\overrightarrow{UV}$:
- - $$U(1 \vert 2 \vert -1)$$ and $$V(2 \vert 10 \vert -3)$$
- - $$U(0 \vert 0 \vert 0)$$ and $$V(3 \vert 1 \vert 10)$$
- - $$U(-1.2 \vert -3.1 \vert 5)$$ and $$V(2 \vert 2 \vert 1)$$
+6. Determine the vector $\overrightarrow{UV}$ from point $U$ to point $V$:
+ - $U(1 \vert 2 \vert -1)$ and $V(2 \vert 10 \vert -3)$
+ - $U(0 \vert 0 \vert 0)$ and $V(3 \vert 1 \vert 10)$
+ - $U(-1.2 \vert -3.1 \vert 5)$ and $V(2 \vert 2 \vert 1)$
 
 
-7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $$\vec{u}=\left(\begin{array}{r} 1\\-1\\1 \end{array}\right)$$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
+7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\\ -1\\\ 1 \end{array}\right)$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
 
 
 8. Consider the parallelogram with the vertices $A(1 \vert 4 \vert 1)$, $B(0 \vert 3 \vert 2)$, $C$, and $D(2 \vert 3 \vert 0)$, what are the coordinates of point $C$?
@@ -146,13 +146,13 @@ Notes:
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
 
-10. Consider the vectors $$\vec a = \left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$ and $$\vec b = \left(\begin{array}{r} 1\\4\\6 \end{array}\right)$$. Determine their lengths. Can you find a general formula for determining the length of a vector $$\vec c = \left(\begin{array}{r} x\\y\\z \end{array}\right)$$?
+10. Consider the vectors $\vec a = \left(\begin{array}{r} 0\\\ 3\\\ 4 \end{array}\right)$ and $\vec b = \left(\begin{array}{r} 1\\\ 4\\\ 6 \end{array}\right)$. Determine their lengths. Can you find a general formula for determining the length of a vector $\vec c = \left(\begin{array}{r} x\\\ y\\\ z \end{array}\right)$?
 
 
-11. Consider the vector $$\left(\begin{array}{r} 0\\3\\4 \end{array}\right)$$. Find another vector that 
+11. Consider the vector $\left(\begin{array}{r} 0\\\ 3\\\ 4 \end{array}\right)$. Find another vector that 
  - points into the same direction, and has twice the length.
  - points in the opposite direction and has half the length.
- - More generally, given a vector $$\left(\begin{array}{r} x\\y\\z \end{array}\right)$$, what are the components of the vector pointing in the same direction and is $s$ times longer?
+ - More generally, given a vector $\left(\begin{array}{r} x\\\ y\\\ z \end{array}\right)$, what are the components of the vector pointing in the same direction and is $s$ times longer?
 
 
 
@@ -175,9 +175,9 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 5. <img src="./pics/solVec1.png" width="45%" align="center">
 
 
-6. a) $$\overrightarrow{UV}=\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$$, 
-   b) $$\overrightarrow{UV}=\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$$, 
-   c) $$\overrightarrow{UV}=\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
+6. a) $\overrightarrow{UV}=\left(\begin{array}{r} 1\\\ 8\\\ -2 \end{array}\right)$, 
+   b) $\overrightarrow{UV}=\left(\begin{array}{r} 3\\\ 1\\\ 10 \end{array}\right)$, 
+   c) $\overrightarrow{UV}=\left(\begin{array}{r} 3.2 \\\ 5.1\\\ -4 \end{array}\right)$
 
 
 7. $B(1 \vert 0 \vert 1)$
@@ -185,14 +185,14 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 
 8. $C(1 \vert 2 \vert 1)$
 
-9. $$\vec a =\left(\begin{array}{r} 1\\8\\-2 \end{array}\right)$$,
-   $$\vec b =\left(\begin{array}{r} 3\\1\\10 \end{array}\right)$$,
-   $$\vec c =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$,
-   $$\vec d =\left(\begin{array}{r} 3.2\\5.1\\-4 \end{array}\right)$$
+9. $\vec a =\left(\begin{array}{r} 1\\\ 8\\\ -2 \end{array}\right)$,
+   $\vec b =\left(\begin{array}{r} 3\\\ 1\\\ 10 \end{array}\right)$,
+   $\vec c =\left(\begin{array}{r} 3.2\\\ 5.1\\\ -4 \end{array}\right)$,
+   $\vec d =\left(\begin{array}{r} 3.2\\\ 5.1\\\ -4 \end{array}\right)$
 
 10. Length of $\vec a$ is (Pythagoras) $\sqrt{3²+4²}=5$, length of $\vec b$ is (applying Pythagoras twice) $\sqrt{1²+4²+6²}=\sqrt{53}$, and the length of vector $\vec c$ is $\sqrt{x²+y²+z²}$  
 
-11. The vectors are $$\left(\begin{array}{r} 0\\6\\8 \end{array}\right)$$, $$\left(\begin{array}{r} 0\\-1.5\\-2 \end{array}\right)$$, and $$\left(\begin{array}{r} s\cdot x\\s\cdot y\\s\cdot z \end{array}\right)$$ 
+11. The vectors are $\left(\begin{array}{r} 0\\\ 6\\\ 8 \end{array}\right)$, $\left(\begin{array}{r} 0\\\ -1.5\\\ -2 \end{array}\right)$, and $\left(\begin{array}{r} s\cdot x\\\ s\cdot y\\\ s\cdot z \end{array}\right)$ 
 
 
 
