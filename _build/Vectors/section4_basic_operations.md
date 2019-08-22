@@ -142,6 +142,11 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 7. Find the point in the middle between the two points $A(1\vert 4\vert -2)$ and $B(10 \vert 2 \vert 4)$.
 
 
+8. Consider the vectors $\vec{a}=\left(\begin{array}{r} 1\\\ -2\\\ 1 \end{array}\right)$ and $\vec{b}=\left(\begin{array}{r} 2\\\ 3\\\ -1 \end{array}\right)$
+ 1. Determine $\vert \vec a + \vec b \vert$.
+ 2. Determine the unit vector of $\vec a$ (that is, a vector of length one pointing in the same direction as $\vec a$).
+
+
 
 ## Solutions
 ---
