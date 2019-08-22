@@ -27,12 +27,17 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 
 
-## Points rrrruuuvwxyz
+## Points rrrruuuvwxyza
 ---
 
 This is inline in J (dollar) : 
 $
-\vec{u} = \left( \begin{array}{r} 2\\ 4\\ 5 \end{array} \right)
+\vec{u} = \left( 
+\begin{array}{r} 
+2\\ 
+4\\ 
+5 
+\end{array} \right)
 $ jawoll
 
 ---
