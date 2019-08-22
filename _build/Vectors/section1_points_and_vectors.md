@@ -30,24 +30,24 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ## Points ststst
 ---
 
-This is inline: $x$ jawoll
+This is inline in J: $x$ jawoll
 
 ---
 
-This is also inline $\begin{equation} \frac{2}{3} \end{equation}$ jawoll
+This is also inline in J $\begin{equation} \frac{2}{3} \end{equation}$ jawoll
 
 ----
 
-This is also inline \begin{equation} \frac{2}{3} \end{equation} jawoll
+This is display in J (begin end) \begin{equation} \frac{2}{3} \end{equation} jawoll
 
 ---
-This is display: 
+This is display in J (no empty lines, double dollars): 
 $$x$$
 jawoll
 
 ---
 
-This is display
+This is display in J (empty lines, double dollars):
 
 $$x$$
 
@@ -55,13 +55,13 @@ jawoll
 
 ----
 
-And this?
+And this is display in J (begin end no empty lines)?
 \begin{equation} \frac{2}{3} \end{equation}
 jawoll
 
 ----
 
-And this?
+And this is display in J (begin end empty lines)?
 
 \begin{equation} \frac{2}{3} \end{equation}
 
