@@ -36,8 +36,8 @@
   - title: Some special vectors
     url: /Vectors/section3_special_vectors
     not_numbered: false
-  - title: Adding vectors
-    url: /Vectors/section4_adding_vectors
+  - title: Basic vector operations
+    url: /Vectors/section4_basic_operations
     not_numbered: false
   - title: Multiplying vectors with a scalar
     url: /Vectors/section3_multiplying_with_scalar
