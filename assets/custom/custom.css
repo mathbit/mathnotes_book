@@ -94,8 +94,7 @@
 
 </style>
 
-// Note that kramdown parses and identifies math blocks before
-// tex2jax is run
+
 <script>
     MathJax.Hub.Config({
                 TeX: {
@@ -103,7 +102,7 @@
                 },
 		tex2jax: {
             		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            		displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+                        displayMath: [ ["$u$","$u$"], ["\\[","\\]"] ],
             		processEscapes: true,
             		processEnvironments: true
         	},	

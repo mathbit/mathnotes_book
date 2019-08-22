@@ -31,51 +31,30 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ---
 
 This is inline in J (dollar) : 
-\(
-\vec{u} = \left( 
-\begin{array}{r} 
-2\\ 
-4\\ 
-5 
-\end{array} \right)
-\) jawoll
+$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$ jawoll
 
 ---
 
-This is also inline in J (dollar begin end) $\begin{equation}\vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right) \end{equation}$ jawoll
-
-----
-
-This is display in J (begin end in text) \begin{equation} \vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right) \end{equation} jawoll
-
----
-This is display in J (no empty lines, double dollars): 
-$$\vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right)$$
-jawoll
+This is display in J (no lines in between):
+$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
 
 ---
 
-This is display in J (empty lines, double dollars):
+This is display in J (lines in between):
 
-$$\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)$$
-
-jawoll
-
-----
-
-And this is display in J (begin end no empty lines)?
-\begin{equation} \vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right) \end{equation}
-jawoll
-
-----
-
-And this is display in J (begin end empty lines)?
-
-\begin{equation} \vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right) \end{equation}
-
-jawoll
+$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
+no empty line above
 
 ---
+
+This is display in J (lines in between):
+
+$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
+
+no empty line above
+
+---
+
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \vert y \vert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
 - walk $3$ units along the $x$-direction (towards me), and from there
