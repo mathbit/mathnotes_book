@@ -33,7 +33,13 @@
   - title: The magnitude of a vector
     url: /Vectors/section2_magnitude
     not_numbered: false
-  - title: Three special vectors
+  - title: Some special vectors
     url: /Vectors/section3_special_vectors
+    not_numbered: false
+  - title: Adding vectors
+    url: /Vectors/section4_adding_vectors
+    not_numbered: false
+  - title: Multiplying vectors with a scalar
+    url: /Vectors/section3_multiplying_with_scalar
     not_numbered: false
 

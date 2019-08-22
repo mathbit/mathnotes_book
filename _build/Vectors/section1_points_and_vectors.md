@@ -79,7 +79,7 @@ We have seen that a vector represents an arrow. The opposite is also true. For e
 
 To get from $A$ to $B$, we have to walk along the $x$ axis by $0$ units, along the $y$-axis by $4$ units, and along the $z$-axis by $2$ units:
  
-$$
+$$\nonumber
 \begin{array}{lcl}
 A & \rightarrow & B \\
 \hline
