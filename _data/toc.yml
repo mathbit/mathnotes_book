@@ -39,7 +39,4 @@
   - title: Basic vector operations
     url: /Vectors/section4_basic_operations
     not_numbered: false
-  - title: Multiplying vectors with a scalar
-    url: /Vectors/section3_multiplying_with_scalar
-    not_numbered: false
 

@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section3_special_vectors.html
   title: 'Some special vectors'
 next_page:
-  url: /Vectors/section3_multiplying_with_scalar.html
-  title: 'Multiplying vectors with a scalar'
+  url: 
+  title: ''
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
