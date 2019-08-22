@@ -93,16 +93,19 @@
     }
 
 </style>
+
+// Note that kramdown parses and identifies math blocks before
+// tex2jax is run
 <script>
     MathJax.Hub.Config({
                 TeX: {
                         extensions: ["AMSmath.js"]
                 },
 		tex2jax: {
-            		inlineMath: [ ["$?","$?"], ["\\(","\\)"] ],
-            		displayMath: [ ["$$&","$$&"], ["\\[","\\]"] ],
+            		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            		displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
             		processEscapes: true,
-            		processEnvironments: false
+            		processEnvironments: true
         	},	
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
