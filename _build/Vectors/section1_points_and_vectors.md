@@ -36,9 +36,6 @@ This is inline: $x$ jawoll
 This is also inline $\begin{equation} \frac{2}{3} \end{equation}$ jawoll
 
 
-This is also inline? $ $$x$$ $ jawoll?
-
-
 This is display: 
 $$x$$
 jawoll
