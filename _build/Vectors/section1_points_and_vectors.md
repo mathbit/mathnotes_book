@@ -30,33 +30,11 @@ To describe geometrical objects in space with the help of coordinates, we need a
 ## Points a
 ---
 
-This is inline in J (dollar) : 
-$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$ jawoll
+A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written 
 
----
+$$A(x \vert y \vert z)$$ 
 
-This is display in J (no lines in between):
-$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
-
----
-
-This is display in J (lines in between):
-
-$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
-no empty line above
-
----
-
-This is display in J (lines in between):
-
-$$\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$$
-
-no empty line above
-
----
-
-
-A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \vert y \vert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
+indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
 - walk $3$ units along the $x$-direction (towards me), and from there
 - walk $4$ units along the $y$-direction (to the right), and from there
 - walk $5$ units along the $z$-direction (upwards)
@@ -148,7 +126,7 @@ Notes:
 <img src="./pics/cube_pyr.png" width="70%" align="center">
 
 
-5. Draw the vectors $$\left(\begin{array}{r} 1\\0\\3 \end{array}\right)$$ and $$\left(\begin{array}{r} 1\\2\\3 \end{array}\right)$$ as arrows. Start anywhere in space.
+5. Draw the vectors $\left(\begin{array}{r} 1\\\ 0\\\ 3 \end{array}\right)$ and $\left(\begin{array}{r} 1\\\2 \\\3 \end{array}\right)$ as arrows. Start anywhere in space.
 
 
 6. Determine the vector $\overrightarrow{UV}$:

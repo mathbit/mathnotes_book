@@ -40,7 +40,7 @@
         margin-bottom: 3px;
        }
     div.text_cell_render{
-        font-family: Computer Modern, sans-serif;
+        font-family: Computer Modern, serif;
         line-height: 145%;
         font-size: 130%;
         width:800px;
@@ -93,21 +93,25 @@
     }
 
 </style>
-
-
 <script>
     MathJax.Hub.Config({
                 TeX: {
-                        extensions: ["AMSmath.js"]
+                        extensions: ["AMSmath.js"],
+			Macros: {
+      				RR: '{\\bf TOM}',                // a simple string replacement
+      				bold: ['\\boldsymbol{#1}',1]   // this macro has one parameter
+    			}
                 },
 		tex2jax: {
             		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-                        displayMath: [ ["$u$","$u$"], ["\\[","\\]"] ],
+                        displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
             		processEscapes: true,
             		processEnvironments: true
-        	},	
+        	},
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
+                    availableFonts: ["TeX","STIX-Web","Neo-Euler"],
+                    preferredFont: "Neo-Euler",
                 },
         });
 </script>
