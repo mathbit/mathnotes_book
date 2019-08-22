@@ -5,7 +5,7 @@ Vectors represent arrows and are important for describing simple geometrical obj
 (Picture taken from <a href="https://en.wikipedia.org/wiki/User:Gilles_Tran" class="extiw" title="en:User:Gilles Tran">Gilles Tran</a>)
 
 
-In physics, vectors are used to describe fundamental properties such as speeds or forces, or anything else whose description requires a "direction" and a "length". 
+In physics, vectors are used to describe fundamental properties such as speeds or forces, or anything else whose description requires not only a number, but also a direction. 
 
 <img src="magnetic_field.png" width="80%" align="center">
 

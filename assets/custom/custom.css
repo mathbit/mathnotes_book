@@ -95,20 +95,19 @@
 </style>
 <script>
     MathJax.Hub.Config({
-                        TeX: {
-                           extensions: ["AMSmath.js"]
-                           },
-
+                TeX: {
+                        extensions: ["AMSmath.js"]
+                },
 		tex2jax: {
-            		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            		displayMath: [ ["$$",'$$'], ["\\[","\\]"] ],
+            		inlineMath: [ ["$?","$?"], ["\\(","\\)"] ],
+            		displayMath: [ ["$$?",'$$?'], ["\\[","\\]"] ],
             		processEscapes: true,
             		processEnvironments: true
         	},	
                 displayAlign: 'center', // Change this to 'center' to center equations.
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
-	            linebreaks: { automatic: true }
+	            // linebreaks: { automatic: true }
                 },
         });
 </script>
