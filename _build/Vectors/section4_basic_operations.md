@@ -124,13 +124,13 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 3. Show that $4\cdot (5\cdot \vec{a})=20\cdot \vec{a}$
 
 4. Show the following:
- 1. $\vec{a}+\vec{b}=\vec{b}+\vec{a}$
- 2. $\vec{a}+(\vec{b}+\vec{c})=(\vec{a}+\vec{b})+\vec{c}$
- 3. $\vec{b}-\vec{a}$ is the opposite vector of $\vec{a}-\vec{b}$
- 4. $\vec{a}+\vec{a}=2  \vec{a}$
- 5. $4 \vec{a} + 6   \vec{a} =10  \vec{a}$
- 6. $4 \vec{a} - 6   \vec{a} =-2  \vec{a}$
- 7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
+  1. $\vec{a}+\vec{b}=\vec{b}+\vec{a}$
+  2. $\vec{a}+(\vec{b}+\vec{c})=(\vec{a}+\vec{b})+\vec{c}$
+  3. $\vec{b}-\vec{a}$ is the opposite vector of $\vec{a}-\vec{b}$
+  4. $\vec{a}+\vec{a}=2  \vec{a}$
+  5. $4 \vec{a} + 6   \vec{a} =10  \vec{a}$
+  6. $4 \vec{a} - 6   \vec{a} =-2  \vec{a}$
+  7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
 
 5. Construct arrows that represent the following vectors: $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$, where all the arrows are in the yz-plane.
 
@@ -140,9 +140,7 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 	
 <img src="./pics/exc_lincomb2.png" width="20%" align="center">
 
-	
 7. Find the point in the middle between the two points $A(1\vert 4\vert -2)$ and $B(10 \vert 2 \vert 4)$.
-
 
 8. Consider the vectors $\vec{a}=\left(\begin{array}{r} 1\\\ -2\\\ 1 \end{array}\right)$ and $\vec{b}=\left(\begin{array}{r} 2\\\ 3\\\ -1 \end{array}\right)$. 
  1. Determine $\vert \vec a + \vec b \vert$ and show that this is *not* $\vert \vec a \vert + \vert \vec b \vert$.
@@ -163,34 +161,33 @@ $\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right
 3. $4\cdot (5\cdot \vec{a})= 4\cdot \left(\begin{array}{r} 5\cdot a_x\\\ 5\cdot a_y\\\ 5\cdot a_z \end{array}\right) = \left(\begin{array}{r} 20\cdot a_x\\\ 20\cdot a_y\\\ 20\cdot a_z \end{array}\right)= 20\cdot \vec{a}$
 
 4. So ...
-  1. $\vec{a}+\vec{b}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right) =\left(\begin{array}{r} b_x+a_x\\\ b_y+a_y\\\ b_z+a_z \end{array}\right) =\vec{b}+\vec{a}$
+   1. $\vec{a}+\vec{b}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right) =\left(\begin{array}{r} b_x+a_x\\\ b_y+a_y\\\ b_z+a_z \end{array}\right) =\vec{b}+\vec{a}$
     
-  2. $\vec{a}+(\vec{b}+\vec{c})=\vec{a}+\left(\begin{array}{r} b_x+c_x\\\ b_y+c_y\\\ b_z+c_z \end{array}\right) = \left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$ and similar, $(\vec{a}+\vec{b})+\vec{c}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right)+\vec{c}=\left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$, so the same vectors.
+   2. $\vec{a}+(\vec{b}+\vec{c})=\vec{a}+\left(\begin{array}{r} b_x+c_x\\\ b_y+c_y\\\ b_z+c_z \end{array}\right) = \left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$ and similar, $(\vec{a}+\vec{b})+\vec{c}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right)+\vec{c}=\left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$, so the same vectors.
     
-  3. $\vec{b}-\vec{a}=\left(\begin{array}{r} b_x-a_x\\\ b_y-a_y\\\ b_z-a_z \end{array}\right)=\left(\begin{array}{r} -(a_x-b_x)\\\ -(a_y-b_y)\\\ -(a_z-b_z) \end{array}\right)=-(\vec{a}-\vec{b})$, and this is the opposite vector of $\vec{a}-\vec{b}$
+   3. $\vec{b}-\vec{a}=\left(\begin{array}{r} b_x-a_x\\\ b_y-a_y\\\ b_z-a_z \end{array}\right)=\left(\begin{array}{r} -(a_x-b_x)\\\ -(a_y-b_y)\\\ -(a_z-b_z) \end{array}\right)=-(\vec{a}-\vec{b})$, and this is the opposite vector of $\vec{a}-\vec{b}$
 	
-  4. $\vec{a}+\vec{a}=\left(\begin{array}{r} a_x+a_x\\\ a_y+a_y\\\ a_z+a_z \end{array}\right)=\left(\begin{array}{r} 2 a_x \\\ 2 a_y\\\ 2 a_z \end{array}\right)=2  \vec{a}$
+   4. $\vec{a}+\vec{a}=\left(\begin{array}{r} a_x+a_x\\\ a_y+a_y\\\ a_z+a_z \end{array}\right)=\left(\begin{array}{r} 2 a_x \\\ 2 a_y\\\ 2 a_z \end{array}\right)=2  \vec{a}$
 	
-  5. $4 \vec{a} + 6   \vec{a} =\left(\begin{array}{r} 4a_x+6a_x\\\ 4a_y+6a_y\\\ 4a_z+6a_z \end{array}\right) = 10  \vec{a}$
+   5. $4 \vec{a} + 6   \vec{a} =\left(\begin{array}{r} 4a_x+6a_x\\\ 4a_y+6a_y\\\ 4a_z+6a_z \end{array}\right) = 10  \vec{a}$
 	
-  6. $4 \vec{a} - 6   \vec{a}  =\left(\begin{array}{r} 4a_x-6a_x\\\ 4a_y-6a_y\\\ 4a_z-6a_z \end{array}\right)  =-2  \vec{a}$
+   6. $4 \vec{a} - 6   \vec{a}  =\left(\begin{array}{r} 4a_x-6a_x\\\ 4a_y-6a_y\\\ 4a_z-6a_z \end{array}\right)  =-2  \vec{a}$
 	
-  7. $3  (\vec{a} +\vec{b}) = 3\left(\begin{array}{r} a_x+b_x\\\  a_y+b_y\\\  a_z+b_z \end{array}\right)= \left(\begin{array}{r} 3(a_x+b_x)\\\  3(a_y+b_y)\\\  3(a_z+b_z) \end{array}\right) = \left(\begin{array}{r} 3a_x+3b_x\\\  3a_y+3b_y\\\  3a_z+3b_z \end{array}\right) =3\vec{a}+3  \vec{b}$
+   7. $3  (\vec{a} +\vec{b}) = 3\left(\begin{array}{r} a_x+b_x\\\  a_y+b_y\\\  a_z+b_z \end{array}\right)= \left(\begin{array}{r} 3(a_x+b_x)\\\  3(a_y+b_y)\\\  3(a_z+b_z) \end{array}\right) = \left(\begin{array}{r} 3a_x+3b_x\\\  3a_y+3b_y\\\  3a_z+3b_z \end{array}\right) =3\vec{a}+3  \vec{b}$
 
 5. <img src="./pics/sol_lincomb1.png" width="90%" align="center">
 
 6. <img src="./pics/sol_lincomb2.png" width="90%" align="center">
 
-
 7. <img src="./pics/sol_midpoint.png" width="90%" align="center">
 
 8. 1. $\vec a + \vec b = \left(\begin{array}{r} 3\\\ 1\\\ 0 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{3²+1²+0²}=\sqrt{10}$. But $\vert \vec a \vert + \vert \vec b \vert = \sqrt{6} +\sqrt{14} \neq \sqrt{10}$.
 
- 2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel.
+  2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel.
  
- 3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
+  3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
  
- 4. As $\vert \vec a \vert =\sqrt{6}$, the length of arrow $\vec a$ is $\sqrt{6}$. As multiplying $\vec a$ the scalar $c=\frac{1}{\sqrt{6}}$ makes the arrow $c$ times "longer", the resulting length will be $1$. Thus, the unit vector is $\frac{1}{\sqrt{6}}\cdot \vec a = \left(\begin{array}{r} 1/\sqrt{6}\\\ -2/\sqrt{6}\\\ 1/\sqrt{6} \end{array}\right)$
+  4. As $\vert \vec a \vert =\sqrt{6}$, the length of arrow $\vec a$ is $\sqrt{6}$. As multiplying $\vec a$ the scalar $c=\frac{1}{\sqrt{6}}$ makes the arrow $c$ times "longer", the resulting length will be $1$. Thus, the unit vector is $\frac{1}{\sqrt{6}}\cdot \vec a = \left(\begin{array}{r} 1/\sqrt{6}\\\ -2/\sqrt{6}\\\ 1/\sqrt{6} \end{array}\right)$
 
 
 
