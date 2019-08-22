@@ -100,9 +100,9 @@
                 },
 		tex2jax: {
             		inlineMath: [ ["$?","$?"], ["\\(","\\)"] ],
-            		displayMath: [ ["$$?","$$?"], ["\\[","\\]"] ],
+            		displayMath: [ ["$$&","$$&"], ["\\[","\\]"] ],
             		processEscapes: true,
-            		processEnvironments: true
+            		processEnvironments: false
         	},	
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
