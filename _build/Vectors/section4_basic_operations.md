@@ -95,7 +95,7 @@ It also follows that we can construct the arrow representing the vector $\vec v-
 ## Multiplication of a vector with a scalar
 ---
 
-Consider a vector $\vec v = \left(\begin{array}{r} v_x\\\ v_y\\\ v_z \end{array}\right)$ and a constant $c$, where $c$ can by any real number. In the context of vectors, a number is called a __scalar__. The __multiplication__ of $\vec v$ with $c$, denoted by 
+Consider a vector $\vec v = \left(\begin{array}{r} v_x\\\ v_y\\\ v_z \end{array}\right)$ and a constant $c$, where $c$ can by any real number. In the context of vectors, a number is called a __scalar__. The __multiplication__ of $c$ with $\vec v$, denoted by 
 
 $$\nonumber\boxed{c\cdot \vec{v}}$$
 
@@ -109,6 +109,71 @@ Thus each component of $\vec v$ is multiplied by the constant $c$. Make sure yu 
 
 
 <img src="./pics/multiplicWithConst.png" width="95%" align="center">
+
+
+
+## Exercise
+---
+
+1. Consider the vector $\vec{u}=\left(\begin{array}{r} -2\\\ 2\\\ -1 \end{array}\right)$ <br>Determine the vector $\vec{v} = 3\cdot \vec{u}$ and verify that the magnitude of $\vec u$ is $3$ times bigger than the magnitude of $\vec{v}$.
+
+2. Show that $0\cdot \vec{a}$ is the zero vector.
+
+3. Show that $4\cdot (5\cdot \vec{a})=20\cdot \vec{a}$
+
+4. Show the following:
+ 1. $\vec{a}+\vec{b}=\vec{b}+\vec{a}$
+ 2. $\vec{a}+(\vec{b}+\vec{c})=(\vec{a}+\vec{b})+\vec{c}$
+ 3. $\vec{b}-\vec{a}$ is the opposite vector of $\vec{a}-\vec{b}$
+ 4. $\vec{a}+\vec{a}=2  \vec{a}$
+ 5. $4 \vec{a} + 6   \vec{a} =10  \vec{a}$
+ 6. $4 \vec{a} - 6   \vec{a} =-2  \vec{a}$
+ 7. $3  (\vec{a} +\vec{b}) =3  \vec{a}+3  \vec{b}$
+
+5. Construct arrows that represent the following vectors: $\vec{a}+\vec{b}$, $\vec{a}-\vec{b}$, where all the arrows are in the yz-plane.
+
+<img src="./pics/exc_lincomb1.png" width="90%" align="center">
+        
+6. Construct arrows that represent the following vectors: $1.5\vec{a}+3\vec{b}$, $0.5\vec{a}-2\vec{b}$, where all the arrows are in the yz-plane.
+	
+<img src="./pics/exc_lincomb2.png" width="20%" align="center">
+
+	
+7. Find the point in the middle between the two points $A(1\vert 4\vert -2)$ and $B(10 \vert 2 \vert 4)$.
+
+
+
+## Solutions
+---
+
+1. $\vert\vec{u}\vert=\sqrt{(-2)^2+2^2+(-1)^2}=3$, 
+$\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right) \rightarrow \vert \vec{v}\vert =\sqrt{(-6)^2+6^2+(-3)^2}=9$. So indeed, three times bigger.
+
+2. $0\cdot \vec{a}=\left(\begin{array}{r} 0\cdot a_x\\\ 0\cdot a_y\\\ 0\cdot a_z \end{array}\right) = \left(\begin{array}{r} 0\\\ 0\\\ 0 \end{array}\right)$
+
+3. $4\cdot (5\cdot \vec{a})= 4\cdot \left(\begin{array}{r} 5\cdot a_x\\\ 5\cdot a_y\\\ 5\cdot a_z \end{array}\right) = \left(\begin{array}{r} 20\cdot a_x\\\ 20\cdot a_y\\\ 20\cdot a_z \end{array}\right)= 20\cdot \vec{a}$
+
+4. So ...
+  1. $\vec{a}+\vec{b}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right) =\left(\begin{array}{r} b_x+a_x\\\ b_y+a_y\\\ b_z+a_z \end{array}\right) =\vec{b}+\vec{a}$
+    
+  2. $\vec{a}+(\vec{b}+\vec{c})=\vec{a}+\left(\begin{array}{r} b_x+c_x\\\ b_y+c_y\\\ b_z+c_z \end{array}\right) = \left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$ and similar, $(\vec{a}+\vec{b})+\vec{c}=\left(\begin{array}{r} a_x+b_x\\\ a_y+b_y\\\ a_z+b_z \end{array}\right)+\vec{c}=\left(\begin{array}{r} a_x+b_x+c_x\\\ a_y+b_y+c_y\\\ a_z+b_z+c_z \end{array}\right)$, so the same vectors.
+    
+  3. $\vec{b}-\vec{a}=\left(\begin{array}{r} b_x-a_x\\\ b_y-a_y\\\ b_z-a_z \end{array}\right)=\left(\begin{array}{r} -(a_x-b_x)\\\ -(a_y-b_y)\\\ -(a_z-b_z) \end{array}\right)=-(\vec{a}-\vec{b})$, and this is the opposite vector of $\vec{a}-\vec{b}$
+	
+  4. $\vec{a}+\vec{a}=\left(\begin{array}{r} a_x+a_x\\\ a_y+a_y\\\ a_z+a_z \end{array}\right)=\left(\begin{array}{r} 2 a_x \\\ 2 a_y\\\ 2 a_z \end{array}\right)=2  \vec{a}$
+	
+  5. $4 \vec{a} + 6   \vec{a} =\left(\begin{array}{r} 4a_x+6a_x\\\ 4a_y+6a_y\\\ 4a_z+6a_z \end{array}\right) = 10  \vec{a}$
+	
+  6. $4 \vec{a} - 6   \vec{a}  =\left(\begin{array}{r} 4a_x-6a_x\\\ 4a_y-6a_y\\\ 4a_z-6a_z \end{array}\right)  =-2  \vec{a}$
+	
+  7. $3  (\vec{a} +\vec{b}) = 3\left(\begin{array}{r} a_x+b_x\\\  a_y+b_y\\\  a_z+b_z \end{array}\right)= \left(\begin{array}{r} 3(a_x+b_x)\\\  3(a_y+b_y)\\\  3(a_z+b_z) \end{array}\right) = \left(\begin{array}{r} 3a_x+3b_x\\\  3a_y+3b_y\\\  3a_z+3b_z \end{array}\right) =3\vec{a}+3  \vec{b}$
+
+5. <img src="./pics/sol_lincomb1.png" width="90%" align="center">
+
+6. <img src="./pics/sol_lincomb2.png" width="90%" align="center">
+
+
+7. <img src="./pics/sol_midpoint.png" width="90%" align="center">
 
 
 
