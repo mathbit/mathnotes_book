@@ -32,7 +32,7 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written 
 
-\begin{equation*}A(x \vert y \vert z) \end{equation*} 
+$$\nonumber A(x \vert y \vert z)$$ 
 
 indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
 - walk $3$ units along the $x$-direction (towards me), and from there
@@ -64,7 +64,7 @@ represents an *arrow* in space. An arrow has a tail, a head, and a specific leng
 
 So how do three components define an arrow in space? We interpret the three numbers as instructions of how to get from the tail of the arrow its head. For example, take the vector 
 
-\begin{equation*}\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)\end{equation*}
+$$\nonumber\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)$$
 
 We will draw the arrow as follows: Pick any location in space for the tail of the arrow, then find the arrow head by
 - move $2$ units in $x$-direction, from there
@@ -89,13 +89,13 @@ To get from $A$ to $B$, we have to walk along the $x$ axis by $0$ units, along t
  
 So the vector representing this arrow is 
 
-\begin{equation*}\vec{u}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)\end{equation*}
+$$\nonumber\vec{u}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)$$
 
 Notes:
- - We typically use small letters with an arrow pointing to the right on top of it to denote vectors ($\vec a, \vec u, ...$). 
+ - We typically use small letters with an arrow pointing to the right on top of it to denote vectors $(\vec a, \vec u, ...)$. 
  - There is one exception: if the components of a vector arise from an arrow from a given point $A$ to a given point $B$, the vector is often denoted by $\overrightarrow{AB}$. In the example above, we could have written 
  
-\begin{equation*}\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right) \end{equation*}
+$$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)$$
  
  
  - Two vectors are called __equal__ if their corresponding $x$-, $y$-, and $z$-components are equal.
