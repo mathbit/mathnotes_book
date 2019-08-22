@@ -27,22 +27,25 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 
 
-## Points rrrruuuvwxy
+## Points rrrruuuvwxyz
 ---
 
-This is inline in J (dollar) : $\vec{u} = \left( \begin{array}{r} 2\\\ 4\\\ 5 \end{array} \right)$ jawoll
+This is inline in J (dollar) : 
+$
+\vec{u} = \left( \begin{array}{r} 2\\ 4\\ 5 \end{array} \right)
+$ jawoll
 
 ---
 
-This is also inline in J (dollar begin end) $\begin{equation}\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right) \end{equation}$ jawoll
+This is also inline in J (dollar begin end) $\begin{equation}\vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right) \end{equation}$ jawoll
 
 ----
 
-This is display in J (begin end in text) \begin{equation} \vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right) \end{equation} jawoll
+This is display in J (begin end in text) \begin{equation} \vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right) \end{equation} jawoll
 
 ---
 This is display in J (no empty lines, double dollars): 
-$$\vec{u}=\left(\begin{array}{r} 2\\4\\5 \end{array}\right)$$
+$$\vec{u}=\left(\begin{array}{r} 2\\\ 4\\\ 5 \end{array}\right)$$
 jawoll
 
 ---
