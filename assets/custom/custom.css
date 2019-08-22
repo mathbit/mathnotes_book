@@ -104,6 +104,7 @@
             		processEscapes: true,
             		processEnvironments: false
         	},	
+
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
                 },
