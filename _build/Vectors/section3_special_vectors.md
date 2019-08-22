@@ -15,19 +15,24 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-## Three special vectors
+
+## The zero vector
 ---
-### The zero vector
+
 The __zero vector__ is the vector with the components 
 
 $$\nonumber\left(\begin{array}{r} 0\\0\\0 \end{array}\right)$$
 
 Moving from head to tail along the zero-vector means moving not at all, as the tail and head occupy the same location. Clearly, the magnitude of the zero vector is $0$.
 
-### nit vector
+## The unit vector
+---
+
 A __unit vector__ is a vector of magnitude $1$. 
 
-### Opposite vector
+## The opposite vector
+---
+
 Consider a vector 
 
 $$\nonumber\vec{u}=\left(\begin{array}{r} x\\y\\z \end{array}\right)$$ 
@@ -44,7 +49,7 @@ Clearly, the components of the opposite vector of $\vec u$ describe how to get f
 ## Exercise
 ---
 
-1. Determine the opposite vector of $$\vec{v}=\left(\begin{array}{r} -2\\2\\-3 \end{array}\right)$$.
+1. Determine the opposite vector of $\vec{v}=\left(\begin{array}{r} -2\\\ 2\\\ -3 \end{array}\right)$.
 		
 2. Determine the magnitude of the zero vector. How many other vectors of magnitude $0$ do exist?
 

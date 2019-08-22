@@ -78,13 +78,18 @@ We have seen that a vector represents an arrow. The opposite is also true. For e
 <img src="./pics/AtoB.png" width="60%" align="center">
 
 To get from $A$ to $B$, we have to walk along the $x$ axis by $0$ units, along the $y$-axis by $4$ units, and along the $z$-axis by $2$ units:
-
- $A$ | $\rightarrow$  | $B$
- ---|---|---
- $0$  | $\overset{+0}{\rightarrow}$  | $0$
- $1$  | $\overset{+4}{\rightarrow}$  | $5$
- $1$  | $\overset{+2}{\rightarrow}$  | $3$
  
+$$
+\begin{array}{lcl}
+A & \rightarrow & B \\
+\hline
+0 & \overset{+0}{\rightarrow} & 0 \\ 
+1 & \overset{+4}{\rightarrow} & 5 \\ 
+1 & \overset{+2}{\rightarrow} & 3 \\ 
+\end{array}
+$$
+
+
 So the vector representing this arrow is 
 
 $$\nonumber\vec{u}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)$$
