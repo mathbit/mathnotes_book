@@ -27,7 +27,7 @@ To describe geometrical objects in space with the help of coordinates, we need a
 
 
 
-## Points
+## Points yyy
 ---
 
 A __point__ $A$ with the __coordinates__ $x, y$ and $z$, written $A(x \vert y \vert z)$, indicates a *position* in space relative to the coordinate system. For example, point $A(3 \vert 4 \vert 5)$ can be found as follows: Starting at the origin, 
