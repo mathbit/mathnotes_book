@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-## Adding a point and a vector
+## Adding a point and a vector  xxx
 ---
 
 Consider a point $A(A_x \vert A_y \vert A_z)$ and a vector $\vec v =\left(\begin{array}{r} v_x\\\ v_y\\\ v_z \end{array}\right)$.
