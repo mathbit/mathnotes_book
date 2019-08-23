@@ -10,7 +10,7 @@ prev_page:
   title: 'Points and vectors'
 next_page:
   url: /Vectors/section3_special_vectors.html
-  title: 'Three special vectors'
+  title: 'Some special vectors'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

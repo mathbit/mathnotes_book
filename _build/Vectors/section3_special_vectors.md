@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section2_magnitude.html
   title: 'The magnitude of a vector'
 next_page:
-  url: /Vectors/section4_adding_vectors.html
-  title: 'Adding vectors'
+  url: /Vectors/section4_basic_operations.html
+  title: 'Basic vector operations'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
