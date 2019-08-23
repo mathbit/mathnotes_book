@@ -70,7 +70,7 @@ This construction is called *completing the triangle*.
 
 <img src="./pics/completeTriangle.png" width="20%" align="center">
 
-Note: To find the arrow that is represented by the sum of three vectors $\vec u+\vec v+\vec w$, we form a chain of of the arrows (attach tail of $\vec v$ to head of $\vec u$, and tail of $\vec w$ to head of $\vec v$ and form the arrow from the tail of $\vec u$ to the head of  
+Note: To find the arrow that is represented by the sum of three vectors $\vec u+\vec v+\vec w$, we form a chain of the arrows (attach the tail of $\vec v$ to the head of $\vec u$, and the tail of $\vec w$ to the head of $\vec v$) and form the arrow from the tail of $\vec u$ to the head of  
 <img src="./pics/addThreeVec.png" width="30%" align="center">
 
 
@@ -171,7 +171,7 @@ $\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right
 	
    6. $4 \vec{a} - 6   \vec{a}  =\left(\begin{array}{r} 4a_x-6a_x\\\ 4a_y-6a_y\\\ 4a_z-6a_z \end{array}\right)  =-2  \vec{a}$
 	
-   7. $3  (\vec{a} +\vec{b}) = 3\left(\begin{array}{r} a_x+b_x\\\  a_y+b_y\\\  a_z+b_z \end{array}\right)= \left(\begin{array}{r} 3(a_x+b_x)\\\  3(a_y+b_y)\\\  3(a_z+b_z) \end{array}\right) = \left(\begin{array}{r} 3a_x+3b_x\\\  3a_y+3b_y\\\  3a_z+3b_z \end{array}\right) =3\vec{a}+3  \vec{b}$
+   7. $3  (\vec{a} +\vec{b}) = 3\left(\begin{array}{r} a_x+b_x\\\  a_y+b_y\\\  a_z+b_z \end{array}\right) = \left(\begin{array}{r} 3(a_x+b_x)\\\  3(a_y+b_y)\\\  3(a_z+b_z) \end{array}\right) = \left(\begin{array}{r} 3a_x+3b_x\\\  3a_y+3b_y\\\  3a_z+3b_z \end{array}\right) =3\vec{a}+3  \vec{b}$
 
 5. <img src="./pics/sol_lincomb1.png" width="90%" align="center">
 
