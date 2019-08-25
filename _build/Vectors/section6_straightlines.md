@@ -20,7 +20,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 Consider a straight line $g$ that passes through some point $A$ and with direction $\vec v$. The vector $\vec v$ is called the __direction vector__ of $g$. Now, take another point $B$ in the 3d-space. How can we check if $B$ is on line $g$? 
 
-<img src="./pics/pointOnLine.png" width="80%" align="center">
+<img src="./pics/pointOnLine.png" width="90%" align="center">
 
 As the figure above suggests, we have to check is if the vector from $A$ to $B$ is collinear to the direction vector $\vec v$:
 
@@ -79,7 +79,7 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
    2. We have to check if the origin $O$ is in $g$, that is, if $\vec{m} \parallel \overrightarrow{QO}$. This is not the case, so the line passes not through the origin. 
    
 4. Denote the intersection point by $S$.
-   <img src="./pics/sol_intersectionWithXY.png" width="50%" align="center">
+   <img src="./pics/sol_intersectionWithXY.png" width="70%" align="center">
    
    We do not know the coordinates $S_x$ and $S_y$, but because $S$ is on xy-plane, we know that $S_z=0$, so we have $S(S_x\vert S_y\vert 0)$. We also know that $S$ is on line $g$, therefore $\vec{v} \parallel \overrightarrow{AS}$, and thus there is a stretching factor $c$ with $\overrightarrow{AS}=c\cdot \vec{v}$. With 
    
