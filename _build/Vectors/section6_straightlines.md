@@ -75,6 +75,19 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
       $\overrightarrow{QU}=\left(\begin{array}{r} 9-1\\ -4-2\\ 11-(-1) \end{array}\right) = \left(\begin{array}{r} 8\\ -6\\ 12 \end{array}\right) = 4\vec{m}$, so collinear. $U$ in on the line!
       
    2. We have to check if the origin $O$ is in $g$, that is, if $\vec{m} \parallel \overrightarrow{QO}$. This is not the case, so the line passes not through the origin. 
+   
+4. Denote the intersection point by $S$.
+   <img src="./pics/sol_intersectionWithXY.png" width="50%" align="center">
+   
+   We do not know the coordinates $S_x$ and $S_y$, but because $S$ is on xy-plane, we know that $S_z=0$, so we have $S(S_x\vert S_y\vert 0)$. We also know that $S$ is on line $g$, therefore $\vec{v} \parallel \overrightarrow{AS}$, and thus there is a stretching factor $c$ with $\overrightarrow{AS}=c\cdot \vec{v}$. With 
+   
+   $$\nonumber\overrightarrow{AS}=\left(\begin{array}{r} S_x+2\\ S_y-3\\ 0-4 \end{array}\right)$$ 
+   
+   it follows that there is a $c$ with 
+   
+   $$\nonumber\left(\begin{array}{r} S_x+2\\ S_y-3\\ 0-4 \end{array}\right) = \left(\begin{array}{r} 2c\\ c\\ -2c \end{array}\right) \begin{array}{l} \rightarrow S_x=2c-2 \\  \rightarrow S_y=c+3 \\ \rightarrow -4=-2c\end{array}$$ and therefore $c=2$ (e.g. check out the third row). Thus, it is $S_x=2\cdot 2-2=2$, and $S_y=2+3=5$. The intersection point is $S(2\vert 5\vert 0)$.
+   
+   
 
 
 
