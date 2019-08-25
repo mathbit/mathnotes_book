@@ -67,7 +67,7 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
     2. $\vec v = \left(\begin{array}{r} 0\\\ 0\\\ 1 \end{array}\right)$
     3. $\vec v = \left(\begin{array}{r} 0\\\ 1\\\ 0 \end{array}\right)$
 
-3. 
+3. So ... 
    1. Find out if $\vec{m} \parallel \overrightarrow{QU}$, that is, if there is a $c$ with $\overrightarrow{QU}=c\cdot \vec{m}$
    
       <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
