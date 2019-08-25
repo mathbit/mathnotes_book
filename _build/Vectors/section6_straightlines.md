@@ -63,17 +63,19 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
 1. $\vec v = \overrightarrow{UB} = \left(\begin{array}{r} 4\\ 0\\ 11 \end{array}\right)$ 
 
 2.  
-   1. $\vec v = \left(\begin{array}{r} 1\\ 0\\ 0 \end{array}\right)$
-   2. $\vec v = \left(\begin{array}{r} 0\\ 0\\ 1 \end{array}\right)$
-   3. $\vec v = \left(\begin{array}{r} 0\\ 1\\ 0 \end{array}\right)$
+    1. $\vec v = \left(\begin{array}{r} 1\\ 0\\ 0 \end{array}\right)$
+    2. $\vec v = \left(\begin{array}{r} 0\\ 0\\ 1 \end{array}\right)$
+    3. $\vec v = \left(\begin{array}{r} 0\\ 1\\ 0 \end{array}\right)$
    
 3. 
    1. Find out if $\vec{m} \parallel \overrightarrow{QU}$, that is, if there is a $c$ with $\overrightarrow{QU}=c\cdot \vec{m}$
-
-      <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
-
-      $\overrightarrow{QU}=\left(\begin{array}{r} 9-1\\ -4-2\\ 11-(-1) \end{array}\right) = \left(\begin{array}{r} 8\\ -6\\ 12 \end{array}\right) = 4\vec{m}$, so collinear. $U$ in on the line!
-      
+   
+       <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
+   
+       $$\nonumber\overrightarrow{QU}=\left(\begin{array}{r} 9-1\\\ -4-2\\\ 11-(-1) \end{array}\right) = \left(\begin{array}{r} 8\\\ -6\\\ 12 \end{array}\right) = 4\vec{m}$$
+   
+       so collinear. Thus, $U$ is on the line!
+   
    2. We have to check if the origin $O$ is in $g$, that is, if $\vec{m} \parallel \overrightarrow{QO}$. This is not the case, so the line passes not through the origin. 
    
 4. Denote the intersection point by $S$.
