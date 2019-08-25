@@ -39,4 +39,10 @@
   - title: Basic vector operations
     url: /Vectors/section4_basic_operations
     not_numbered: false
+  - title: Basic vector operations
+    url: /Vectors/section5_collinear_vectors
+    not_numbered: false
+  - title: Basic vector operations
+    url: /Vectors/section6_straightlines
+    not_numbered: false
 

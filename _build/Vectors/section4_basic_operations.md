@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section3_special_vectors.html
   title: 'Some special vectors'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section5_collinear_vectors.html
+  title: 'Basic vector operations'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -181,7 +181,7 @@ $\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right
 
 8. 1. $\vec a + \vec b = \left(\begin{array}{r} 3\\\ 1\\\ 0 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{3²+1²+0²}=\sqrt{10}$. But $\vert \vec a \vert + \vert \vec b \vert = \sqrt{6} +\sqrt{14} \neq \sqrt{10}$.
 
-   2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel.
+   2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel and pointing in the same direction.
  
    3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
  
