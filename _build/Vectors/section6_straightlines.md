@@ -4,10 +4,10 @@ redirect_from:
 interact_link: content/Vectors/section6_straightlines.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Basic vector operations'
+title: 'Straight lines'
 prev_page:
   url: /Vectors/section5_collinear_vectors.html
-  title: 'Basic vector operations'
+  title: 'Collinear vectors'
 next_page:
   url: 
   title: ''
@@ -35,11 +35,25 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
 ## Exercise
 ---
 
-1. Consider the straight line $h$ that passes through the point $Q(1|2|-1)$ and has direction 
+1. A straight line $g$ passes through the points $U(1\vert 2\vert -1)$ and $V(5\vert 2\vert 10)$. Find a direction vector of $g$. How many direction vectors are there? Characterise them.
+
+2. A line $h$ passes through the point $Q(1\vert 3\vert 2.2)$. Find its direction vector if $g$ is
+   1. parallel to the $x$-axis.
+   2. parallel to the $z$-axis.
+   3. forms a right angle with the $xy$-plane.
+   
+4. Consider the straight line $h$ that passes through the point $Q(1\vert 2\vert -1)$ and has direction 
 
    $$\nonumber\vec{m}=\left(\begin{array}{r} 2\\ -1.5\\ 3 \end{array}\right)$$ 
 
-   Is the point $U(9\vert -4\vert 11)$ on the line? And does the line pass through the origin?
+   1. Is the point $U(9\vert -4\vert 11)$ on the line? 
+   2. Does the line pass through the origin?
+   
+5. Consider the straight line $g$ that passes through the point $A(-2\vert 3\vert 4)$ and has direction 
+
+   $$\vec{v}=\left(\begin{array}{r} 2\\ 1\\ -2 \end{array}\right)$$ 
+   
+   Where does $g$ intersect with the xy-plane? 
 
 
 
