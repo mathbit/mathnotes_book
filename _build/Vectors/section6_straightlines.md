@@ -60,12 +60,12 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
 ## Solutions
 ---
 
-1. $\vec v = \overrightarrow{UB} = \left(\begin{array}{r} 4\\ 0\\ 11 \end{array}\right)$ 
+1. $\vec v = \overrightarrow{UB} = \left(\begin{array}{r} 4\\\ 0\\\ 11 \end{array}\right)$ 
 
 2.  
-    1. $\vec v = \left(\begin{array}{r} 1\\ 0\\ 0 \end{array}\right)$
-    2. $\vec v = \left(\begin{array}{r} 0\\ 0\\ 1 \end{array}\right)$
-    3. $\vec v = \left(\begin{array}{r} 0\\ 1\\ 0 \end{array}\right)$
+    1. $\vec v = \left(\begin{array}{r} 1\\\ 0\\\ 0 \end{array}\right)$
+    2. $\vec v = \left(\begin{array}{r} 0\\\ 0\\\ 1 \end{array}\right)$
+    3. $\vec v = \left(\begin{array}{r} 0\\\ 1\\\ 0 \end{array}\right)$
    
 3. 
    1. Find out if $\vec{m} \parallel \overrightarrow{QU}$, that is, if there is a $c$ with $\overrightarrow{QU}=c\cdot \vec{m}$
