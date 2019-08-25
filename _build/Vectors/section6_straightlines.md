@@ -66,11 +66,11 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
     1. $\vec v = \left(\begin{array}{r} 1\\\ 0\\\ 0 \end{array}\right)$
     2. $\vec v = \left(\begin{array}{r} 0\\\ 0\\\ 1 \end{array}\right)$
     3. $\vec v = \left(\begin{array}{r} 0\\\ 1\\\ 0 \end{array}\right)$
-   
+
 3. 
    1. Find out if $\vec{m} \parallel \overrightarrow{QU}$, that is, if there is a $c$ with $\overrightarrow{QU}=c\cdot \vec{m}$
    
-       <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
+      <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
    
        $$\nonumber\overrightarrow{QU}=\left(\begin{array}{r} 9-1\\\ -4-2\\\ 11-(-1) \end{array}\right) = \left(\begin{array}{r} 8\\\ -6\\\ 12 \end{array}\right) = 4\vec{m}$$
    
