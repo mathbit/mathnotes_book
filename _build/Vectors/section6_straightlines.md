@@ -40,7 +40,7 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
 2. A line $h$ passes through the point $Q(1\vert 3\vert 2.2)$. Find its direction vector if $g$ is
    1. parallel to the $x$-axis.
    2. parallel to the $z$-axis.
-   3. forms a right angle with the $xy$-plane.
+   3. forms a right angle with the $xz$-plane.
    
 4. Consider the straight line $h$ that passes through the point $Q(1\vert 2\vert -1)$ and has direction 
 
@@ -54,6 +54,27 @@ $$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$
    $$\vec{v}=\left(\begin{array}{r} 2\\ 1\\ -2 \end{array}\right)$$ 
    
    Where does $g$ intersect with the xy-plane? 
+
+
+
+## Solutions
+---
+
+1. $\vec v = \overrightarrow{UB} = \left(\begin{array}{r} 4\\ 0\\ 11 \end{array}\right)$ 
+
+2.  
+   1. $\vec v = \left(\begin{array}{r} 1\\ 0\\ 0 \end{array}\right)$
+   2. $\vec v = \left(\begin{array}{r} 0\\ 0\\ 1 \end{array}\right)$
+   3. $\vec v = \left(\begin{array}{r} 0\\ 1\\ 0 \end{array}\right)$
+   
+3. 
+   1. Find out if $\vec{m} \parallel \overrightarrow{QU}$, that is, if there is a $c$ with $\overrightarrow{QU}=c\cdot \vec{m}$
+
+      <img src="./pics/sol_pointOnLine.png" width="50%" align="center">
+
+      $\overrightarrow{QU}=\left(\begin{array}{r} 9-1\\ -4-2\\ 11-(-1) \end{array}\right) = \left(\begin{array}{r} 8\\ -6\\ 12 \end{array}\right) = 4\vec{m}$, so collinear. $U$ in on the line!
+      
+   2. We have to check if the origin $O$ is in $g$, that is, if $\vec{m} \parallel \overrightarrow{QO}$. This is not the case, so the line passes not through the origin. 
 
 
 
