@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section5_collinear_vectors.html
   title: 'Collinear vectors'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section7_furtherproblems.html
+  title: 'Further problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

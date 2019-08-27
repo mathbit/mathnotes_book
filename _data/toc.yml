@@ -45,4 +45,6 @@
   - title: Straight lines
     url: /Vectors/section6_straightlines
     not_numbered: false
-
+  - title: Further problems
+    url: /Vectors/section7_furtherproblems
+    not_numbered: false

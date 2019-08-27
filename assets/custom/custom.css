@@ -96,6 +96,8 @@
        margin: 10px 0;
     }
 
+    ol ol { list-style-type: lower-alpha; important! }
+
 </style>
 <script>
     MathJax.Hub.Config({
