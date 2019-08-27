@@ -26,6 +26,7 @@
   url: /index
   external: false
   not_numbered: true
+  expand_sections: false
   sections:
   - title: Points and vectors
     url: /Vectors/section1_points_and_vectors

@@ -96,7 +96,8 @@
        margin: 10px 0;
     }
 
-    ol ol { list-style-type: lower-alpha; important! }
+    ol ol { list-style-type: upper-alpha; important! }
+    ol ol ol { list-style-type: lower-alpha; important! }
 
 </style>
 <script>
