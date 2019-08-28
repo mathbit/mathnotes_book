@@ -9,7 +9,7 @@ prev_page:
   url: /Vectors/section5_collinear_vectors.html
   title: 'Collinear vectors'
 next_page:
-  url: /Vectors/section7_furtherproblems.html
+  url: /Vectors/section7_furtherProblems.html
   title: 'Further problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
@@ -28,7 +28,7 @@ $$\nonumber\boxed{B\in g\,\, \mbox{ if }\,\, \overrightarrow{AB} \parallel \vec 
 
 Note that we regard a straight line as a set of infinitely many points, so the symbol $B\in g$ makes sense. Also, we can characterise the $g$ as
 
-$$\nonumber g = \{ \mbox{all points $B$ in space with $AB \parallel \vec v$} \}$$
+$$\nonumber g = \{ \mbox{all points $B$ in space with $\overrightarrow{AB} \parallel \vec v$} \}$$
 
 
 
