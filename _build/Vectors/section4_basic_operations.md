@@ -10,7 +10,7 @@ prev_page:
   title: 'Some special vectors'
 next_page:
   url: /Vectors/section5_collinear_vectors.html
-  title: 'Basic vector operations'
+  title: 'Collinear vectors'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -78,15 +78,15 @@ Note: To find the arrow that is represented by the sum of three vectors $\vec u+
 ## Subtracting two vectors
 ---
 
-The __subtraction__ of $\vec w$ from $\vec v$ is defined as adding to $\vec v$ the opposite vector of $\vec w$: 
+The __subtraction__ of $\vec v$ from $\vec u$ is defined as adding to $\vec u$ the opposite vector of $\vec v$: 
 
-$$\nonumber \boxed{\vec v-\vec w = \vec v+ (-\vec w)}$$
+$$\nonumber \boxed{\vec u-\vec v = \vec u+ (-\vec v)}$$
 
 The components are therefore 
 
-$$\nonumber \vec v  - \vec w = \left(\begin{array}{r} v_x-w_x\\\ v_y-w_y\\\ v_z-w_z \end{array}\right)$$
+$$\nonumber \vec u  - \vec v = \left(\begin{array}{r} u_x-v_x\\\ u_y-v_y\\\ u_z-v_z \end{array}\right)$$
 
-It also follows that we can construct the arrow representing the vector $\vec v-\vec w$ by simply completing the triangle of the vector $\vec v$ and $-\vec w$. Recall that the arrow of $-\vec w$  is obtained by reflected the arrow of $\vec w$ about its tail.
+It also follows that we can construct the arrow representing the vector $\vec u-\vec v$ by simply completing the triangle of the vector $\vec u$ and $-\vec v$. Recall that the arrow of $-\vec v$  is obtained by reflected the arrow of $\vec v$ about its tail.
 
 <img src="./pics/subtractVectors.png" width="25%" align="center">
 
@@ -183,7 +183,7 @@ $\vec v = 3\cdot \vec u = \left(\begin{array}{r} -6\\\ 6\\\ -3 \end{array}\right
 
    2. Follows immediately from the completion of the triangle figure. The equation holds if the two vectors are parallel and pointing in the same direction.
  
-   3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a + \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
+   3. $\vec a - \vec b = \left(\begin{array}{r} -1\\\ -5\\\ 2 \end{array}\right) \rightarrow  \vert \vec a - \vec b \vert = \sqrt{(-1)²+(-5)²+2²}=\sqrt{30}$. But $\vert \vec a \vert - \vert \vec b \vert = \sqrt{6} -\sqrt{14} \neq \sqrt{30}$
  
    4. As $\vert \vec a \vert =\sqrt{6}$, the length of arrow $\vec a$ is $\sqrt{6}$. As multiplying $\vec a$ the scalar $c=\frac{1}{\sqrt{6}}$ makes the arrow $c$ times "longer", the resulting length will be $1$. Thus, the unit vector is $\frac{1}{\sqrt{6}}\cdot \vec a = \left(\begin{array}{r} 1/\sqrt{6}\\\ -2/\sqrt{6}\\\ 1/\sqrt{6} \end{array}\right)$
 

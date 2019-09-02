@@ -15,7 +15,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
-## 3d-Coordinate systems x
+## 3d-Coordinate systems
 ---
 
 To describe geometrical objects in space with the help of coordinates, we need a *three dimensional* coordinate system for reference. We use the convention that:
