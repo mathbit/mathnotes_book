@@ -190,10 +190,11 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 
 8. $C(1 \vert 2 \vert 1)$
 
-9. $\vec a =\left(\begin{array}{r} 1\\\ 8\\\ -2 \end{array}\right)$,
-   $\vec b =\left(\begin{array}{r} 3\\\ 1\\\ 10 \end{array}\right)$,
-   $\vec c =\left(\begin{array}{r} 3.2\\\ 5.1\\\ -4 \end{array}\right)$,
-   $\vec d =\left(\begin{array}{r} 3.2\\\ 5.1\\\ -4 \end{array}\right)$
+9. $\vec a =\left(\begin{array}{r} 1\\\ 0\\\ 0 \end{array}\right)$,
+   $\vec b =\left(\begin{array}{r} 0\\\ 2\\\ 0 \end{array}\right)$,
+   $\vec c =\left(\begin{array}{r} 0\\\ 0\\\ 2 \end{array}\right)$,
+   $\vec d =\left(\begin{array}{r} 0\\\ 4\\\ -3 \end{array}\right)$,
+   $\vec e =\left(\begin{array}{r} 0\\\ 3\\\ 5 \end{array}\right)$
 
 10. Length of $\vec a$ is (Pythagoras) $\sqrt{3²+4²}=5$, length of $\vec b$ is (applying Pythagoras twice) $\sqrt{1²+4²+6²}=\sqrt{53}$, and the length of vector $\vec c$ is $\sqrt{x²+y²+z²}$  
 
