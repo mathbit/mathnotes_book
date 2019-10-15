@@ -42,7 +42,8 @@ $$ S\in g \rightarrow \overrightarrow{AS} \parallel \vec v \rightarrow \left(\be
 $$ S\in h \rightarrow \overrightarrow{BS} \parallel \vec w \rightarrow \left(\begin{array}{r} x-13\\ y+5\\ z+5 \end{array}\right) = d\cdot \left(\begin{array}{r} -3\\ 1\\ 4 \end{array}\right) \rightarrow \begin{array}{l} x=-3d+13\\ y=d-5\\ z=4d-5 \end{array}$$ 
 
 Thus we have a system of three equations with 2 unknowns:
-$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+13\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ Solving it, we get $c=3$ and $d=2$. Using (1), we get $S(7\vert -3 \vert 3)$, using (2) we also get $S(7\vert -3 \vert 3)$.
+$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+13\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ 
+Solving it, we get $c=3$ and $d=2$. Using (1), we get $S(7\vert -3 \vert 3)$, using (2) we also get $S(7\vert -3 \vert 3)$.
 
 ---
 
@@ -95,7 +96,8 @@ Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction 
   $$ S\in h \rightarrow \overrightarrow{BS} \parallel \vec w \rightarrow \left(\begin{array}{r} x-3\\ y+5\\ z+5 \end{array}\right) = d\cdot \left(\begin{array}{r} -3\\ 1\\ 4 \end{array}\right) \rightarrow \begin{array}{l} x=-3d+3\\ y=d-5\\ z=4d-5 \end{array}$$ 
 
   Thus we have a system of three equations with 2 unknowns:
-$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+3\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ Solving it, we get $c=3$ and $d=2$. Using (3), we get $S(7\vert -3 \vert 3)$, using (4) we get $S(-3\vert -3 \vert 3)$. So different points, so no intersection point exists. The lines are skew!
+$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+3\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ 
+Solving it, we get $c=3$ and $d=2$. Using (3), we get $S(7\vert -3 \vert 3)$, using (4) we get $S(-3\vert -3 \vert 3)$. So different points, so no intersection point exists. The lines are skew!
 
 
 
