@@ -130,7 +130,7 @@ The straight line $g$ passes through $A$ and has direction $\vec{v}$, the straig
 3. skew
 4. intersecting with $S(6\vert 4\vert 7)$
 5. the intersection point is $S(2\vert 1 \vert 3)$
-6. The collision point is at $S(-400km\vert 200km\vert 8km)$. For a collision to happen, aircraft 1 needs to travel at speed of $223.6km/h$, for aircraft 2 the speed is $304.1km/h$. 
+6. The collision point is at $S(-400km\vert 200km\vert 8km)$. For a collision to happen, aircraft 1 needs to travel at speed of $223.6km/h$, aircraft 2 at a speed of $304.1km/h$. 
 
 
 
