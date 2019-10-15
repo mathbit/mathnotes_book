@@ -49,6 +49,6 @@
   - title: Further problems
     url: /Vectors/section7_furtherProblems
     not_numbered: false
-  - title: Further problems
-    url: /Vectors/section7_furtherProblems
+  - title: The intersection of straight lines
+    url: /Vectors/section8_intersectionStraightLines.ipynb
     not_numbered: false
