@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section6_straightlines.html
   title: 'Straight lines'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section7_furtherProblems.html
+  title: 'Further problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -24,7 +24,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
    Determine graphically the vectors $-\vec{a}$, $\vec{a}+\vec{b}$, $\vec{a}-2\vec{b}$, and $-0.5 \vec{a}-\vec{b}$
    
-2. Consider the two vectors $\left(\begin{array}{r} 0\\\ 1\\\ 3 \end{array}\right)$ and $\left(\begin{array}{r} -1\\\ 2\\\ 1 \end{array}\right)$ 
+2. Consider the two vectors $\vec a= \left(\begin{array}{r} 0\\\ 1\\\ 3 \end{array}\right)$ and $\vec b = \left(\begin{array}{r} -1\\\ 2\\\ 1 \end{array}\right)$ 
 
    1. Draw the arrow described by these vectors. Assume they start at the origin.
    

@@ -26,6 +26,12 @@ As the figure above suggests, we have to check is if the vector from $A$ to $B$ 
 
 $$\nonumber\boxed{B\in g\,\, \mbox{ if }\,\, \overrightarrow{AB} \parallel \vec v}$$
 
+We can also rephrase this as follows: 
+
+$$\nonumber\boxed{B\in g\,\, \mbox{ if there is a $c$ with}\,\, A+c\cdot \vec v = B}$$ 
+
+that is, if we start at $A$ and walk along $c$ steps along the direction $\vec v$, we eventually have to arrive at $B$ if $B$ is on the line. 
+
 Note that we regard a straight line as a set of infinitely many points, so the symbol $B\in g$ makes sense. Also, we can characterise the $g$ as
 
 $$\nonumber g = \{ \mbox{all points $B$ in space with $\overrightarrow{AB} \parallel \vec v$} \}$$

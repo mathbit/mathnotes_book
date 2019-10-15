@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Vectors/section5_collinear_vectors.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Basic vector operations'
+title: 'Collinear vectors'
 prev_page:
   url: /Vectors/section4_basic_operations.html
   title: 'Basic vector operations'
 next_page:
   url: /Vectors/section6_straightlines.html
-  title: 'Basic vector operations'
+  title: 'Straight lines'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
