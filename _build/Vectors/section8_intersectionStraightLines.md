@@ -111,11 +111,11 @@ The straight line $g$ passes through $A$ and has direction $\vec{v}$, the straig
 
 1. $A(-2\vert 1 \vert 3)$, $B(1\vert 6\vert 2)$, $\vec{v}=\left(\begin{array}{r} -0.6\\\ -1\\\ 0.2 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\\ 5\\\ -1 \end{array}\right)$
 
-2. $A(3\vert 2\vert -1)$, $B(2\vert 6\vert 1)$, $\vec{v}=\left(\begin{array}{r} 0.8\\\ 0.2\\\ -1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} -4\\\ -1\\ 5 \end{array}\right)$
+2. $A(3\vert 2\vert -1)$, $B(2\vert 6\vert 1)$, $\vec{v}=\left(\begin{array}{r} 0.8\\\ 0.2\\\ -1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} -4\\\ -1\\\ 5 \end{array}\right)$
 
-3. $A(2\vert -1\vert 1)$, $B(-3\vert 5\vert 4)$, $\vec{v}=\left(\begin{array}{r} -1\\ 2\\ 1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\ -2\\ 1 \end{array}\right)$
+3. $A(2\vert -1\vert 1)$, $B(-3\vert 5\vert 4)$, $\vec{v}=\left(\begin{array}{r} -1\\\ 2\\\ 1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\\ -2\\\ 1 \end{array}\right)$
 
-4. $A(0\vert 0\vert 1)$, $B(-2\vert -2\vert 5)$, $\vec{v}=\left(\begin{array}{r} 3\\ 2\\ 3 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 4\\ 3\\ 1 \end{array}\right)$
+4. $A(0\vert 0\vert 1)$, $B(-2\vert -2\vert 5)$, $\vec{v}=\left(\begin{array}{r} 3\\\ 2\\\ 3 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 4\\\ 3\\\ 1 \end{array}\right)$
 
 
 
