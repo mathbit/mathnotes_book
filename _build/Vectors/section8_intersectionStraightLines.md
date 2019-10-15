@@ -35,7 +35,7 @@ $$\nonumber\boxed{\mbox{there is a scalar $c$ with } S=A+c\cdot \vec v \mbox{ an
 
 ### Example
 ---
-Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(13 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\ 1\\ 4 \end{array}\right)$. They intersect at point $S(x\vert y\vert z)$. Let us find its coordinates:
+Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\\ -1\\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(13 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\\ 1\\\ 4 \end{array}\right)$. They intersect at point $S(x\vert y\vert z)$. Let us find its coordinates:
 
 $$\nonumber S\in g \rightarrow \overrightarrow{AS} \parallel \vec v \rightarrow \left(\begin{array}{r} x-1\\ y\\ z \end{array}\right) = c\cdot \left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right) \rightarrow \begin{array}{l} x=2c+1\\ y=-c\\ z=c \end{array}$$ 
 
@@ -87,7 +87,7 @@ To find out if the two lines are skew or do intersect, first verify that they ar
 
 ### Example
 ---
-Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(3 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\ 1\\ 4 \end{array}\right)$. Are they skew? 
+Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\\ -1\\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(3 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\\ 1\\\ 4 \end{array}\right)$. Are they skew? 
 
 - They are not parallel and not identical, because $\vec v \not \parallel \vec w$, so they might be skew.
 
@@ -109,9 +109,9 @@ Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction 
 ---
 The straight line $g$ passes through $A$ and has direction $\vec{v}$, the straight line $h$ passes though the point $B$ and has direction $\vec{w}$. Determine the relative position of $g$ and $h$ (parallel, identical, skew, intersecting). If they intersect, determine the coordinates of the intersection point $S$.
 
-1. $A(-2\vert 1 \vert 3)$, $B(1\vert 6\vert 2)$, $\vec{v}=\left(\begin{array}{r} -0.6\\ -1\\ 0.2 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\ 5\\ -1 \end{array}\right)$
+1. $A(-2\vert 1 \vert 3)$, $B(1\vert 6\vert 2)$, $\vec{v}=\left(\begin{array}{r} -0.6\\\ -1\\\ 0.2 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\\ 5\\\ -1 \end{array}\right)$
 
-2. $A(3\vert 2\vert -1)$, $B(2\vert 6\vert 1)$, $\vec{v}=\left(\begin{array}{r} 0.8\\ 0.2\\ -1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} -4\\ -1\\ 5 \end{array}\right)$
+2. $A(3\vert 2\vert -1)$, $B(2\vert 6\vert 1)$, $\vec{v}=\left(\begin{array}{r} 0.8\\\ 0.2\\\ -1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} -4\\\ -1\\ 5 \end{array}\right)$
 
 3. $A(2\vert -1\vert 1)$, $B(-3\vert 5\vert 4)$, $\vec{v}=\left(\begin{array}{r} -1\\ 2\\ 1 \end{array}\right)$, $\vec{w}=\left(\begin{array}{r} 3\\ -2\\ 1 \end{array}\right)$
 
