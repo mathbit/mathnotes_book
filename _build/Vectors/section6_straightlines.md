@@ -28,7 +28,7 @@ $$\nonumber\boxed{B\in g\,\, \mbox{ if }\,\, \overrightarrow{AB} \parallel \vec 
 
 We can also rephrase this as follows: 
 
-$$\nonumber\boxed{B\in g\,\, \mbox{ if there is a $c$ with}\,\, A+c\cdot \vec v = B}$$ 
+$$\nonumber\boxed{B\in g\,\, \mbox{ if there is a scalar $c$ with}\,\, A+c\cdot \vec v = B}$$ 
 
 that is, if we start at $A$ and walk along $c$ steps along the direction $\vec v$, we eventually have to arrive at $B$ if $B$ is on the line. 
 

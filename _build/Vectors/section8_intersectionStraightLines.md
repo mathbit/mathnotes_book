@@ -23,14 +23,33 @@ Consider two straight lines $g$ and $h$ in a three dimensional space. Assume tha
 
 <img src="./pics/line2.png" width="50%" align="center">
 
-From all the points in the 3-d space, the following is only true for the intersection point $S$:
+Often we want to find the coordinates of $S$. To do so, note that we can characterise $S$ as this point in space which is on $g$ as well as on $h$. For no other point in the 3d-space is this true. Using vector language, this condition translates to the following two conditions for point $S$:
     
 $$\nonumber\boxed{\overrightarrow{AS} \parallel \vec v \mbox{ and } \overrightarrow{BS} \parallel \vec w}$$ 
     
-Again, we can also rephrase this as follows (compare with the previous section):
+These two conditions hide a system of three equations from which the coordinates for $S$ can be found (see example below). Note that the two conditions above can also be rephrased as
     
-$$\nonumber\boxed{\mbox{there is a $c$ with } S=A+c\cdot \vec v \mbox{ and a $d$ with } S=B+d\cdot \vec w}$$
+$$\nonumber\boxed{\mbox{there is a scalar $c$ with } S=A+c\cdot \vec v \mbox{ and a scalar $d$ with } S=B+d\cdot \vec w}$$
 
+
+
+### Example
+---
+Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(13 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\ 1\\ 4 \end{array}\right)$. They intersect at point $S(x\vert y\vert z)$. Let us find its coordinates:
+
+$$ S\in g \rightarrow \overrightarrow{AS} \parallel \vec v \rightarrow \left(\begin{array}{r} x-1\\ y\\ z \end{array}\right) = c\cdot \left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right) \rightarrow \begin{array}{l} x=2c+1\\ y=-c\\ z=c \end{array}$$ 
+
+$$ S\in h \rightarrow \overrightarrow{BS} \parallel \vec w \rightarrow \left(\begin{array}{r} x-13\\ y+5\\ z+5 \end{array}\right) = d\cdot \left(\begin{array}{r} -3\\ 1\\ 4 \end{array}\right) \rightarrow \begin{array}{l} x=-3d+13\\ y=d-5\\ z=4d-5 \end{array}$$ 
+
+Thus we have a system of three equations with 2 unknowns:
+$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+13\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ Solving it, we get $c=3$ and $d=2$. Using (1), we get $S(7\vert -3 \vert 3)$, using (2) we also get $S(7\vert -3 \vert 3)$.
+
+---
+
+
+<div class="important">
+Note: Always calculate $S$ twice, once using the value for $c$ (1) and once using the value for $d$ (2). If there is an intersection point you will get twice the same coordinates for $S$. However, if the lines do not intersect, we could still make the same calculations above, but in this case the coordinates calculated using $c$ will differ from the coordinates calculated using $d$. This fact will be relevant for detecting skew lines (see below).
+</div>
 
 
 
@@ -57,163 +76,34 @@ $$\nonumber\boxed{\overrightarrow{AB} \parallel \vec v \mbox{ or } \overrightarr
 ##  The straight lines are  *skew*
 ---
 
-Two straight lines are said to be __skew__, if they neither intersect nor are they parallel. Obviousely this is not possible in a 2d-space, we need the third dimension for this.
+Two straight lines are said to be __skew__, if they neither intersect nor are they parallel. Obviously, skew lines are not possible in a 2d-space.
 
 <img src="./pics/line3.png" width="70%" align="center">
 
-To find out if the two lines are skew or do intersect, we first make verify that they are not parallel. Then we simply try to find the point of intersection. If there is one, we know they intersect. If there is no such point  
+To find out if the two lines are skew or do intersect, first verify that they are not parallel. Then assume the lines intersect and calculate the point of intersection twice, using equations (1) and (2) above. If we get to different points $S$m we know that there is now intersection point, and the lines have to be skew.
 
+### Example
+---
+Straight line $g$ passes through point $A(1 \vert 0 \vert 0)$ and has direction $\vec v=\left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right)$, straight line $h$ passes through point $B(3 \vert -5 \vert -5)$ and has direction $\vec w =\left(\begin{array}{r} -3 \\ 1\\ 4 \end{array}\right)$. Are they skew? 
 
+- They are not parallel and not identical, because $\vec v \not \parallel \vec w$, so they might be skew.
 
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area" markdown="1">
-```python
-#needs to be in the last cell for css styling
-from IPython.core.display import HTML
-def css_styling():
-    styles = open("../assets/custom/custom.css", "r").read()
-    return HTML(styles)
-css_styling()
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-
-<div markdown="0" class="output output_html">
-<style>
-    @font-face {
-        font-family: "Computer Modern";
-        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunss.otf');
-    }
-    @font-face {
-        font-family: "Computer Modern";
-        font-weight: bold;
-        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsx.otf');
-    }
-    @font-face {
-        font-family: "Computer Modern";
-        font-style: oblique;
-        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunsi.otf');
-    }
-    @font-face {
-        font-family: "Computer Modern";
-        font-weight: bold;
-        font-style: oblique;
-        src: url('http://9dbb143991406a7c655e-aa5fcb0a5a4ec34cff238a2d56ca4144.r56.cf5.rackcdn.com/cmunso.otf');
-    }
-    div.cell{
-        width:800px;
-        margin-left:16% !important;
-        margin-right:auto;
-    }
-    h1 {
-        font-family: Helvetica, serif;
-    }
-    h2 {
-        font-family: Helvetica, sans-serif;
-	color: blue
-    }
-    h3 {
-        
-	color: gray
-    }
-    h4{
-        margin-top:12px;
-        margin-bottom: 3px;
-       }
-    div.text_cell_render{
-        font-family: Computer Modern, serif;
-        line-height: 145%;
-        font-size: 130%;
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .CodeMirror{
-            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
-    }
-    .prompt{
-        display: None;
-    }
-    .text_cell_render h5 {
-        font-weight: 300;
-        font-size: 22pt;
-        color: #4057A1;
-        font-style: italic;
-        margin-bottom: .5em;
-        margin-top: 0.5em;
-        display: block;
-    }
-    
-    .warning{
-        color: rgb( 240, 20, 20 )
-        }
+- Is there an intersection point $S(x\vert y\vert z)$? Assume there is, and let us find its coordinates:
   
-    .MathJax {
-        font-size: 1em;
-    }
+  $$ S\in g \rightarrow \overrightarrow{AS} \parallel \vec v \rightarrow \left(\begin{array}{r} x-1\\ y\\ z \end{array}\right) = c\cdot \left(\begin{array}{r} 2\\ -1\\ 1 \end{array}\right) \rightarrow \begin{array}{l} x=2c+1\\ y=-c\\ z=c \end{array}$$ 
 
-    div.important {    
-       background-color: #fcf2f2;
-       border-color: #dFb5b4;
-       border-left: 5px solid #dfb5b4;
-       padding: 0.5em;
-    }
+  $$ S\in h \rightarrow \overrightarrow{BS} \parallel \vec w \rightarrow \left(\begin{array}{r} x-3\\ y+5\\ z+5 \end{array}\right) = d\cdot \left(\begin{array}{r} -3\\ 1\\ 4 \end{array}\right) \rightarrow \begin{array}{l} x=-3d+3\\ y=d-5\\ z=4d-5 \end{array}$$ 
 
-    div.exc {    
-       background-color: lightgray;
-       border-color: lightgray;
-       border-left: 5px solid gray;
-       padding: 0.5em;
-    }
-
-    div.sol {    
-       background-color: lightgray;
-       border-color: lightgray;
-       border-left: 5px solid gray;
-       padding: 0.5em;
-    }
-
-    li{
-       margin: 10px 0;
-    }
-
-    ol ol { list-style-type: upper-alpha; important! }
-    ol ol ol { list-style-type: lower-alpha; important! }
-
-</style>
-<script>
-    MathJax.Hub.Config({
-                TeX: {
-                        extensions: ["AMSmath.js"],
-			Macros: {
-      				RR: '{\\bf TOM}',                // a simple string replacement
-      				bold: ['\\boldsymbol{#1}',1]   // this macro has one parameter
-    			}
-                },
-		tex2jax: {
-            		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-                        displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
-            		processEscapes: true,
-            		processEnvironments: true
-        	},
-                "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 0}},
-                    availableFonts: ["TeX","STIX-Web","Neo-Euler"],
-                    preferredFont: "Neo-Euler",
-                },
-        });
-</script>
-
-</div>
+  Thus we have a system of three equations with 2 unknowns:
+$$\nonumber\begin{array}{rl} 2c+1 &=&-3d+3\\ -c&=&d-5\\ c&=&4d-5 \end{array}$$ Solving it, we get $c=3$ and $d=2$. Using (3), we get $S(7\vert -3 \vert 3)$, using (4) we get $S(-3\vert -3 \vert 3)$. So different points, so no intersection point exists. The lines are skew!
 
 
-</div>
-</div>
-</div>
+
+## Exercise
+---
+
+
+
+
+
 

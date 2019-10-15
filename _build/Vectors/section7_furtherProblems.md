@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section6_straightlines.html
   title: 'Straight lines'
 next_page:
-  url: /Vectors/section7_furtherProblems.html
-  title: 'Further problems'
+  url: /Vectors/section8_intersectionStraightLines.html
+  title: 'The intersection of straight lines'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -42,7 +42,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 	
 3. Determine the distance between the points $A(2\vert -4\vert 3)$ and $B(-1\vert 2\vert 1)$.
 
-4. item Consider the vector $\vec{u}=\left(\begin{array}{r} -1\\\ 1\\\ z \end{array}\right)$. Find all values $z$ such that $\vec{u}$ has magnitude $2$. 
+4. Consider the vector $\vec{u}=\left(\begin{array}{r} -1\\\ 1\\\ z \end{array}\right)$. Find all values $z$ such that $\vec{u}$ has magnitude $2$. 
 
 5. Consider the vector $\vec{u}=\left(\begin{array}{r} 0\\\ 5\\\ 3 \end{array}\right)$. Find another vector that is collinear to $\vec{v}$, and another one that is not.
 	
@@ -74,7 +74,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
     2. It intersects with the yz-plane at point $C$. Determine the coordinates of $C$. 
 	
-14. A straight line $g$ passes through the point $A(-2\vert 3\vert 4)$ and has direction $vec{v}=\left(\begin{array}{r} 1\\\ 2\\\ -2 \end{array}\right)$ Find all points $U$ that are on line $g$ and have distance $4$ from point $A$.
+14. A straight line $g$ passes through the point $A(-2\vert 3\vert 4)$ and has direction $\vec{v}=\left(\begin{array}{r} 1\\\ 2\\\ -2 \end{array}\right)$ Find all points $U$ that are on line $g$ and have distance $4$ from point $A$.
 	
 15. Consider the cube shown below. 
 
