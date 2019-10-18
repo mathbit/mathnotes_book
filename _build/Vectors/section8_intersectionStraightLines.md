@@ -10,7 +10,7 @@ prev_page:
   title: 'Further problems'
 next_page:
   url: /Vectors/section9_scalarproduct.html
-  title: 'The intersection of straight lines'
+  title: 'Scalar product'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -119,7 +119,7 @@ The straight line $g$ passes through $A$ and has direction $\vec{v}$, the straig
 
 5. Show that the three medians ("Seitenhalbierende") of the triangle with the vertices $A(0\vert 0\vert 0)$, $B(4\vert 0\vert 0)$, and $C(2\vert 3\vert 9)$ intersect at the same point $S$. Determine the coordinates of this point. This, by the way, is a general fact about triangles.
 
-6. Assume that the $xy$-plane represents the ground, and the $z$-axis is the height. Aircraft 1 starts at airport $A(0km \vert 0km \vert 0km)$, moving along the direction $\left(\begin{array}{r} -5km\\\ 2.5km\\\ 0.1km \end{array}\right)$. Aircraft 2 starts at airport $B(200km \vert 300km \vert 3km)$, moving along the direction $\left(\begin{array}{r} 1.2km\\\ -0.2km\\\ 0.01km \end{array}\right)$. Is it theoretically possible for the two planes to collide? If so, and given that they take off at the same time, at what speed would the planes have to travel for a collision to happen after exactly two hours?   
+6. Assume that the $xy$-plane represents the ground, and the $z$-axis is the height. Aircraft 1 starts at airport $A(0km \vert 0km \vert 0km)$, moving along the direction $\left(\begin{array}{r} -5km\\\ 2.5km\\\ 0.1km \end{array}\right)$. Aircraft 2 starts at airport $B(200km \vert 300km \vert 3km)$, moving along the direction $\left(\begin{array}{r} -1.2km\\\ -0.2km\\\ 0.01km \end{array}\right)$. Is it theoretically possible for the two planes to collide? If so, and given that they take off at the same time, at what speed would the planes have to travel for a collision to happen after exactly two hours?   
 
 
 
