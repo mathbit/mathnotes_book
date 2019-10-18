@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Vectors/section9_scalarproduct.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'The intersection of straight lines'
+title: 'Scalarproduct'
 prev_page:
   url: /Vectors/section8_intersectionStraightLines.html
   title: 'The intersection of straight lines'
 next_page:
   url: /Vectors/section10_angles.html
-  title: 'The intersection of straight lines'
+  title: 'Scalaproduct and angles'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -34,6 +34,7 @@ So we take two vectors (six numbers), and by forming the scalar product we obtai
 - $\left(\begin{array}{r} 3\\\ -4\\\ 1 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 5\\\ -3 \end{array}\right)=3\cdot 2 + (-4)\cdot 5 + 1\cdot (-3)=-17$
 
 - $\left(\begin{array}{r} 3\\\ -4\\\ 1 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 5\\\ 14 \end{array}\right)=3\cdot 2 + (-4)\cdot 5 + 1\cdot 14=0$
+
 ---
 
 Note that in the second example we have $\vec{a}\neq 0$ and $\vec{b}\neq 0$ but $\vec{a}\bullet \vec{b} =0$. This is a key difference to the normal product between two numbers. If we have two numbers $a\neq 0$ and $b\neq 0$ it always follows $a\cdot b\neq 0$. However, many other properties are similar, e.g.
@@ -55,7 +56,7 @@ Prove the properties 1-4-above.
 ## Solution
 ---
 
-1. $\vec{a}\bullet\vec{a} = a_x a_x+a_y a_y+a_z a_z =a_x^2+ a_y^2 +a_z^2= |\vec{a}|^2$
+1. $\vec{a}\bullet\vec{a} = a_x a_x+a_y a_y+a_z a_z =a_x^2+ a_y^2 +a_z^2= \vert\vec{a}\vert^2$
 2. $\vec{a}\bullet\vec{b} = a_x b_x+a_y b_y+a_z b_z = b_x a_x + b_y a_y+b_z a_z = \vec{b}\bullet\vec{a}$
 3. $(c \vec{a})\bullet \vec{b} =(c a_x)\cdot b_x+ (c a_y)\cdot  b_y+ (c a_z)\cdot b_z = c\cdot  (a_x b_x+ a_y b_y+ a_z b_z) = c\cdot (\vec{a}\bullet \vec{b})$
 
