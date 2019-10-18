@@ -52,3 +52,12 @@
   - title: The intersection of straight lines
     url: /Vectors/section8_intersectionStraightLines
     not_numbered: false
+  - title: The intersection of straight lines
+    url: /Vectors/section9_scalarproduct
+    not_numbered: false
+  - title: The intersection of straight lines
+    url: /Vectors/section10_angles
+    not_numbered: false
+  - title: The intersection of straight lines
+    url: /Vectors/section11_proofOfangleformula
+    not_numbered: false

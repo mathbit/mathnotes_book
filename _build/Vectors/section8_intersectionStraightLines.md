@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section7_furtherProblems.html
   title: 'Further problems'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section9_scalarproduct.html
+  title: 'The intersection of straight lines'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
