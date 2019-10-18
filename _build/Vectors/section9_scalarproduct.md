@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Vectors/section9_scalarproduct.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Scalarproduct'
+title: 'Scalar product'
 prev_page:
   url: /Vectors/section8_intersectionStraightLines.html
   title: 'The intersection of straight lines'
 next_page:
   url: /Vectors/section10_angles.html
-  title: 'Scalaproduct and angles'
+  title: 'Scalar product and angles'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -49,7 +49,7 @@ Note that in the second example we have $\vec{a}\neq 0$ and $\vec{b}\neq 0$ but 
 ## Exercise
 ---
 
-Prove the properties 1-4-above.
+Prove the properties 1-4 for the scalar product.
 
 
 
