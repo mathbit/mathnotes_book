@@ -61,3 +61,6 @@
   - title: Proof of the angle formula
     url: /Vectors/section11_proofOfangleformula
     not_numbered: false
+  - title: Orthogonal vectors
+    url: /Vectors/section12_orthogonalVectors
+    not_numbered: false

@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section10_angles.html
   title: 'Scalar product and angles'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section12_orthogonalVectors.html
+  title: 'Orthogonal vectors'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
