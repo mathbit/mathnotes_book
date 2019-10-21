@@ -18,7 +18,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 Consider two straight lines $g$ and $h$ in a three dimensional space. Assume that $g$ passes through point $A$ and has direction vector $\vec v$, and $h$ passes through point $B$ and has direction vector $\vec w$. The two lines can have the following position relative to each other:
 
 
-## The straight lines  *intersect* at one point $S$:
+## The lines  *intersect* at one point $S$:
 ---
 
 <img src="./pics/line2.png" width="50%" align="center">
@@ -57,7 +57,7 @@ Note: Always calculate $S$ twice, once using the value for $c$ and once using th
 
 
 
-## The straight lines are *parallel*
+## The lines are *parallel*
 ---
 
 They are parallel, if they either never intersect or if they form the same lines. 
@@ -76,7 +76,7 @@ $$\nonumber\boxed{\overrightarrow{AB} \parallel \vec v \mbox{ or } \overrightarr
 
 
     
-##  The straight lines are  *skew*
+##  The lines are  *skew*
 ---
 
 Two straight lines are said to be __skew__, if they neither intersect nor are they parallel. Obviously, skew lines are not possible in a 2d-space.
@@ -130,7 +130,7 @@ The straight line $g$ passes through $A$ and has direction $\vec{v}$, the straig
 3. skew
 4. intersecting with $S(6\vert 4\vert 7)$
 5. the intersection point is $S(2\vert 1 \vert 3)$
-6. The collision point is at $S(-400km\vert 200km\vert 8km)$. For a collision to happen, aircraft 1 needs to travel at speed of $223.6km/h$, aircraft 2 at a speed of $304.1km/h$. 
+6. The collision point is at $S(-400km\vert 200km\vert 8km)$. For a collision to happen, aircraft 1 needs to travel at a speed of $223.6km/h$, aircraft 2 at a speed of $304.1km/h$. 
 
 
 
