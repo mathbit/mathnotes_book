@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section11_proofOfangleformula.html
   title: 'Proof of the angle formula'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section13_planes.html
+  title: 'The plane'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

@@ -23,7 +23,8 @@
         margin-bottom: 3px;
        }
     div.text_cell_render{
-        font-family: Computer Modern, serif;
+        /* font-family: Computer Modern, serif; */
+        font-family: Helvetica, sans-serif;
         line-height: 145%;
         font-size: 130%;
         width:800px;

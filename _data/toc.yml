@@ -64,3 +64,6 @@
   - title: Orthogonal vectors
     url: /Vectors/section12_orthogonalVectors
     not_numbered: false
+  - title: The plane
+    url: /Vectors/section13_planes
+    not_numbered: false
