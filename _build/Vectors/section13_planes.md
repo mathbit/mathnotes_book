@@ -50,7 +50,7 @@ $$\nonumber E = \{\mbox{all points $P$ in space with } \overrightarrow{AP} \perp
 ### Example
 ---
 
-A plane $E$ passes through the point $A(1|0|1)$ and has normal vector $\left(\begin{array}{r} 7\\\ -4\\\ 5 \end{array}\right)$. Is point $P(3\vert1\vert2)$ in $E$? No, because 
+A plane $E$ passes through the point $A(1\vert 0\vert 1)$ and has normal vector $\left(\begin{array}{r} 7\\\ -4\\\ 5 \end{array}\right)$. Is point $P(3\vert 1\vert 2)$ in $E$? No, because 
 
 $$\nonumber\overrightarrow{AP} \bullet \vec{n} = \left(\begin{array}{r} 3-1\\ 1-0\\ 2-1 \end{array}\right) \bullet \left(\begin{array}{r} 7\\ -4\\ 5 \end{array}\right) = 14-4+5=15\neq 0$$ 
 
@@ -62,19 +62,20 @@ thus $\overrightarrow{AP} \not\perp \vec{n}$.
 ## Exercise
 ---
 
-1. Plane $E$ passes through the point $A(1|0|1)$ and has normal vector $\left(\begin{array}{r} 7\\\ -4\\\ 5 \end{array}\right)$. Find another point $Q$ in $E$.
+1. Plane $E$ passes through the point $A(1\vert 0 \vert 1)$ and has normal vector $\left(\begin{array}{r} 7\\\ -4\\\ 5 \end{array}\right)$. Find another point $Q$ in $E$.
 
-2. A plane $F$ contains the point $A(3|0|0)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right)$. 
+2. A plane $F$ contains the point $A(3\vert 0\vert 0)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right)$. 
 	
-   1. Are the points $P(1\vert 2\vert 3)$ and $Q(2\vert 4\vert 6)$ in $F$?
-   2. Where does $F$ intersect the y-axis?
+   1. Is the point $P(1\vert 2\vert 3)$ in $F$?
+   2. Is the point $Q(2\vert 4\vert 6)$ in $F$?
+   3. Where does $F$ intersect the y-axis?
 
 
 
 ## Solutions
 ---
 
-1. In order to find a point $Q(x|y|z)$ on $E$, we have to find $x$, $y$, and $z$ with
+1. In order to find a point $Q(x\vert y\vert z)$ on $E$, we have to find $x$, $y$, and $z$ with
 
    $$\nonumber\overrightarrow{AQ} \perp \vec{n}$$
    
@@ -86,21 +87,21 @@ thus $\overrightarrow{AP} \not\perp \vec{n}$.
 
    $$\nonumber 7(x-1)-4y+5(z-1)=7x-4y+5z-12=0$$ 
    
-  There are infinitely many solutions. For example, set $x=1$, $y=0$, so that $7+5z-12=0$ and therefore $z=1$. Thus ${Q(1|0|1)}$ is a point in $E$.
+  There are infinitely many solutions. For example, set $x=1$, $y=0$, so that $7+5z-12=0$ and therefore $z=1$. Thus $Q(1\vert 0\vert 1)$ is a point in $E$.
 
 2. 
 
-   1. $P\in F$ because $\overrightarrow{AP} \bullet \vec{n} = \left(\begin{array}{r} 1-3\\\ 2-0\\\ 3-0 \end{array}\right) \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right) = -12+6+6=0$. 
+   1. $P\in F$ because $\overrightarrow{AP} \bullet \vec{n} = \left(\begin{array}{r} 1-3\\\ 2-0\\\ 3-0 \end{array}\right) \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right) = -12+6+6=0$.
    
-      $Q \not\in F$ because $\overrightarrow{AQ} \bullet \vec{n} = \left(\begin{array}{r} 2-3\\\ 4-0\\\ 6-0 \end{array}\right) \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right)  = -6+12+12=18 \neq 0$.
+   2. $Q \not\in F$ because $\overrightarrow{AQ} \bullet \vec{n} = \left(\begin{array}{r} 2-3\\\ 4-0\\\ 6-0 \end{array}\right) \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right)  = -6+12+12=18 \neq 0$.
 
-   2. Let us denote by $S$ the intersection point between $F$ and the y-axis. 
+   3. Let us denote by $S$ the intersection point between $F$ and the y-axis. 
    
       $S$ on the y-axis $\rightarrow S(0\vert y\vert 0)$
       
-      $S \in F \rightarrow \overrightarrow{AS} \bullet \vec{n} = \left(\begin{array}{r} 0-3\\\ y-0\\\ 0-0 \end{array}\right)  \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2 \end{array}\right)  = -18+3y+0=0$. 
+      $S \in F \rightarrow \overrightarrow{AS} \bullet \vec{n} = \left(\begin{array}{r} 0-       3\\\ y-0\\\ 0-0 \end{array}\right)  \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2             \end{array}\right)  = -18+3y+0=0$. 
       
-      Thus $y=6$ and therefore $S(0|6|0)$.
+    Thus $y=6$ and therefore $S(0\vert 6\vert 0)$.
 
 
 
