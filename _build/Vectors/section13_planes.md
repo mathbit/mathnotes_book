@@ -97,9 +97,11 @@ thus $\overrightarrow{AP} \not\perp \vec{n}$.
 
    3. Let us denote by $S$ the intersection point between $F$ and the y-axis.   
 
-     $S$ on the y-axis $\rightarrow S(0\vert y\vert 0)$
+      - $S$ on the y-axis $\rightarrow S(0\vert y\vert 0)$
       
-     $S \in F \rightarrow \overrightarrow{AS} \bullet \vec{n} = \left(\begin{array}{r} 0-       3\\\ y-0\\\ 0-0 \end{array}\right)  \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2             \end{array}\right)  = -18+3y+0=0$. Thus $y=6$ and therefore $S(0\vert 6\vert 0)$.
+      - $S \in F \rightarrow \overrightarrow{AS} \bullet \vec{n} = \left(\begin{array}{r} 0-3\\\ y-0\\\ 0-0 \end{array}\right)  \bullet \left(\begin{array}{r} 6\\\ 3\\\ 2             \end{array}\right)  = -18+3y+0=0$.
+      
+      Thus $y=6$ and therefore $S(0\vert 6\vert 0)$.
 
 
 
