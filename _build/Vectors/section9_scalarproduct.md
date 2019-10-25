@@ -43,7 +43,7 @@ Note that in the second example we have $\vec{a}\neq 0$ and $\vec{b}\neq 0$ but 
 1. $\vec{a}\bullet\vec{a} = \vert\vec{a}\vert^2 \geq 0$ (squares are not negative)
 2. $\vec{a}\bullet\vec{b} = \vec{b}\bullet\vec{a}$ (product is commutative)
 3. $(c \cdot \vec{a})\bullet \vec{b} =c\cdot (\vec{a}\bullet \vec{b})$ where $c$ is s scalar (product is associative, that is, you can group)
-4. $\vec{a}\bullet (\vec{b}+\vec{c}) = (\vec{a}\bullet\vec{c}) + (\vec{b}\bullet\vec{c})$ (product is distributive, that is, the product distributes over the sum)
+4. $\vec{a}\bullet (\vec{b}+\vec{c}) = (\vec{a}\bullet\vec{b}) + (\vec{a}\bullet\vec{c})$ (product is distributive, that is, the product distributes over the sum)
 
 
 
