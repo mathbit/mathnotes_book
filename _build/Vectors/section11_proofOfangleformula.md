@@ -28,7 +28,7 @@ where $\vec{a}=\left(\begin{array}{r} a_x\\\ a_y\\\ a_z \end{array}\right)$ and 
 
   <img src="./pics/angle2.png" width="30%" align="center">
 
-  As $\vec{a}+\vec{c}=\vec{b}$ (complection of triangle), it follows that 
+  As $\vec{a}+\vec{c}=\vec{b}$ (completing the triangle), it follows that 
 
   $$\nonumber\vec{c}=\vec{b}-\vec{a}=\left(\begin{array}{r} b_x-a_x\\ b_y-a_y\\ b_z-a_z \end{array}\right)$$ 
 

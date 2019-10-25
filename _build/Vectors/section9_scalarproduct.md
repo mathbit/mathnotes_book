@@ -15,14 +15,15 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 ---
 
 
+## The scalar product of two vectors
+---
+
 We already now one kind of product involving vectors. It is the multiplication of a scalar with a vector, and the result is a new (stretched) vector: 
 
 $$c\cdot \vec a = c\cdot \left(\begin{array}{r} a_x\\\ a_y\\\ a_z \end{array}\right) = \left(\begin{array}{r} c\cdot a_x\\\ c\cdot a_y\\\ c\cdot a_z \end{array}\right)$$
 
 Now we introduce a multiplication between two vectors, and the result is a scalar.
 
-## The scalar product of two vectors
----
 Consider two vectors $\vec{a}=\left(\begin{array}{r} a_x\\\ a_y\\\ a_z \end{array}\right)$ and $\vec{b}=\left(\begin{array}{r} b_x\\\ b_y\\\ b_z \end{array}\right)$. The __scalar product__ of $\vec{a}$ and $\vec{b}$, written $\vec{a} \bullet \vec{b}$, is defined by multiplying component-wise, and then adding the three resulting products to form a single number: 
 
 $$\boxed{\vec{a} \bullet \vec{b}=a_x b_x+a_y b_y+a_z b_z}$$ 
