@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Vectors/section13_planes.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'The plane'
+title: 'Planes'
 prev_page:
   url: /Vectors/section12_orthogonalVectors.html
   title: 'Orthogonal vectors'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section14_intersectionLinePlane.html
+  title: 'Planes'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 

@@ -64,6 +64,9 @@
   - title: Orthogonal vectors
     url: /Vectors/section12_orthogonalVectors
     not_numbered: false
-  - title: The plane
+  - title: Planes
     url: /Vectors/section13_planes
+    not_numbered: false
+  - title: Planes
+    url: /Vectors/section14_intersectionLinePlane
     not_numbered: false
