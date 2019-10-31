@@ -89,7 +89,7 @@ Plane $E$ contains the point $A(4\vert 4\vert 2)$ and has normal vector $\vec{n}
   
   $$\nonumber -2(c+1-4)-2(c+2-3)+4(2c-3-2) = 4c-10=0 \rightarrow c=2.5$$
   
-  It follows $x=2.5+1=3.5, y=c+2=4.5, z=2\cdot 2.5-3=2 \rightarrow S(3.5|4.5|2)$ 
+  It follows $x=2.5+1=3.5, y=c+2=4.5, z=2\cdot 2.5-3=2 \rightarrow S(3.5\vert 4.5 \vert 2)$ 
 
 
 
@@ -129,7 +129,7 @@ Plane $E$ contains the point $A(4\vert 4\vert 2)$ and has normal vector $\vec{n}
      
      Thus, $x=2\cdot 8/7+1=23/7, y=3\cdot 8/7-1=17/7, z=8/7-2=-6/7 \rightarrow S(\frac{23}{7}|\frac{17}{7}|-\frac{6}{7})$.
      
-    - The shortest distance is therefore $d=\vert\overrightarrow{PS}\vert=\left\vert\begin{array}{r} 23/7-1\\\ 17/7+1\\\ -6/7+2 \end{array}\right\vert =  \sqrt{896/49}$
+   - The shortest distance is therefore $d=\vert\overrightarrow{PS}\vert=\left\vert\left(\begin{array}{r} 23/7-1\\\ 17/7+1\\\ -6/7+2 \end{array}\right)\right\vert =  \sqrt{896/49}$
 
 
 
