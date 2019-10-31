@@ -1,41 +1,6 @@
 <style>
 
     @font-face {
-     font-family: 'sf-display';
-     font-weight: normal;
-     font-style: normal;
-     src: url('fonts/sf-display/SanFranciscoDisplay-Regular.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-display';
-     font-weight: normal;
-     font-style: italic;
-     src: url('fonts/sf-display/SanFranciscoDisplay-RegularItalic.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-display';
-     font-weight: bold;
-     font-style: normal;
-     src: url('fonts/sf-display/SanFranciscoDisplay-Bold.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-display';
-     font-weight: bold;
-     font-style: italic;
-     src: url('fonts/sf-display/SanFranciscoDisplay-BoldItalic.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'cmu-text-decorated';
-     font-weight: normal;
-     font-style: italic;
-     src: url('fonts/cmu-text/CMUSerif-UprightItalic.otf') format('opentype');
-    }
-
-    @font-face {
      font-family: 'cmu-serifroman';
      font-weight: normal;
      font-style: normal;
@@ -44,54 +9,6 @@
          url('fonts/cmuserif-roman-webfont.woff') format('woff');
     }
 
-    @font-face {
-     font-family: 'cmu-text';
-     font-weight: normal;
-     font-style: italic;
-     src: url('fonts/cmu-text/CMUSerif-Italic.otf');
-    }
-
-    @font-face {
-     font-family: 'cmu-text';
-     font-weight: bold;
-     font-style: normal;
-     src: url('fonts/cmu-text/CMUSerif-BoldNonextended.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'cmu-text';
-     font-weight: bold;
-     font-style: italic;
-     src: url('fonts/cmu-text/CMUSerif-BoldItalic.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-mono';
-     font-weight: normal;
-     font-style: normal;
-     src: url('fonts/sf-mono/SFMono-Regular.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-mono';
-     font-weight: normal;
-     font-style: italic;
-     src: url('fonts/sf-mono/SFMono-RegularItalic.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-mono';
-     font-weight: bold;
-     font-style: normal;
-     src: url('fonts/sf-mono/SFMono-Bold.otf') format('opentype');
-    }
-
-    @font-face {
-     font-family: 'sf-mono';
-     font-weight: bold;
-     font-style: italic;
-     src: url('fonts/sf-mono/SFMono-BoldItalic.otf') format('opentype');
-    }
 
     div.cell {
         width:800px;
@@ -99,23 +16,23 @@
         margin-right:auto;
     }
     h1 {
-        font-family: "cmu-text", Helvetica, "Times New Roman", serif;
+        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif;
     }
     h2 {
-        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif important!;
+        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif;
 	      color: green
     }
     h3 {
-      font-family: "cmu-text", Helvetica, serif;
+      font-family: "cmu-serifroman", Helvetica, serif;
         color: gray
     }
     h4 {
-      font-family:  "cmu-text", Helvetica, "Times New Roman", serif !important;
+      font-family:  "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
         margin-top:12px;
         margin-bottom: 3px;
     }
     div.text_cell_render {
-        font-family: "cmu-text", Helvetica, serif !important;
+        font-family: "cmu-serifroman", Helvetica, serif !important;
         line-height: 145%;
         font-size: 130%;
         width:800px;
@@ -129,7 +46,7 @@
     .prompt {
         display: None;
     }
-    /* .text_cell_render h5 {
+    .text_cell_render h5 {
         font-weight: 300;
         font-size: 22pt;
         color: #4057A1;
@@ -137,7 +54,7 @@
         margin-bottom: .5em;
         margin-top: 0.5em;
         display: block;
-    } */
+    }
 
     .warning{
         color: rgb( 240, 20, 20 )
