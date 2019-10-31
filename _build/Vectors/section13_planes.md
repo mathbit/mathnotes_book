@@ -10,7 +10,7 @@ prev_page:
   title: 'Orthogonal vectors'
 next_page:
   url: /Vectors/section14_intersectionLinePlane.html
-  title: 'Planes'
+  title: 'Intersecting a straight line and a plane'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
