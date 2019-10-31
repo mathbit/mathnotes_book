@@ -10,7 +10,7 @@ prev_page:
   title: 'Proof of the angle formula'
 next_page:
   url: /Vectors/section13_planes.html
-  title: 'The plane'
+  title: 'Planes'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
