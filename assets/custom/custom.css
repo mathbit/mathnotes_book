@@ -36,17 +36,19 @@
     }
 
     @font-face {
-     font-family: 'cmu-text';
+     font-family: 'cmu-serifroman';
      font-weight: normal;
      font-style: normal;
-     src: url('fonts/cmu-text/CMUSerif-Roman.otf') format('opentype');
+     /* src: url('fonts/cmu-text/CMUSerif-Roman.otf'); */
+     src: url('fonts/cmuserif-roman-webfont.woff2') format('woff2'),
+         url('fonts/cmuserif-roman-webfont.woff') format('woff');
     }
 
     @font-face {
      font-family: 'cmu-text';
      font-weight: normal;
      font-style: italic;
-     src: url('fonts/cmu-text/CMUSerif-Italic.otf') format('opentype');
+     src: url('fonts/cmu-text/CMUSerif-Italic.otf');
     }
 
     @font-face {
@@ -91,25 +93,20 @@
      src: url('fonts/sf-mono/SFMono-BoldItalic.otf') format('opentype');
     }
 
-    #notebook {
-        padding-top: 0px;
-        font-family: "cmu-text", Helvetica, "Times New Roman", serif;
-    }
-
-    div.cell{
+    div.cell {
         width:800px;
         margin-left:16% !important;
         margin-right:auto;
     }
     h1 {
-        font-family:  "cmu-text", Helvetica, "Times New Roman", serif !important;
+        font-family: "cmu-text", Helvetica, "Times New Roman", serif;
     }
     h2 {
-        font-family:  "cmu-text", Helvetica, "Times New Roman", serif !important;
+        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif important!;
 	      color: green
     }
     h3 {
-      font-family:  "cmu-text", Helvetica, serif !important;
+      font-family: "cmu-text", Helvetica, serif;
         color: gray
     }
     h4 {
@@ -117,22 +114,22 @@
         margin-top:12px;
         margin-bottom: 3px;
     }
-    /* div.text_cell_render{
+    div.text_cell_render {
         font-family: "cmu-text", Helvetica, serif !important;
         line-height: 145%;
         font-size: 130%;
         width:800px;
         margin-left:auto;
         margin-right:auto;
-        color: green;
-    } */
-    .CodeMirror{
+        color: red;
+    }
+    .CodeMirror {
             font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
     }
-    .prompt{
+    .prompt {
         display: None;
     }
-    .text_cell_render h5 {
+    /* .text_cell_render h5 {
         font-weight: 300;
         font-size: 22pt;
         color: #4057A1;
@@ -140,7 +137,7 @@
         margin-bottom: .5em;
         margin-top: 0.5em;
         display: block;
-    }
+    } */
 
     .warning{
         color: rgb( 240, 20, 20 )
@@ -157,7 +154,7 @@
        padding: 0.5em;
     }
 
-    div.exc {
+    /* div.exc {
        background-color: lightgray;
        border-color: lightgray;
        border-left: 5px solid gray;
@@ -169,7 +166,7 @@
        border-color: lightgray;
        border-left: 5px solid gray;
        padding: 0.5em;
-    }
+    } */
 
     li{
        margin: 10px 0;

@@ -63,7 +63,7 @@ Plane $E$ contains the point $A(0\vert 0\vert 9)$ and has normal vector $\vec{n}
   
   $$\nonumber  -2c+7+4(3c+2)-3(4c+9-9) = -2c+15=0 \rightarrow c=7.5$$
   
-  It follows $x=-2\cdot 7.5+7=-8, y=3\cdot 7.5+2=24.5, z=4\cdot 7.5+9=39 \rightarrow S(-8|24.5|39)$ 
+  It follows $x=-2\cdot 7.5+7=-8, y=3\cdot 7.5+2=24.5, z=4\cdot 7.5+9=39 \rightarrow S(-8\vert 24.5\vert 39)$ 
    
 
 ### Example 2
