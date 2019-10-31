@@ -4,7 +4,7 @@ redirect_from:
 interact_link: content/Vectors/section14_intersectionLinePlane.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Planes'
+title: 'Intersecting a straight line and a plane'
 prev_page:
   url: /Vectors/section13_planes.html
   title: 'Planes'
@@ -260,11 +260,11 @@ css_styling()
 	      color: blue
     }
     h3 {
-      font-family:  "Times New Roman", serif !important;
+      font-family:  "cmu-text", serif !important;
         color: gray
     }
     h4{
-      font-family:  "Times New Roman", serif !important;
+      font-family:  "cmu-text", "Times New Roman", serif !important;
         margin-top:12px;
         margin-bottom: 3px;
     }
