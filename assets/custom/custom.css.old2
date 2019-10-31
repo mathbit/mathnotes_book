@@ -91,10 +91,6 @@
      src: url('fonts/sf-mono/SFMono-BoldItalic.otf') format('opentype');
     }
 
-    #notebook {
-        padding-top: 0px;
-        font-family: "cmu-text", Helvetica, "Times New Roman", serif;
-    }
 
     div.cell{
         width:800px;
@@ -112,12 +108,13 @@
       font-family:  "cmu-text", Helvetica, serif !important;
         color: gray
     }
-    h4 {
+    h4{
       font-family:  "cmu-text", Helvetica, "Times New Roman", serif !important;
         margin-top:12px;
         margin-bottom: 3px;
     }
-    /* div.text_cell_render{
+    div.text_cell_render{
+        /* font-family: Computer Modern, serif; */
         font-family: "cmu-text", Helvetica, serif !important;
         line-height: 145%;
         font-size: 130%;
@@ -125,7 +122,7 @@
         margin-left:auto;
         margin-right:auto;
         color: green;
-    } */
+    }
     .CodeMirror{
             font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
     }

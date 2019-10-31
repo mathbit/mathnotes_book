@@ -127,7 +127,7 @@ Plane $E$ contains the point $A(4\vert 4\vert 2)$ and has normal vector $\vec{n}
      
      $$\nonumber 2(2c+1-5)+3(3c-1-2)+c-2+3 = 14c-16=0 \rightarrow c=\frac{16}{14}=\frac{8}{7}$$  
      
-     Thus, $x=2\cdot 8/7+1=23/7, y=3\cdot 8/7-1=17/7, z=8/7-2=-6/7 \rightarrow S(\frac{23}{7}\vert \frac{17}{7}\vert -\frac{6}{7})$.
+     Thus, $x=2\cdot 8/7+1=23/7, y=3\cdot 8/7-1=17/7, z=8/7-2=-6/7 \rightarrow S(\frac{23}{7}\vert \frac{17}{7}\vert -\frac{6}{7})$
      
    - The shortest distance is therefore $d=\vert\overrightarrow{PS}\vert=\left\vert\left(\begin{array}{r} 23/7-1\\\ 17/7+1\\\ -6/7+2 \end{array}\right)\right\vert =  \sqrt{896/49}$
 
