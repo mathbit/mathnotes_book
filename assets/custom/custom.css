@@ -1,14 +1,13 @@
 <style>
 
     @font-face {
-     font-family: 'cmu-serifroman';
+     font-family: "cmu-serifroman";
      font-weight: normal;
      font-style: normal;
      /* src: url('fonts/cmu-text/CMUSerif-Roman.otf'); */
-     src: url('fonts/cmuserif-roman-webfont.woff2') format('woff2'),
-         url('fonts/cmuserif-roman-webfont.woff') format('woff');
+     src: url("fonts/cmuserif-roman-webfont.woff2") format("woff2"),
+         url("fonts/cmuserif-roman-webfont.woff") format("woff");
     }
-
 
     div.cell {
         width:800px;
