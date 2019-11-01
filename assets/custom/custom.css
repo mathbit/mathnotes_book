@@ -37,7 +37,6 @@
         width:800px;
         margin-left:auto;
         margin-right:auto;
-        color: red;
     }
     .CodeMirror {
             font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
@@ -109,8 +108,8 @@
         	},
                 "HTML-CSS": {
                     styles: {'.MathJax_Display': {"margin": 0}},
-                    availableFonts: ["TeX","STIX-Web","Neo-Euler"],
-                    preferredFont: "Neo-Euler",
+                    availableFonts: ["cmu-serifroman","TeX","STIX-Web","Neo-Euler"],
+                    preferredFont: "STIX-Web",
                 },
         });
 </script>

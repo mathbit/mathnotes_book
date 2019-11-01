@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Vectors/section14_intersectionLinePlane.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Intersecting a straight line and a plane'
+title: 'Intersecting straight lines and planes'
 prev_page:
   url: /Vectors/section13_planes.html
   title: 'Planes'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section15_distanceProblems.html
+  title: 'Distance problems'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -97,39 +97,17 @@ Plane $E$ contains the point $A(4\vert 4\vert 2)$ and has normal vector $\vec{n}
 ## Exercise
 ---
 
-1. Plane $E$ contains the point $A(0\vert 0\vert 9)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 0\\\ 4\\\ -3 \end{array}\right)$ THe straight line $g$ passes through the point $U(7\vert 2\vert 9)$ and has direction vector $\vec{v}=\left(\begin{array}{r} -2\\\ 3\\\ 4 \end{array}\right)$ Find the intersection point between $g$ and $E$.
-
-2. _Shortest distance between a point and a plane._ Consider the plane $E$ containing the point $A(5\vert 2\vert -3)$ and with normal vector $\vec{n}=\left(\begin{array}{r} 2\\\ 3\\\ 1 \end{array}\right)$. Find the shortest distance between point $P(1\vert -1 \vert -2)$ and plane $E$.
+Plane $E$ contains the point $A(0\vert 0\vert 9)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 0\\\ 4\\\ -3 \end{array}\right)$ The straight line $g$ passes through the point $U(7\vert 2\vert 9)$ and has direction vector $\vec{v}=\left(\begin{array}{r} -2\\\ 3\\\ 4 \end{array}\right)$. Find the intersection point between $g$ and $E$.
 
 
 
 ## Solution
 ---
-1. There is no intersection point, as $g$ and $E$ are parallel ($\vec{v}\bullet \vec{n}=0+12-12=0$) and $g$ is not in $E$ ($\overrightarrow{AU} \bullet \vec{n} = 0+8+0 \neq 0$). Note that if you try to calculate the coordinates of the intersection point, you end up with the equation 
+There is no intersection point, as $g$ and $E$ are parallel ($\vec{v}\bullet \vec{n}=0+12-12=0$) and $g$ is not in $E$ ($\overrightarrow{AU} \bullet \vec{n} = 0+8+0 \neq 0$). Note that if you try to calculate the coordinates of the intersection point, you end up with the equation 
 
    $$\nonumber 0 + 12c+8 -12c = 0\rightarrow 8=0 \,???$$
   
    So the assumption of the existence of an intersection point $S$ leads to a contradiction. So there is no intersection point.
-
-2. The idea is to take the straight line $g$ that passes through $P$ and is orthogonal to $E$, and intersect this line with the plane to get intersection point $S$. The distance between $S$ and point $A$ is then the shortest distance (see figure).
-
-   <img src="./pics/shortDist.png" width="90%" align="center">
-
-    
-   - Determine $g$: $g$ passes through point $P$ and has direction vector $\vec v = \vec{n}$ (as it is orthogonal to $E$). 
-   - Intersect $g$ with $E$ to get $S(x\vert y\vert z)$: 
-
-     $S\in g \rightarrow \overrightarrow{PS}=c\cdot \vec{v} \rightarrow \left(\begin{array}{r} x-1\\\ y+1\\\ z+2 \end{array}\right)=\left(\begin{array}{r} 2c\\\ 3c\\\ c \end{array}\right) \rightarrow x=2c+1, y=3c-1, z=c-2$
-     
-     $S \in E \rightarrow \overrightarrow{AS} \bullet \vec{n} = 0 \rightarrow \left(\begin{array}{r} x-5\\\ y-2\\\ z+3 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 3\\\ 1 \end{array}\right)= 2(x-5)+3(y-2)+z+3=0$  
-     
-     Inserting the expression for $x$, $y$ and $z$, we get 
-     
-     $$\nonumber 2(2c+1-5)+3(3c-1-2)+c-2+3 = 14c-16=0 \rightarrow c=\frac{16}{14}=\frac{8}{7}$$  
-     
-     Thus, $x=2\cdot 8/7+1=23/7, y=3\cdot 8/7-1=17/7, z=8/7-2=-6/7 \rightarrow S(\frac{23}{7}\vert \frac{17}{7}\vert -\frac{6}{7})$
-     
-   - The shortest distance is therefore $d=\vert\overrightarrow{PS}\vert=\left\vert\left(\begin{array}{r} 23/7-1\\\ 17/7+1\\\ -6/7+2 \end{array}\right)\right\vert =  \sqrt{896/49}$
 
 
 
