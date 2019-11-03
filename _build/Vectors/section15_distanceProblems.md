@@ -65,7 +65,21 @@ _Idea 2:_ find a point $S$ on $g$ such that $\overrightarrow{SA} \perp \overrigh
 Both ideas lead to the same calculations.
 
 
+### Example
+---
 
+The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has direction vector $\vec{v} \rightarrow \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right)$. Find the shortest distance the point $P(-2\vert -2\vert 4)$.
+
+### Solution
+---
+
+Set $S(x\vert y\vert z)$. As $S\in g$, it is $\overrightarrow{AS} \parallel \vec v$, so it is 
+
+$$
+
+- _Idea 1:_  
+
+- _Idea 2:_
 
 
 
