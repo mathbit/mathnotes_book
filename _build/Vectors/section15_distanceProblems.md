@@ -60,7 +60,7 @@ Consider a straight line that passes through point $A$ and has direction $\vec v
 
 _Idea 1:_ take the plane $E$ that contains $P$ and has normal vector $\vec n = \vec v$, and intersect this plane with the straight line to get the intersection point $S$. The shortest distance is then the distance between $P$ and $S$.
 
-_Idea 2:_ find a point $S$ on $g$ such that $\overrightarrow{SA} \perp \overrightarrow{SP}$. The shortest distance is then the distance between $P$ and $S$.  
+_Idea 2:_ find a point $S$ on $g$ such that $\overrightarrow{PS} \perp \vec{v}$. The shortest distance is then the distance between $P$ and $S$.  
 
 Both ideas lead to the same calculations.
 
@@ -68,18 +68,51 @@ Both ideas lead to the same calculations.
 ### Example
 ---
 
-The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has direction vector $\vec{v} \rightarrow \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right)$. Find the shortest distance the point $P(-2\vert -2\vert 4)$.
+The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has direction vector $\vec{v} = \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right)$. Find the shortest distance between the point $P(-2\vert -2\vert 4)$ and line $g$.
 
 ### Solution
 ---
 
-Set $S(x\vert y\vert z)$. As $S\in g$, it is $\overrightarrow{AS} \parallel \vec v$, so it is 
+- _Idea 1:_  Find the intersection point $S(x\vert y\vert z)$ between $g$ and $E$.
 
-$$
+   $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+1, y=3, z=-c-5$ 
+   
+   $S\in E \rightarrow \overrightarrow{PS} \bullet \vec{n} =0\rightarrow \left(\begin{array}{r} x+2\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+2)-(z-4) = 0$  
+   
+   Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
+   
+   $$\nonumber 2(2c+1+2)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(7 \vert 3\vert -8)$$
+   
+   The shortest distance is 
+   
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -3 \end{array}\right) \right\vert =\sqrt{115}$$
 
-- _Idea 1:_  
+- _Idea 2:_ Find $S(x\vert y\vert z)$ with $S\in g$ and $\overrightarrow{PS} \bullet \vec{v}=0$
 
-- _Idea 2:_
+    $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+1, y=3, z=-c-5$ 
+    
+    $\overrightarrow{PS} \bullet \vec{v}= 0 \rightarrow \left(\begin{array}{r} x+2\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+2)-(z-4) = 0$  
+   
+   Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
+   
+   $$\nonumber 2(2c+1+2)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(7 \vert 3\vert -8)$$
+   
+   The shortest distance is 
+   
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -3 \end{array}\right) \right\vert =\sqrt{115}$$
+
+
+
+## Shortest distance between parallel planes
+---
+
+Pick a point on one of the planes, and find the shortest distance between this point and the other plane.
+
+## Shortest distance between parallel lines
+---
+
+Pick a point on one of the lines and find the shortest distance between this point and the other straight line.
+
 
 
 

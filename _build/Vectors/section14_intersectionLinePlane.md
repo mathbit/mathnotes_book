@@ -46,6 +46,7 @@ Plane $E$ contains the point $A(0\vert 0\vert 9)$ and has normal vector $\vec{n}
 
 
 ### Solution
+---
 
 
  - $g$ is not parallel to $E$, as $\nonumber \vec{v}\bullet \vec{n}=-2+12-12=2\neq 0$, so there is a single intersection point $S(x\vert y\vert z)$ 
