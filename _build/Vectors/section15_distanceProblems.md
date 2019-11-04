@@ -23,7 +23,7 @@ Consider the plane $E$ containing the point $A$ and with normal vector $\vec{n}$
 
 _Idea:_ Take the straight line $g$ that passes through $P$ and is orthogonal to $E$, and intersect this line with the plane to get intersection point $S$. The distance between $S$ and point $A$ is then the shortest distance (see figure).
 
-   <img src="./pics/shortDist.png" width="90%" align="center">
+   <img src="./pics/shortDistPlane.png" width="90%" align="center">
    
 ### Example
 ---
@@ -61,6 +61,10 @@ Consider a straight line that passes through point $A$ and has direction $\vec v
 _Idea 1:_ take the plane $E$ that contains $P$ and has normal vector $\vec n = \vec v$, and intersect this plane with the straight line to get the intersection point $S$. The shortest distance is then the distance between $P$ and $S$.
 
 _Idea 2:_ find a point $S$ on $g$ such that $\overrightarrow{PS} \perp \vec{v}$. The shortest distance is then the distance between $P$ and $S$.  
+
+
+<img src="./pics/shortDist.png" width="90%" align="center">
+
 
 Both ideas lead to the same calculations.
 
