@@ -84,11 +84,11 @@ Plane $E$ contains the point $A(4\vert 4\vert 2)$ and has normal vector $\vec{n}
 
 - $S \in E \rightarrow \overrightarrow{AS} \perp \vec{n} \rightarrow \overrightarrow{AS} \bullet \vec{n} = 0$. So
 
-  $$\nonumber \left(\begin{array}{r} x-4\\\ y-4\\\ z-2 \end{array}\right) \bullet \left(\begin{array}{r} -2\\\ -2\\\ 4 \end{array}\right) = 0 \rightarrow -2(x-4) -2(y-4)+4(z-2) = 0$$
+  $$\nonumber \left(\begin{array}{r} x-4\\\ y-4\\\ z-2 \end{array}\right) \bullet \left(\begin{array}{r} -2\\\ -2\\\ 3 \end{array}\right) = 0 \rightarrow -2(x-4) -2(y-4)+3(z-2) = 0$$
   
   Inserting the expression for $x, y$, and $z$, we get
   
-  $$\nonumber -2(c+1-4)-2(c+2-3)+4(2c-3-2) = 4c-10=0 \rightarrow c=2.5$$
+  $$\nonumber -2(c+1-4)-2(c+2-4)+3(2c-3-2) = 2c-5=0 \rightarrow c=2.5$$
   
   It follows $x=2.5+1=3.5, y=c+2=4.5, z=2\cdot 2.5-3=2 \rightarrow S(3.5\vert 4.5 \vert 2)$ 
 

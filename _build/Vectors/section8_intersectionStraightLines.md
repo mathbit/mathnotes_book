@@ -4,7 +4,7 @@ redirect_from:
 interact_link: content/Vectors/section8_intersectionStraightLines.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'The intersection of straight lines'
+title: 'Intersecting straight lines'
 prev_page:
   url: /Vectors/section7_furtherProblems.html
   title: 'Further problems'
