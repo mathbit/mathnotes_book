@@ -9,8 +9,8 @@ prev_page:
   url: /Vectors/section14_intersectionLinePlane.html
   title: 'Intersecting straight lines and planes'
 next_page:
-  url: 
-  title: ''
+  url: /Vectors/section16_vectorProblems.html
+  title: 'Vector product'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -79,31 +79,31 @@ The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has di
 
 - _Idea 1:_  Find the intersection point $S(x\vert y\vert z)$ between $g$ and $E$.
 
-   $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+1, y=3, z=-c-5$ 
+   $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+2, y=3, z=-c-5$ 
    
-   $S\in E \rightarrow \overrightarrow{PS} \bullet \vec{n} =0\rightarrow \left(\begin{array}{r} x+2\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+2)-(z-4) = 0$  
+   $S\in E \rightarrow \overrightarrow{PS} \bullet \vec{n} =0\rightarrow \left(\begin{array}{r} x+1\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+1)-(z-4) = 0$  
    
    Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
    
-   $$\nonumber 2(2c+1+2)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(7 \vert 3\vert -8)$$
+   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(8 \vert 3\vert -8)$$
    
    The shortest distance is 
    
-   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -3 \end{array}\right) \right\vert =\sqrt{115}$$
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -12 \end{array}\right) \right\vert =\sqrt{250}$$
 
 - _Idea 2:_ Find $S(x\vert y\vert z)$ with $S\in g$ and $\overrightarrow{PS} \bullet \vec{v}=0$
 
-    $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+1, y=3, z=-c-5$ 
+    $S\in g \rightarrow \overrightarrow{AS} = c\cdot \vec v \rightarrow \left(\begin{array}{r} x-2\\\ y-3\\\ z+5 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 0\\\ -c \end{array}\right) \rightarrow x=2c+2, y=3, z=-c-5$ 
     
-    $\overrightarrow{PS} \bullet \vec{v}= 0 \rightarrow \left(\begin{array}{r} x+2\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+2)-(z-4) = 0$  
+    $\overrightarrow{PS} \bullet \vec{v}= 0 \rightarrow \left(\begin{array}{r} x+1\\\ y+2\\\ z-4 \end{array}\right) \bullet \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right) = 2(x+2)-(z-4) = 0$  
    
    Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
    
-   $$\nonumber 2(2c+1+2)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(7 \vert 3\vert -8)$$
+   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(8 \vert 3\vert -8)$$
    
    The shortest distance is 
    
-   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -3 \end{array}\right) \right\vert =\sqrt{115}$$
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -12 \end{array}\right) \right\vert =\sqrt{250}$$
 
 
 

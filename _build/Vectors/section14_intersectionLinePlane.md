@@ -53,7 +53,7 @@ Plane $E$ contains the point $A(0\vert 0\vert 9)$ and has normal vector $\vec{n}
 
 - $S \in g \rightarrow \overrightarrow{US} \parallel \vec{v} \rightarrow \overrightarrow{US}=c\cdot \vec{v}$. So 
 
-  $$\nonumber \left(\begin{array}{r} x-7\\\ y-2\\\ z-9 \end{array}\right) = \left(\begin{array}{r} 2c\\\ 3c\\\ 4c \end{array}\right) \rightarrow x=-2c+7, y=3c+2, z=4c+9$$
+  $$\nonumber \left(\begin{array}{r} x-7\\\ y-2\\\ z-9 \end{array}\right) = \left(\begin{array}{r} -2c\\\ 3c\\\ 4c \end{array}\right) \rightarrow x=-2c+7, y=3c+2, z=4c+9$$
 
 
 - $S \in E \rightarrow \overrightarrow{AS} \perp \vec{n} \rightarrow \overrightarrow{AS} \bullet \vec{n} = 0$. So

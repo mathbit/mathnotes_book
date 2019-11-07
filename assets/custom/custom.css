@@ -15,14 +15,14 @@
         margin-right:auto;
     }
     h1 {
-        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif;
+        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
     }
     h2 {
-        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif;
+        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
 	      color: green
     }
     h3 {
-      font-family: "cmu-serifroman", Helvetica, serif;
+      font-family: "cmu-serifroman", Helvetica, serif !important;
         color: gray
     }
     h4 {
@@ -58,9 +58,9 @@
         color: rgb( 240, 20, 20 )
         }
 
-    .MathJax {
+    /* .MathJax {
         font-size: 1em;
-    }
+    } */
 
     div.important {
        background-color: #fcf2f2;
@@ -91,7 +91,8 @@
     ol ol ol { list-style-type: lower-alpha; important! }
 
 </style>
-<script>
+
+/* <script>
     MathJax.Hub.Config({
                 TeX: {
                         extensions: ["AMSmath.js"],
@@ -110,6 +111,33 @@
                     styles: {'.MathJax_Display': {"margin": 0}},
                     availableFonts: ["cmu-serifroman","TeX","STIX-Web","Neo-Euler"],
                     preferredFont: "STIX-Web",
+                },
+        });
+</script> */
+
+<script type="text/x-mathjax-config">
+    jax: ["input/TeX","output/HTML-CSS"],
+    MathJax.Hub.Config({
+                TeX: {
+                        extensions: ["AMSmath.js"],
+			                  Macros: {
+      				                RR: '{\\bf TOM}',
+      				                bold: ['\\boldsymbol{#1}',1],
+    			              },
+                },
+		            tex2jax: {
+            		    inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+                    displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+            		    processEscapes: true,
+            		    processEnvironments: true,
+        	     },
+               "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 0}},
+                    availableFonts: ["TeX"],
+                    preferredFont: "TeX",
+                    webFont: "TeX",
+                    matchFontHeight: true,
+                    minScaleAdjust: 55,
                 },
         });
 </script>

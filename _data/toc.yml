@@ -73,3 +73,9 @@
   - title: Distance problems
     url: /Vectors/section15_distanceProblems
     not_numbered: false
+  - title: Vector product
+    url: /Vectors/section16_vectorProblems
+    not_numbered: false
+  - title: Further problems
+    url: /Vectors/section16_furtherProblems
+    not_numbered: false
