@@ -85,11 +85,11 @@ The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has di
    
    Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
    
-   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(8 \vert 3\vert -8)$$
+   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=-3 \rightarrow S(-4 \vert 3\vert -2)$$
    
    The shortest distance is 
    
-   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -12 \end{array}\right) \right\vert =\sqrt{250}$$
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} -3\\\ 5\\\ -6 \end{array}\right) \right\vert =\sqrt{70}$$
 
 - _Idea 2:_ Find $S(x\vert y\vert z)$ with $S\in g$ and $\overrightarrow{PS} \bullet \vec{v}=0$
 
@@ -99,11 +99,11 @@ The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has di
    
    Inserting the expressions for $x, y$ and $z$ from above, we obtain the equation
    
-   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=3 \rightarrow S(8 \vert 3\vert -8)$$
+   $$\nonumber 2(2c+2+1)-(-c-5-4)=5c+15=0 \rightarrow c=-3 \rightarrow S(-4 \vert 3\vert -2)$$
    
    The shortest distance is 
    
-   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} 9\\\ 5\\\ -12 \end{array}\right) \right\vert =\sqrt{250}$$
+   $$\nonumber \vert \overrightarrow{PS}\vert = \left\vert \left(\begin{array}{r} -3\\\ 5\\\ -6 \end{array}\right) \right\vert =\sqrt{70}$$
 
 
 
