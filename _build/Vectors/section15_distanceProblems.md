@@ -21,7 +21,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 Consider the plane $E$ containing the point $A$ and with normal vector $\vec{n}$. Find the shortest distance between a given point $P$ and plane $E$. 
 
-_Idea:_ Take the straight line $g$ that passes through $P$ and is orthogonal to $E$, and intersect this line with the plane to get intersection point $S$. The distance between $S$ and point $A$ is then the shortest distance (see figure).
+_Idea:_ Take the straight line $g$ that passes through $P$ and is orthogonal to $E$, and intersect this line with the plane to get intersection point $S$. The distance between $S$ and point $P$ is then the shortest distance (see figure).
 
    <img src="./pics/shortDistPlane.png" width="90%" align="center">
    
