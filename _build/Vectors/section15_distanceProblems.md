@@ -9,7 +9,7 @@ prev_page:
   url: /Vectors/section14_intersectionLinePlane.html
   title: 'Intersecting straight lines and planes'
 next_page:
-  url: /Vectors/section16_vectorProblems.html
+  url: /Vectors/section16_vectorproduct.html
   title: 'Vector product'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
@@ -72,7 +72,7 @@ Both ideas lead to the same calculations.
 ### Example
 ---
 
-The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has direction vector $\vec{v} = \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right)$. Find the shortest distance between the point $P(-2\vert -2\vert 4)$ and line $g$.
+The straight line $g$ passes through the point $A(2\vert 3\vert -5)$, and has direction vector $\vec{v} = \left(\begin{array}{r} 2\\\ 0\\\ -1 \end{array}\right)$. Find the shortest distance between the point $P(-1\vert -2\vert 4)$ and line $g$.
 
 ### Solution
 ---
