@@ -52,7 +52,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 13. A plane $E$ contains the point $A(0\vert 3\vert 0)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 2 \\\  3\\\ -8 \end{array}\right)$. Find the smallest distance between the origin and $E$.
 
-14. Consider the straight line $g$ that passes through the point $A(1\vert 2\vert -3)$ and has direction vector $\vec{v}=\left(\begin{array}{r} 2 \\\  -2\\\ 3 \end{array}\right)$. Find the closest distance between point $P(1\vert -1\vert -1)$ and $g$. **Wrong minus sign in the solution, so slightly wrong ...**
+14. Consider the straight line $g$ that passes through the point $A(1\vert 2\vert -3)$ and has direction vector $\vec{v}=\left(\begin{array}{r} 2 \\\  -2\\\ 3 \end{array}\right)$. Find the closest distance between point $P(1\vert -1\vert -1)$ and $g$. **Wrong minus sign in the solution, right solution is 2.13 ...**
 
 15. A plane $E$ passes through the point $A(0\vert 5\vert 0)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 4 \\\  -3\\\ 0 \end{array}\right)$. Determine the smallest distance between point $P(4\vert 22\vert 3)$ and $E$.
 
