@@ -50,15 +50,15 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
 
 12. The straight line $g$ passes through the points $A(0\vert 0\vert 5)$ and $B(1\vert 1\vert 3)$. Plane $E$ contains the point $U(6\vert 0\vert 0)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 1 \\\  -1\\\ 2 \end{array}\right)$. If it exists, determine the point of intersection between $g$ and $E$, and also the angle of intersection (smallest angle between $g$ and $E$).
 
-13. A plane $E$ contains the point $A(0\vert 3\vert 0)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 2 \\\  3\\\ -8 \end{array}\right)$. Find the smallest distance between the origin and $E$.
+13. A plane $E$ contains the point $A(0\vert 3\vert 0)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 2 \\\  3\\\ -8 \end{array}\right)$. Find the smallest distance between the origin and $E$.
 
-14. Consider the straight line $g$ that passes through the point $A(1\vert 2\vert -3)$ and has direction vector $\vec{v}=\left(\begin{array}{r} 2 \\\  -2\\\ 3 \end{array}\right)$. Find the closest distance between point $P(1\vert -1\vert -1)$ and $g$.
+14. Consider the straight line $g$ that passes through the point $A(1\vert 2\vert -3)$ and has direction vector $\vec{v}=\left(\begin{array}{r} 2 \\\  -2\\\ 3 \end{array}\right)$. Find the closest distance between point $P(1\vert -1\vert -1)$ and $g$. **Wrong minus sign in the solution, so slightly wrong ...**
 
-15. A plane $E$ passes through the point $A(0\vert 5\vert 0)$ and has a normal vector $\vec{n}=\left(\begin{array}{r} 4 \\\  -3\\\ 0 \end{array}\right)$. Determine the smallest distance between point $P(4\vert 22\vert 3)$ and $E$.
+15. A plane $E$ passes through the point $A(0\vert 5\vert 0)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 4 \\\  -3\\\ 0 \end{array}\right)$. Determine the smallest distance between point $P(4\vert 22\vert 3)$ and $E$.
 
-16. A plane $E$ passes through the point $A(2\vert 1\vert 1)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 4 \\\  3\\\ 1 \end{array}\right)$. Determine the __trace points__ of $E$, that is, the intersection points of the plane with the three coordinate axes. Use these points to indicate the position of the plane in a 3d-drawing.
+16. A plane $E$ passes through the point $A(2\vert 1\vert 1)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 4 \\\  3\\\ 1 \end{array}\right)$. Determine the __trace points__ of $E$, that is, the intersection points of the plane with the three coordinate axes. Use these points to indicate the position of the plane in a 3d-drawing.
 
-17. Plane $E$ passes through the point $A(5\vert 0\vert 5)$ and has normal vector $\vec{n}=\left(\begin{array}{r} 8 \\\  4\\\ 1 \end{array}\right)$. The point $P(-3\vert -3\vert 0)$ is reflected about $E$ (so that it is on the other side of the plane). Determine the coordinates of the reflected point $P^\prime$.
+17. Plane $E$ passes through the point $A(5\vert 0\vert 5)$ and has the normal vector $\vec{n}=\left(\begin{array}{r} 8 \\\  4\\\ 1 \end{array}\right)$. The point $P(-3\vert -3\vert 0)$ is reflected about $E$ (so that it is on the other side of the plane). Determine the coordinates of the reflected point $P^\prime$.
 
 18. An oblique pyramid has a triangular base $A(3\vert 0\vert 0)$, $B(0\vert 6\vert 0)$ and $C(0\vert 0\vert 9)$. The apex (or vertex, "Spitze") is at $S(13\vert 8\vert 7) $. Determine the volume of the pyramid.
 
@@ -72,7 +72,7 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
     
     3. The monitored space stretches from the origin over $50 km$ in all directions. When will the plane leave this region.
 
-21. At time $t=0 min$, when $P_1$ is at $A$, a second plane $P_2$ is at $B(1\vert 2\vert 5)$ (in $km$). Three minutes later $P_2$ is found at $C(4\vert 5\vert 2)$ (in $km$). Is it possible that the two aeroplanes can crash into each other?
+21. (Continuation from above ...) At time $t=0 min$, when $P_1$ is at $A$, a second plane $P_2$ is at $B(1\vert 2\vert 5)$ (in $km$). Three minutes later $P_2$ is found at $C(4\vert 5\vert 2)$ (in $km$). Is it possible that the two aeroplanes can crash into each other?
  
  
 ## Further Problems D (advanced)
