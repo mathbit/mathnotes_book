@@ -112,7 +112,6 @@ $$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)
 <img src="./pics/exc_specPts.png" width="75%" align="center">
 
     1. dvxv 
-    
     2. bbbxv v
 
 2. Indicate the following points in a 3d-coordinate system:
