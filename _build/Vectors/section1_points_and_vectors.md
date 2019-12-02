@@ -111,9 +111,6 @@ $$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
 
-    1. dvxv 
-    2. bbbxv v
-
 2. Indicate the following points in a 3d-coordinate system:
  - $P(0 \vert -2 \vert 5)$
  - $Q(2 \vert 5 \vert 5)$
@@ -168,14 +165,11 @@ Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)
 
 5. <img src="./pics/solVec1.png" width="45%" align="center">
 
-
 6. a) $\overrightarrow{UV}=\left(\begin{array}{r} 1\\\ 8\\\ -2 \end{array}\right)$, 
    b) $\overrightarrow{UV}=\left(\begin{array}{r} 3\\\ 1\\\ 10 \end{array}\right)$, 
    c) $\overrightarrow{UV}=\left(\begin{array}{r} 3.2 \\\ 5.1\\\ -4 \end{array}\right)$
 
-
 7. $B(1 \vert 0 \vert 1)$
-
 
 8. $C(1 \vert 2 \vert 1)$
 
