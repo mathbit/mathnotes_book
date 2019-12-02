@@ -111,6 +111,9 @@ $$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)
 1. Determine all the coordinates of point $A$ that are zero. $A$ is either on the $xy$-plane, $xz$-plane, $yz$-plane, $x$-axis, $y$-axis, or $z$-axis.
 <img src="./pics/exc_specPts.png" width="75%" align="center">
 
+    1. dvxv 
+    
+    2. bbbxv v
 
 2. Indicate the following points in a 3d-coordinate system:
  - $P(0 \vert -2 \vert 5)$
@@ -120,39 +123,30 @@ $$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)
  - $T(0 \vert 0 \vert 0)$
  - $U(0 \vert 0 \vert -5)$
 
-
 3. On which plane and/or axis are the following points: 
  - $U(0 \vert 1 \vert 2)$
  - $S(-1.3 \vert 1.2 \vert 0)$
  - $V(-13 \vert 0 \vert 0)$ 
 
-
 4. Find the coordinates of all the corners of the cube of side length $5$, and of the pyramid of height $h=4$ and base side length $s=4$.
 <img src="./pics/cube_pyr.png" width="70%" align="center">
 
-
 5. Draw the vectors $\left(\begin{array}{r} 1\\\ 0\\\ 3 \end{array}\right)$ and $\left(\begin{array}{r} 1\\\ 2\\\ 3 \end{array}\right)$ as arrows. Start anywhere in space.
-
 
 6. Determine the vector $\overrightarrow{UV}$ from point $U$ to point $V$:
  - $U(1 \vert 2 \vert -1)$ and $V(2 \vert 10 \vert -3)$
  - $U(0 \vert 0 \vert 0)$ and $V(3 \vert 1 \vert 10)$
  - $U(-1.2 \vert -3.1 \vert 5)$ and $V(2 \vert 2 \vert 1)$
 
-
 7. If I start at point $A(0 \vert 1 \vert 0)$ and follow the components given by vector $\vec{u}=\left(\begin{array}{r} 1\\\ -1\\\ 1 \end{array}\right)$, where do I end up? Find the coordinates of this point $B$. Starting at $B$, what vector do I have to follow to get back to point $A$?
-
 
 8. Consider the parallelogram with the vertices $A(1 \vert 4 \vert 1)$, $B(0 \vert 3 \vert 2)$, $C$, and $D(2 \vert 3 \vert 0)$, what are the coordinates of point $C$?
 <img src="./pics/parallelogram.png" width="35%" align="center">
 
-
 9. Determine the components of the arrows shown in the figure below. Vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ are on the $x$-axis, $y$-axis, and $z$-axis, and vectors $\vec{d}$ and $\vec{e}$ are in the $yz$-plane.
 <img src="./pics/arrowTOvec.png" width="45%" align="center">
 
-
 10. Consider the vectors $\vec a = \left(\begin{array}{r} 0\\\ 3\\\ 4 \end{array}\right)$ and $\vec b = \left(\begin{array}{r} 1\\\ 4\\\ 6 \end{array}\right)$. Determine their lengths. Can you find a general formula for determining the length of a vector $\vec c = \left(\begin{array}{r} x\\\ y\\\ z \end{array}\right)$?
-
 
 11. Consider the vector $\left(\begin{array}{r} 0\\\ 3\\\ 4 \end{array}\right)$. Find another vector that 
  - points into the same direction, and has twice the length.
