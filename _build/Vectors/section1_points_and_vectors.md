@@ -166,16 +166,12 @@ $$\nonumber\overrightarrow{AB}=\left(\begin{array}{r} 0\\4\\2 \end{array}\right)
 
 1. a) $A_z=0$, b) $A_y=0$, c) $A_x=0$, d) $A_y=A_z=0$, e) $A_x=A_z=0$, f) $A_x=A_y=0$
 
-
 2. <img src="./pics/sol_pts.png" width="60%" align="center">
-
 
 3. $U$: $yz$-plane, $S$: $xy$-plane, $V$: $x$-axis, $xy$-plane, $xz$-plane.
 
-
 4. Cube: $A(5 \vert 0 \vert 0)$, $B(5 \vert 5 \vert 0)$, $C(0 \vert 5 \vert 0)$, $D(0 \vert 0 \vert 0)$, $E(5 \vert 0 \vert 5)$, $F(5 \vert 5 \vert 5)$, $G(0 \vert 5 \vert 5)$, $H(0 \vert 0 \vert 5)$ <br> 
 Pyramid: $A(2 \vert -2 \vert 0)$, $B(2 \vert 2 \vert 0)$, $C(-2 \vert 2 \vert 0)$, $D(-2 \vert -2 \vert 0)$, $E(0 \vert 0 \vert 4)$
-
 
 5. <img src="./pics/solVec1.png" width="45%" align="center">
 

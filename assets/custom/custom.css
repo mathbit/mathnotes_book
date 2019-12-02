@@ -1,39 +1,30 @@
 <style>
 
-    @font-face {
-     font-family: "cmu-serifroman";
-     font-weight: normal;
-     font-style: normal;
-     /* src: url('fonts/cmu-text/CMUSerif-Roman.otf'); */
-     src: url("fonts/cmuserif-roman-webfont.woff2") format("woff2"),
-         url("fonts/cmuserif-roman-webfont.woff") format("woff");
-    }
-
     div.cell {
         width:800px;
         margin-left:16% !important;
         margin-right:auto;
     }
     h1 {
-        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
+        font-family: "Times New Roman" !important;
     }
     h2 {
-        font-family: "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
+        font-family: "Times New Roman" !important;
 	      color: green
     }
     h3 {
-      font-family: "cmu-serifroman", Helvetica, serif !important;
+      font-family: "Times New Roman" !important;
         color: gray
     }
     h4 {
-      font-family:  "cmu-serifroman", Helvetica, "Times New Roman", serif !important;
+      font-family:  "Times New Roman" !important;
         margin-top:12px;
         margin-bottom: 3px;
     }
     div.text_cell_render {
-        font-family: "cmu-serifroman", Helvetica, serif !important;
+        font-family: "Times New Roman" !important;
         line-height: 145%;
-        font-size: 130%;
+        font-size: 18px;
         width:800px;
         margin-left:auto;
         margin-right:auto;
@@ -46,7 +37,7 @@
     }
     .text_cell_render h5 {
         font-weight: 300;
-        font-size: 22pt;
+        /* font-size: 22pt; */
         color: #4057A1;
         font-style: italic;
         margin-bottom: .5em;
@@ -92,28 +83,6 @@
 
 </style>
 
-/* <script>
-    MathJax.Hub.Config({
-                TeX: {
-                        extensions: ["AMSmath.js"],
-			          Macros: {
-      				          RR: '{\\bf TOM}',                // a simple string replacement
-      				          bold: ['\\boldsymbol{#1}',1]   // this macro has one parameter
-    			              }
-                },
-		tex2jax: {
-            		inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-                displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
-            		processEscapes: true,
-            		processEnvironments: true
-        	},
-                "HTML-CSS": {
-                    styles: {'.MathJax_Display': {"margin": 0}},
-                    availableFonts: ["cmu-serifroman","TeX","STIX-Web","Neo-Euler"],
-                    preferredFont: "STIX-Web",
-                },
-        });
-</script> */
 
 <script type="text/x-mathjax-config">
     jax: ["input/TeX","output/HTML-CSS"],
@@ -131,13 +100,18 @@
             		    processEscapes: true,
             		    processEnvironments: true,
         	     },
+               MatchWebFonts: {
+                 fontCheckDelay: 5 * 1000,
+                 fontCheckTimeout: 30 * 1000,
+               }
                "HTML-CSS": {
+                    /* scale: 130 */
                     styles: {'.MathJax_Display': {"margin": 0}},
-                    availableFonts: ["TeX"],
-                    preferredFont: "TeX",
-                    webFont: "TeX",
+                    availableFonts: ["STIX-Web","TeX","Latin-Modern"],
+                    preferredFont: "STIX-Web",
+                    webFont: "STIX-Web",
                     matchFontHeight: true,
-                    minScaleAdjust: 55,
+                    /* minScaleAdjust: 55, */
                 },
         });
 </script>
