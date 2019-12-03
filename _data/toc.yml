@@ -80,6 +80,7 @@
     url: /Vectors/section17_furtherProblems
     not_numbered: false
     
+- divider
 - title: Calculus
   url: /index
   external: false
