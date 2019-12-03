@@ -22,6 +22,7 @@
 # See the links below for an example.
 
 # Top-level page
+- header: VECTORS
 - title: Vectors
   url: /index
   external: false
@@ -79,8 +80,8 @@
   - title: Further problems
     url: /Vectors/section17_furtherProblems
     not_numbered: false
-    
-- divider
+
+- header: CALCULUS
 - title: Calculus
   url: /index
   external: false
