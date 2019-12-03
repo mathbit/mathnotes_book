@@ -23,11 +23,11 @@
 
 # Top-level page
 - header: VECTORS
-- title: Vectors
-  url: /index
-  external: false
-  not_numbered: true
-  expand_sections: true
+# - title: Vectors
+#   url: /index
+#   external: false
+#   not_numbered: true
+#   expand_sections: true
   sections:
   - title: Points and vectors
     url: /Vectors/section1_points_and_vectors
@@ -82,11 +82,11 @@
     not_numbered: false
 
 - header: CALCULUS
-- title: Calculus
-  url: /index
-  external: false
-  not_numbered: true
-  expand_sections: true
+# - title: Calculus
+#   url: /index
+#   external: false
+#   not_numbered: true
+#   expand_sections: true
   sections:
   - title: Why calculus?
     url: /Calculus/section1_whycalc
