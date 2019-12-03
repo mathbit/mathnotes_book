@@ -44,7 +44,7 @@
   - title: Collinear vectors
     url: /Vectors/section5_collinear_vectors
     not_numbered: false
-- title: Basics
+- title: Lines and planes
   url: /index
   external: false
   not_numbered: true
@@ -89,11 +89,11 @@
 
 - header: CALCULUS
 - title: Differential calculus
-  url: /index
+  url: /Calculus/section1_whycalc
   external: false
   not_numbered: true
   expand_sections: true
   sections:
-  - title: Why calculus?
+  - title: Change
     url: /Calculus/section1_whycalc
     not_numbered: false
