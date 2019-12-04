@@ -7,7 +7,7 @@ has_widgets: false
 title: 'Points and vectors'
 prev_page:
   url: /index.html
-  title: 'Vectors'
+  title: 'Basics'
 next_page:
   url: /Vectors/section2_magnitude.html
   title: 'The magnitude of a vector'

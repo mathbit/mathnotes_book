@@ -83,6 +83,9 @@
   - title: Vector product
     url: /Vectors/section16_vectorproduct
     not_numbered: false
+  - title: Reflection of light
+    url: /Vectors/section18_lightreflection
+    not_numbered: false
   - title: Further problems
     url: /Vectors/section17_furtherProblems
     not_numbered: false

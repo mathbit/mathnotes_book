@@ -6,11 +6,11 @@ kernel_name: python3
 has_widgets: false
 title: 'Further problems'
 prev_page:
-  url: /Vectors/section16_vectorproduct.html
-  title: 'Vector product'
+  url: /Vectors/section18_lightreflection.html
+  title: 'Reflection of light'
 next_page:
-  url: 
-  title: ''
+  url: /Calculus/section1_whycalc.html
+  title: 'Differential calculus'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -71,8 +71,8 @@ comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /con
     2. At what time was $P_1$ closest to the origin?
     
     3. The monitored space stretches from the origin over $50 km$ in all directions. When will the plane leave this region.
-
-21. (Continuation from above ...) At time $t=0 min$, when $P_1$ is at $A$, a second plane $P_2$ is at $B(1\vert 2\vert 5)$ (in $km$). Three minutes later $P_2$ is found at $C(4\vert 5\vert 2)$ (in $km$). Is it possible that the two aeroplanes can crash into each other?
+    
+    4. At time $t=0 min$, when $P_1$ is at $A$, a second plane $P_2$ is at $B(1\vert 2\vert 5)$ (in $km$). Three minutes later $P_2$ is found at $C(4\vert 5\vert 2)$ (in $km$). Is it possible that the two aeroplanes can crash into each other?
  
  
 ## Further Problems D (advanced)

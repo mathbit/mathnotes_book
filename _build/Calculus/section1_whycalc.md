@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Calculus/section1_whycalc.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Why calculus?'
+title: 'Differential calculus'
 prev_page:
-  url: /index.html
-  title: 'Calculus'
+  url: /Vectors/section17_furtherProblems.html
+  title: 'Further problems'
 next_page:
-  url: 
-  title: ''
+  url: /Calculus/section1_whycalc.html
+  title: 'Change'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -23,20 +23,26 @@ Calculus is a way of solving complicated problems: _"Divide the problem into lit
 We start the discussionn with _differential_ calculus, followed by _integral_ calculus. But before we do this, let us give an example of how the strategy of dividing and assembling can solve a problem.
 
 
-### Exercise
+### Example
 ---
 
 We know that the circumference of a circle of radius $r$ is $2\pi r$. Use this information to infer the area of a circle of radius $r$. _Hint: divide the circle into smaller and smaller segments, which you arrange in a clever way._ 
+
+<img src="./pics/circlearea.png" width="55%" align="center">
+
+It was Archimedes who determined the area of a circle using this method.
 
 ---
 
 ### Example
 
-Johannes Kepler studied the planets moving around our sun. He found that each planet moves along an ellipse, but the speed varied  the same speed. Closer to the sun the speed was higher than if far away. What was the rule 
+Johann Kepler (1571 - 1630) studied the motion of our planets. He found that each planet moves along an ellipse around the sun, but with varying speed - the closer to the sun, the higher was the speed of the planet. But according to what rule did the speed change? Kepler found that a planet moves such that it covers _an equal area_ any given time interval. 
+
+<img src="./pics/kepler.png" width="55%" align="center">
+
+In order to find this law, he had to determine the area bounded by _curved lines_. Using a similar method as above, he divided the shaded region in small sections (which he approximated with triangles) and summed the triangle areas to find the total area.
 
 
-
-, and that a planet covers equal area in equal time intervals. In order to find this law, he had to determine the area bounded by _curved lines_.
 
 
 
