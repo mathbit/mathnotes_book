@@ -101,8 +101,6 @@ Text(0.5, 1.0, 'Whoo Hoo!!!')
 <div markdown="1" class="cell code_cell">
 <div class="input_area" markdown="1">
 ```python
-%matplotlib notebook
-
 from ipywidgets import interact, interact_manual
 import ipywidgets as widgets
 
