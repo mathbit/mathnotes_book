@@ -96,3 +96,31 @@ Text(0.5, 1.0, 'Whoo Hoo!!!')
 
 
 
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+%matplotlib inline
+
+from ipywidgets import interact, interact_manual
+import ipywidgets as widgets
+
+@widgets.interact
+def f(x=5):
+    print(x)
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+{:.output_data_text}
+```
+interactive(children=(IntSlider(value=5, description='x', max=15, min=-5), Output()), _dom_classes=('widget-in…
+```
+
+</div>
+</div>
+</div>
+
