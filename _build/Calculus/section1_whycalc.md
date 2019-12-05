@@ -64,34 +64,6 @@ plt.title('Whoo Hoo!!!')
 ```
 </div>
 
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-{:.output_stream}
-```
-Populating the interactive namespace from numpy and matplotlib
-```
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-{:.output_data_text}
-```
-Text(0.5, 1.0, 'Whoo Hoo!!!')
-```
-
-
-</div>
-</div>
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-{:.output_png}
-![png](../images/Calculus/section1_whycalc_1_2.png)
-
-</div>
-</div>
 </div>
 
 
