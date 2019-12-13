@@ -34,6 +34,8 @@ It was Archimedes who determined the area of a circle using this method.
 
 
 
+In an another approach we divide the circle into concentric rings, which we straighten and arrange the resulting "rectangles" along the $x$-axis. 
+
 
 
 
@@ -47,8 +49,6 @@ Johann Kepler (1571 - 1630) studied the motion of our planets. He found that eac
 <img src="./pics/kepler.png" width="55%" align="center">
 
 In order to find this law, he had to determine the area bounded by _curved lines_. Using a similar method as above, he divided the shaded region in small sections (which he approximated with triangles) and summed the triangle areas to find the total area.
-
-In an another approach we divide the circle into concentric rings, which we straighten and arrange along the $x$-axis. 
 
 
 
