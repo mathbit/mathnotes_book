@@ -34,9 +34,62 @@ It was Archimedes who determined the area of a circle using this method.
 
 
 
-In an another approach we divide the circle into concentric rings, which we straighten and arrange the resulting "rectangles" along the $x$-axis. 
+In an another approach we divide the circle into concentric rings, which we straighten and arrange the resulting "rectangles" along the $x$-axis.  
 
 
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area hidecode" markdown="1">
+```python
+from ipywidgets import interactive, IntSlider
+from IPython.display import display
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.xkcd()  # Yes...
+plt.rcParams["figure.figsize"] = (12, 9)
+
+al_range = np.linspace(0,2*np.pi,num=25)
+R = 1
+ 
+def plotRings(n=5):    
+    fig, (ax0,ax1) = plt.subplots(1, 2)
+    ax0.axis('equal')
+    ax0.axis('off')
+    
+    r_range, dr = np.linspace(0,R,n+1,retstep=True)
+    
+    for r in r_range[1:]:
+        ax0.plot((r)*np.sin(al_range),(r)*np.cos(al_range))
+ 
+    S=0
+    for r in r_range[:-1]:
+        ax1.plot([r,r,r+dr,r+dr],[2*(0)*np.pi, 2*(r+dr)*np.pi, 2*(r+dr)*np.pi, 2*(0)*np.pi])
+        S = S + dr*2*(r+dr)*np.pi
+    
+    s = str(S)
+    ax1.set_title(f'Sum = {s}')
+    ax0.set_title(f'Sum = {np.pi}')
+    
+    #plt.show()
+    
+#widget = interactive(plotRings, n=IntSlider(min=2, max=60, step=1, continuous_update=False))
+#display(widget)
+
+plotRings(n=10)
+
+```
+</div>
+
+<div class="output_wrapper" markdown="1">
+<div class="output_subarea" markdown="1">
+
+{:.output_png}
+![png](../images/Calculus/section1_whycalc_1_0.png)
+
+</div>
+</div>
+</div>
 
 
 
