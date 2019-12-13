@@ -42,13 +42,7 @@ Johann Kepler (1571 - 1630) studied the motion of our planets. He found that eac
 
 In order to find this law, he had to determine the area bounded by _curved lines_. Using a similar method as above, he divided the shaded region in small sections (which he approximated with triangles) and summed the triangle areas to find the total area.
 
-
-
-
-
-
-
-
+In an another approach we divide the circle into concentric rings, which we straighten and arrange along the $x$-axis. 
 
 
 
@@ -87,18 +81,19 @@ def plotRings(n=5):
     
     #plt.show()
     
-widget = interactive(plotRings, n=IntSlider(min=2, max=60, step=1, continuous_update=False))
-display(widget)
+#widget = interactive(plotRings, n=IntSlider(min=2, max=60, step=1, continuous_update=False))
+#display(widget)
+
+plotRings(n=10)
 
 ```
 </div>
 
 <div class="output_wrapper" markdown="1">
 <div class="output_subarea" markdown="1">
-{:.output_data_text}
-```
-interactive(children=(IntSlider(value=2, continuous_update=False, description='n', max=60, min=2), Output()), …
-```
+
+{:.output_png}
+![png](../images/Calculus/section1_whycalc_1_0.png)
 
 </div>
 </div>
