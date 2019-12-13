@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Calculus/section1_whycalc.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Differential calculus'
+title: 'Why calculus?'
 prev_page:
   url: /Vectors/section17_furtherProblems.html
   title: 'Further problems'
 next_page:
-  url: /Calculus/section1_whycalc.html
-  title: 'Change'
+  url: 
+  title: ''
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
@@ -102,6 +102,23 @@ Johann Kepler (1571 - 1630) studied the motion of our planets. He found that eac
 <img src="./pics/kepler.png" width="55%" align="center">
 
 In order to find this law, he had to determine the area bounded by _curved lines_. Using a similar method as above, he divided the shaded region in small sections (which he approximated with triangles) and summed the triangle areas to find the total area.
+
+
+
+<div markdown="1" class="cell code_cell">
+<div class="input_area" markdown="1">
+```python
+#needs to be in the last cell for css styling
+from IPython.core.display import HTML
+def css_styling():
+    styles = open("../assets/custom/custom.css", "r").read()
+    return HTML(styles)
+css_styling()
+
+```
+</div>
+
+</div>
 
 
 
