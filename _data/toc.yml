@@ -91,11 +91,6 @@
     not_numbered: false
 
 - header: CALCULUS
-- title: Why calculus?
-  url: /Calculus/section1_whycalc
-  external: false
-  not_numbered: true
-  expand_sections: true
 - title: Differential calculus
   url: /Calculus/section1_whycalc
   external: false
