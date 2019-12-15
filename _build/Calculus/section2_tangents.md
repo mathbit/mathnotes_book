@@ -35,7 +35,7 @@ plt.xkcd()  # Yes...
 
 ## Tangents
 
-Consider a smooth curve and a point $A$ on this curve. The __tangent__ to this curve at point $A$ is the straight line that _touches but does not cross_ the curve at $A$. But note that the straight line is allowed to cross the curve anywhere else. As we will see later, many problems in differential calculus reduces to finding the slope of a tangent.
+Consider a smooth curve and a point $A$ on this curve. The __tangent__ to this curve at point $A$ is the straight line that _touches but does not cross_ the curve at $A$. But note that the tangent at $A$ is allowed to cross the curve anywhere else. As we will see later, many problems in differential calculus reduces to finding the slope of a tangent.
 
 
 
