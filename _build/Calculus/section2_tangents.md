@@ -37,13 +37,6 @@ plt.xkcd()  # Yes...
 
 Consider a smooth curve and a point $A$ on this curve. The __tangent__ to this curve at point $A$ is the straight line that _touches but does not cross_ the curve at $A$. But note that the straight line is allowed to cross the curve anywhere else. As we will see later, many problems in differential calculus reduces to finding the slope of a tangent.
 
-Note that the equation of a tangent is a linear function $t(x)=ax+b$, where $a$ is the slope of the tangent (a straight line) and $b$ is its $y$-intercept.
-
-### Exercise
----
-1. Consider the unit circle. Point $A$ is on this circle at radius $30^\circ$. Determine the equation of the tangent to the circle at $A$.
-
-2. Consider the graph of the function $f(x)=\sqrt{x}$. Point $A(2\vert \sqrt{2})$ is on the graph. Determine, as _precise as possible_, the slope of the tangent to the graph at $A$.
 
 
 
@@ -75,7 +68,8 @@ def g(ax):
     x = np.linspace(-1,1, num = 2)
     ax.plot(x,al*x+b,'b', linestyle="--")
     
-    ax.plot(0.6,pow(0.6), 'ro')
+    ax.plot(0.6,pow(0.6), 'bo')
+    ax.text(0.6,1.05*pow(0.6),'A', color='blue', size = 18)
     
 g(ax)
 
@@ -91,6 +85,17 @@ g(ax)
 </div>
 </div>
 </div>
+
+
+
+Note that the equation of a tangent is a linear function $t(x)=ax+b$, where $a$ is the slope of the tangent (a straight line) and $b$ is its $y$-intercept.
+
+### Exercise
+---
+1. Consider the unit circle. Point $A$ is on this circle at radius $30^\circ$. Determine the equation of the tangent to the circle at $A$.
+
+2. Consider the graph of the function $f(x)=\sqrt{x}$. Point $A(2\vert \sqrt{2})$ is on the graph. Determine, as _precise as possible_, the slope of the tangent to the graph at $A$.
+
 
 
 
@@ -148,7 +153,10 @@ def f(x2, ax):
     #plot points
     ax.plot(A[0],A[1],'bo')
     ax.plot(B[0],B[1],'ro')
-    
+
+    ax.text(A[0],0.85*A[1],'A', color='blue', size=18)
+    ax.text(B[0]+0.1,0.85*B[1],'B',  color='red', size=18)
+
     ax.text(0.1,2.6,f'slope secant   = {str(round(al_sec,8))}', color='red', size = 18)
     ax.text(0.1,2.8,f'slope tangent = {str(round(al_tan,8))}', color='blue', size = 18)
     
@@ -168,7 +176,7 @@ f(1.5,ax[1,1])
 <div class="output_subarea" markdown="1">
 
 {:.output_png}
-![png](../images/Calculus/section2_tangents_4_0.png)
+![png](../images/Calculus/section2_tangents_5_0.png)
 
 </div>
 </div>
