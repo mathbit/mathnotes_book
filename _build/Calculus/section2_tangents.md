@@ -111,7 +111,17 @@ Note that the equation of a tangent is a linear function $t(x)=ax+b$, where $a$ 
   
    Thus, we have $t(x)=-1.7320... \cdot x +2$.
   
-2. You can give a an estimate of the slope of the tangent by determining the slope of the straight line that passes through the points $A$ and $B$ on the graph (a so called _secant_ of the graph). The closer $B$ is to $A$, the more parallel are the secant and the tangent, and the better is the estimate of the slope of the tangent. But note that with this method it is quite difficult to find the precise slope of the tangent. All we can do is finding better and better approximations, but these are still approximations.
+2. You can give a an estimate of the slope of the tangent by determining the slope of the straight line that passes through the points $A$ and $B$ on the graph (a so called _secant_ of the graph). The closer $B$ is to $A$, the more parallel are the secant and the tangent, and the better is the estimate of the slope of the tangent. But note that with this method it is quite difficult to find the precise slope of the tangent. All we can do is finding better and better approximations, but these are still approximations (see graphs below)
+
+   Let us calculate the slope of the secant for $B$ with $x$-coordinate $1$. Thus, we have $B(1\vert f(1)) = B(1\vert 1)$. We choose
+   
+   $$\Delta y = y_B-y_A = 1-\sqrt{2}$$ 
+   
+   $$\Delta x = x_B-x_A = 1-2=-1$$
+   
+   and thus the slope is
+   
+   $$\frac{\Delta y}{\Delta x} = \frac{1-\sqrt{2}}{-1}=\sqrt{2}-1 = 0.4142...$$
 
 
 
@@ -183,148 +193,4 @@ f(1.5,ax[1,1])
 </div>
 
 
-
-<div markdown="1" class="cell code_cell">
-<div class="input_area hidecode" markdown="1">
-```python
-#needs to be in the last cell for css styling
-from IPython.core.display import HTML
-def css_styling():
-    styles = open("../assets/custom/custom.css", "r").read()
-    return HTML(styles)
-css_styling()
-
-```
-</div>
-
-<div class="output_wrapper" markdown="1">
-<div class="output_subarea" markdown="1">
-
-
-
-<div markdown="0" class="output output_html">
-<style>
-
-    div.cell {
-        width:800px;
-        margin-left:16% !important;
-        margin-right:auto;
-    }
-    h1 {
-        font-family: "Times New Roman" !important;
-    }
-    h2 {
-        font-family: "Times New Roman" !important;
-	      color: green
-    }
-    h3 {
-      font-family: "Times New Roman" !important;
-        color: gray
-    }
-    h4 {
-      font-family:  "Times New Roman" !important;
-        margin-top:12px;
-        margin-bottom: 3px;
-    }
-    div.text_cell_render {
-        font-family: "Times New Roman" !important;
-        line-height: 145%;
-        font-size: 18px;
-        width:800px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    .CodeMirror {
-            font-family: "Source Code Pro", source-code-pro,Consolas, monospace;
-    }
-    .prompt {
-        display: None;
-    }
-    .text_cell_render h5 {
-        font-weight: 300;
-        /* font-size: 22pt; */
-        color: #4057A1;
-        font-style: italic;
-        margin-bottom: .5em;
-        margin-top: 0.5em;
-        display: block;
-    }
-
-    .warning{
-        color: rgb( 240, 20, 20 )
-        }
-
-    /* .MathJax {
-        font-size: 1em;
-    } */
-
-    div.important {
-       background-color: #fcf2f2;
-       border-color: #dFb5b4;
-       border-left: 5px solid #dfb5b4;
-       padding: 0.5em;
-    }
-
-    /* div.exc {
-       background-color: lightgray;
-       border-color: lightgray;
-       border-left: 5px solid gray;
-       padding: 0.5em;
-    }
-
-    div.sol {
-       background-color: lightgray;
-       border-color: lightgray;
-       border-left: 5px solid gray;
-       padding: 0.5em;
-    } */
-
-    li{
-       margin: 10px 0;
-    }
-
-    ol ol { list-style-type: upper-alpha; important! }
-    ol ol ol { list-style-type: lower-alpha; important! }
-
-</style>
-
-
-<script type="text/x-mathjax-config">
-    jax: ["input/TeX","output/HTML-CSS"],
-    MathJax.Hub.Config({
-                TeX: {
-                        extensions: ["AMSmath.js"],
-			                  Macros: {
-      				                RR: '{\\bf TOM}',
-      				                bold: ['\\boldsymbol{#1}',1],
-    			              },
-                },
-		            tex2jax: {
-            		    inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-                    displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
-            		    processEscapes: true,
-            		    processEnvironments: true,
-        	     },
-               MatchWebFonts: {
-                 fontCheckDelay: 5 * 1000,
-                 fontCheckTimeout: 30 * 1000,
-               }
-               "HTML-CSS": {
-                    /* scale: 130 */
-                    styles: {'.MathJax_Display': {"margin": 0}},
-                    availableFonts: ["STIX-Web","TeX","Latin-Modern"],
-                    preferredFont: "STIX-Web",
-                    webFont: "STIX-Web",
-                    matchFontHeight: true,
-                    /* minScaleAdjust: 55, */
-                },
-        });
-</script>
-
-</div>
-
-
-</div>
-</div>
-</div>
 
