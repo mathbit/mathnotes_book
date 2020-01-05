@@ -25,6 +25,7 @@ import numpy as np
 import bitlib as bit
 
 plt.xkcd()  # Yes...
+plt.show()
 
 ```
 </div>
@@ -34,8 +35,8 @@ plt.xkcd()  # Yes...
 
 
 ## Tangents
-
-Consider a smooth curve and a point $A$ on this curve. The __tangent__ to this curve at point $A$ is the straight line that _touches but does not cross_ the curve at $A$. But note that the tangent at $A$ is allowed to cross the curve anywhere else. As we will see later, many problems in differential calculus reduces to finding the slope of a tangent.
+---
+Consider a smooth curve and a point $A$ on this curve. The __tangent__ to this curve at point $A$ is the straight line that _touches but does not cross_ the curve at $A$. But note that the tangent at $A$ is allowed to cross the curve anywhere else. As we will see later, many interesting problems can be reduced to finding the slope of some tangent to some curve.
 
 
 
@@ -70,6 +71,7 @@ def g(ax):
     
     ax.plot(0.6,pow(0.6), 'bo')
     ax.text(0.6,1.05*pow(0.6),'A', color='blue', size = 18)
+    ax.text(1.05,1.05*pow(0.6),'tangent', color='blue', size = 18)
     
 g(ax)
 
@@ -88,96 +90,49 @@ g(ax)
 
 
 
-Note that the equation of a tangent is a linear function $t(x)=ax+b$, where $a$ is the slope of the tangent (a straight line) and $b$ is its $y$-intercept.
+Note that the equation of a tangent (a straight line) is a linear function $t(x)=ax+b$, where $a$ is the slope of the tangent and $b$ is its $y$-intercept.
+
+
 
 ### Exercise
 ---
-1. Consider the unit circle. Point $A$ is on this circle at radius $30^\circ$. Determine the equation of the tangent to the circle at $A$.
+Consider the unit circle (that is, a circle with radius $1$). Point $A$ is on this circle at angle $30^\circ$. Determine the equation of the tangent to the circle at $A$. 
 
-2. Consider the graph of the function $f(x)=\sqrt{x}$. Point $A(2\vert \sqrt{2})$ is on the graph. Determine, as _precise as possible_, the slope of the tangent to the graph at $A$.
-
-
-
-
-### Solution
----
-1. The equation of the tangent has the general form $t(x)=ax+b$, where $a$ is the slope of the tangent, and $b$ is its $y$-intercept. We have 
-
-   $$a=\frac{\Delta y}{\Delta x}=\frac{O}{-A}=\tan(60^\circ)=-1.7320...$$
-   
-   To find $b$, note that because of $H=1$ it is $\sin(30^\circ)=\frac{O}{H}=O$ and $\cos(30^\circ)=\frac{A}{H}=A$. It follows that the $x$ and $y$ coordinate of point $A$ is $x=O=\sin(30^\circ)=0.8660...$ and $y=O=\cos(30^\circ)=0.5$, thus $A(0.8660...\vert 0.5)$. Because the point $A$ is on the tangent, it is
-  
-   $$f(0.8660...)=0.5 \rightarrow  -1.7320...\cdot 0.8660...+b = 0.5 \rightarrow b=2$$
-  
-   Thus, we have $t(x)=-1.7320... \cdot x +2$.
-  
-2. You can give a an estimate of the slope of the tangent by determining the slope of the straight line that passes through the points $A$ and $B$ on the graph (a so called _secant_ of the graph). The closer $B$ is to $A$, the more parallel are the secant and the tangent, and the better is the estimate of the slope of the tangent. But note that with this method it is quite difficult to find the precise slope of the tangent. All we can do is finding better and better approximations, but these are still approximations (see graphs below)
-
-   Let us calculate the slope of the secant for $B$ with $x$-coordinate $1$. Thus, we have $B(1\vert f(1)) = B(1\vert 1)$. We choose
-   
-   $$\Delta y = y_B-y_A = 1-\sqrt{2}$$ 
-   
-   $$\Delta x = x_B-x_A = 1-2=-1$$
-   
-   and thus the slope is
-   
-   $$\frac{\Delta y}{\Delta x} = \frac{1-\sqrt{2}}{-1}=\sqrt{2}-1 = 0.4142...$$
+Hint: use the fact that the angle between $R$ and the tangent at $A$ is $90^\circ$, and  use _SOHCAHTOA_ .
 
 
 
 <div markdown="1" class="cell code_cell">
 <div class="input_area hidecode" markdown="1">
 ```python
-plt.rcParams["figure.figsize"] = (12, 9)
-fig, ax = plt.subplots(2, 2) #ax is 2x2 matrix
+plt.rcParams["figure.figsize"] = (8, 6)
 
-def f(x2, ax):
-    x1=2
-    A=[x1,np.sqrt(x1)]
-    B=[x2,np.sqrt(x2)]
-    
-    al_sec = (B[1]-A[1])/(B[0]-A[0])
-    b_sec = A[1]-al_sec*A[0]
-    al_tan = 0.5*1/np.sqrt(x1)
-    b_tan = A[1]-al_tan*A[0]
-                                 
-    x_f = np.linspace(0,4, num=100)
-    x_sec = np.linspace(0,4, num=2)
-    x_tan = np.linspace(0,4, num=2)
+al_range = np.linspace(0,2*np.pi,num=100)
+R = 1
+  
+fig, (ax0) = plt.subplots(1, 1)
+ax0.axis('equal')
+ax0.axis('off')
 
-    ax.axis('equal')
-    ax.set_ylim((0,3))
-    ax.set_xlim((0,4)) 
-    bit.formatAxes(ax)
-    
-    #plot root function
-    ax.plot(x_f,np.sqrt(x_f),'blue', linewidth=5)
-    
-    #plot tangent
-    ax.plot(x_tan,al_tan*x_tan+b_tan,'blue', linestyle="--")
-    
-    #plot secant          
-    ax.plot(x_sec,al_sec*x_sec+b_sec,'red')
-    
-    
-    #plot points
-    ax.plot(A[0],A[1],'bo')
-    ax.plot(B[0],B[1],'ro')
+#plot circle
+ax0.plot([-1.1,1.1],[0,0],'black', linestyle="-", linewidth=0.5)
+ax0.plot([0,0],[-1.1,1.1],'black', linestyle="-", linewidth=0.5)
+ax0.plot(R*np.sin(al_range),R*np.cos(al_range),'black')
 
-    ax.text(A[0],0.85*A[1],'A', color='blue', size=18)
-    ax.text(B[0]+0.1,0.85*B[1],'B',  color='red', size=18)
+#plot tangent
+al = -1.732
+b = 2
+x = np.linspace(0,1.8, num = 2)
+ax0.plot(x,al*x+b,'b', linestyle="--")
 
-    ax.text(0.1,2.6,f'slope secant   = {str(round(al_sec,8))}', color='red', size = 18)
-    ax.text(0.1,2.8,f'slope tangent = {str(round(al_tan,8))}', color='blue', size = 18)
-    
+#plot A
+ax0.text(0.9,0.6,'A', color='blue', size = 18)
+ax0.plot([0,0.86],[0,0.5],'blue', linestyle="-", linewidth=0.5)
+ax0.text(0.5,0.3,'r', color='blue')
+ax0.plot(0.866,0.5,'ob')
+ax0.text(0.2,0.05,'$30^\circ$', color='blue')
 
-#widget = interactive(f, x2=FloatSlider(min=0, max=1.99, step=0.05, continuous_update=False))
-#display(widget)
-f(0.1,ax[0,0])
-f(0.5,ax[0,1])
-f(1.0,ax[1,0])
-f(1.5,ax[1,1])
-
+plt.show()
 
 ```
 </div>
@@ -191,6 +146,22 @@ f(1.5,ax[1,1])
 </div>
 </div>
 </div>
+
+
+
+### Solution
+---
+The equation of the tangent has the general form $t(x)=ax+b$, where $a$ is the slope of the tangent, and $b$ is its $y$-intercept. We have 
+
+$$\nonumber a=\frac{\Delta y}{\Delta x}=\frac{O}{-A}=\tan(60^\circ)=-1.7320...$$
+   
+To find $b$, note that because of $H=1$ it is $\sin(30^\circ)=\frac{O}{H}=O$ and $\cos(30^\circ)=\frac{A}{H}=A$. It follows that the $x$ and $y$ coordinate of point $A$ is $x=O=\sin(30^\circ)=0.8660...$ and $y=O=\cos(30^\circ)=0.5$, thus $A(0.8660...\vert 0.5)$. Because the point $A$ is on the tangent, it is
+  
+$$\nonumber f(0.8660...)=0.5 \rightarrow  -1.7320...\cdot 0.8660...+b = 0.5 \rightarrow b=2$$
+  
+Thus, we have $t(x)=-1.7320... \cdot x +2$.
+  
+
 
 
 

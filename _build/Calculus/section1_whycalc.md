@@ -4,13 +4,13 @@ redirect_from:
 interact_link: content/Calculus/section1_whycalc.ipynb
 kernel_name: python3
 has_widgets: false
-title: 'Why calculus?'
+title: 'Differential calculus'
 prev_page:
   url: /Vectors/section17_furtherProblems.html
   title: 'Further problems'
 next_page:
-  url: 
-  title: ''
+  url: /Calculus/section2_tangents.html
+  title: 'Tangents'
 comment: "***PROGRAMMATICALLY GENERATED, DO NOT EDIT. SEE ORIGINAL FILES IN /content***"
 ---
 
